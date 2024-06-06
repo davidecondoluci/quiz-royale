@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 export default {
   content: ["./**/*.{html,js}"],
   theme: {
@@ -10,7 +11,7 @@ export default {
       colors: {
         transparent: "transparent",
         black: "#000000",
-        lightgray: "#eeeeee",
+        lightgray: "#EEEEEE",
         white: "#ffffff",
       },
     },

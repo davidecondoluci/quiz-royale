@@ -55,8 +55,8 @@ Alpine.data("quiz", () => ({
     {
       domanda: "Quale evento segnò la fine della Prima Guerra Mondiale?",
       risposte: [
-        "Trattato di Versailles",
         "Pace di Westphalia",
+        "Trattato di Versailles",
         "Accordo di Monaco",
         "Conferenza di Yalta",
       ],
@@ -66,30 +66,30 @@ Alpine.data("quiz", () => ({
       domanda: "Chi fu il primo presidente degli Stati Uniti?",
       risposte: [
         "George Washington",
+        "John Adams",
         "Thomas Jefferson",
         "Abraham Lincoln",
-        "John Adams",
       ],
       risposta_corretta: "George Washington",
     },
     {
       domanda: "In che anno ebbe luogo la Rivoluzione Francese?",
-      risposte: ["1789", "1815", "1765", "1848"],
+      risposte: ["1815", "1789", "1765", "1848"],
       risposta_corretta: "1789",
     },
     {
       domanda: "Chi fu il fondatore dell'Impero Romano?",
-      risposte: ["Augusto", "Nerone", "Caio Giulio Cesare", "Marco Aurelio"],
+      risposte: ["Marco Aurelio", "Nerone", "Augusto", "Caio Giulio Cesare"],
       risposta_corretta: "Augusto",
     },
     {
       domanda:
         "Chi guidò la marcia che portò alla fine dell'apartheid in Sudafrica?",
       risposte: [
-        "Nelson Mandela",
         "Desmond Tutu",
         "F.W. de Klerk",
         "Oliver Tambo",
+        "Nelson Mandela",
       ],
       risposta_corretta: "Nelson Mandela",
     },
@@ -100,7 +100,7 @@ Alpine.data("quiz", () => ({
     },
     {
       domanda: "Chi era il re d'Inghilterra durante la Rivoluzione Americana?",
-      risposte: ["Giorgio III", "Giorgio II", "Giorgio IV", "Edoardo VII"],
+      risposte: ["Giorgio II", "Giorgio IV", "Edoardo VII", "Giorgio III"],
       risposta_corretta: "Giorgio III",
     },
     {
@@ -112,9 +112,9 @@ Alpine.data("quiz", () => ({
       domanda:
         "Chi era il leader dell'Unione Sovietica al tempo della Seconda Guerra Mondiale?",
       risposte: [
-        "Joseph Stalin",
         "Vladimir Lenin",
         "Leon Trotsky",
+        "Joseph Stalin",
         "Nikita Khrushchev",
       ],
       risposta_corretta: "Joseph Stalin",
@@ -123,15 +123,16 @@ Alpine.data("quiz", () => ({
       domanda: "Chi ha scritto il Manifesto Comunista insieme a Karl Marx?",
       risposte: [
         "Friedrich Engels",
-        "Vladimir Lenin",
         "Joseph Stalin",
         "Leon Trotsky",
+        "Vladimir Lenin",
       ],
       risposta_corretta: "Friedrich Engels",
     },
+
     {
       domanda: "Qual è stata la prima civiltà mesopotamica?",
-      risposte: ["Sumeri", "Babilonesi", "Assiri", "Ittiti"],
+      risposte: ["Assiri", "Babilonesi", "Sumeri", "Ittiti"],
       risposta_corretta: "Sumeri",
     },
     {
@@ -142,33 +143,33 @@ Alpine.data("quiz", () => ({
     {
       domanda:
         "Quale città fu distrutta dall'eruzione del Vesuvio nel 79 d.C.?",
-      risposte: ["Pompei", "Roma", "Atene", "Cartagine"],
+      risposte: ["Atene", "Roma", "Pompei", "Cartagine"],
       risposta_corretta: "Pompei",
     },
     {
       domanda:
         "Qual è stato l'evento che ha scatenato la Prima Guerra Mondiale?",
       risposte: [
-        "L'assassinio di Francesco Ferdinando",
+        "La caduta del muro di Berlino",
         "La rivoluzione russa",
         "L'attacco di Pearl Harbor",
-        "La caduta del muro di Berlino",
+        "L'assassinio di Francesco Ferdinando",
       ],
       risposta_corretta: "L'assassinio di Francesco Ferdinando",
     },
     {
       domanda: "Chi ha scritto l'opera epica 'Iliade'?",
-      risposte: ["Omero", "Virgilio", "Esiodo", "Sofocle"],
+      risposte: ["Omero", "Esiodo", "Virgilio", "Sofocle"],
       risposta_corretta: "Omero",
     },
     {
       domanda:
         "Quale fu l'effetto più significativo della Rivoluzione Industriale?",
       risposte: [
-        "Trasformazione economica e sociale",
         "Fine della schiavitù",
-        "Espansione dell'Impero Romano",
+        "Trasformazione economica e sociale",
         "Scoperta dell'America",
+        "Espansione dell'Impero Romano",
       ],
       risposta_corretta: "Trasformazione economica e sociale",
     },
@@ -180,15 +181,15 @@ Alpine.data("quiz", () => ({
     },
     {
       domanda: "In quale anno fu fondata la città di Roma secondo la leggenda?",
-      risposte: ["753 a.C.", "509 a.C.", "476 d.C.", "27 a.C."],
+      risposte: ["476 d.C.", "509 a.C.", "753 a.C.", "27 a.C."],
       risposta_corretta: "753 a.C.",
     },
     {
       domanda: "Chi era il leader della Rivoluzione Russa del 1917?",
       risposte: [
-        "Vladimir Lenin",
-        "Niccolò Machiavelli",
         "Iosif Stalin",
+        "Niccolò Machiavelli",
+        "Vladimir Lenin",
         "Leon Trotsky",
       ],
       risposta_corretta: "Vladimir Lenin",
@@ -198,12 +199,13 @@ Alpine.data("quiz", () => ({
         "Quale impero si estendeva dall'Asia orientale all'Europa orientale e durò per oltre 1000 anni?",
       risposte: [
         "Impero bizantino",
+        "Impero persiano",
         "Impero mongolo",
         "Impero ottomano",
-        "Impero persiano",
       ],
       risposta_corretta: "Impero bizantino",
     },
+
     {
       domanda:
         "Chi è stato il primo imperatore cinese a unificare il paese nel 221 a.C.?",
