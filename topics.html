@@ -9,6 +9,7 @@
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚔️</text></svg>"
     />
     <link rel="stylesheet" href="/style.css" />
+    <script type="module" src="./main.js"></script>
   </head>
   <body>
     <main
@@ -17,7 +18,7 @@
       <h1>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="auto"
+          width="100%"
           height="150"
           class="logo"
           viewBox="0 0 506 128"
@@ -37,23 +38,23 @@
       </h1>
       <div
         class="text-center space-y-8"
-        x-data="{ topics: ['storia', 'scienza', 'geografia', 'arte', 'letteratura'] }"
+        x-data="{ topics: ['🏛️ Storia', '🌍 Geografia', '🧪 Scienze', '📚 Letteratura', '🍕 Gastronomia', '🎵 Musica', '⚽ Sport', '💻 Tecnologia', '📏 Matematica', '👕 Moda', '🎮 Videogiochi', '🐈 Animali', '📺 Serie TV', '🖼️ Arte', '🦸‍♂️ Fumetti', '🏎️ Automobili', '🧜‍♂️ Mitologia', '🎥 Cinema'] }"
       >
         <h2 class="text-4xl font-sans">Scegli un argomento</h2>
         <div class="space-y-4">
           <p>
             Seleziona uno degli argomenti qui sotto per iniziare la tua sfida:
           </p>
-          <ul class="list-disc list-inside">
+          <div class="flex flex-wrap justify-center gap-4">
             <template x-for="topic in topics" :key="topic">
-              <li>
-                <a
-                  :href="'game.html?topic=' + topic"
-                  x-text="topic.charAt(0).toUpperCase() + topic.slice(1)"
-                ></a>
-              </li>
+              <button
+                class="bg-lightgray text-black border-2 border-lightgray text-2xl font-sans px-4 py-2 hover:border-black"
+                x-text="topic.charAt(0).toUpperCase() + topic.slice(1)"
+                :aria-label="'Seleziona ' + topic"
+                @click="window.location.href = 'game.html?topic=' + topic"
+              ></button>
             </template>
-          </ul>
+          </div>
         </div>
       </div>
     </main>

@@ -205,26 +205,25 @@ Alpine.data("quiz", () => ({
       ],
       risposta_corretta: "Impero bizantino",
     },
-
     {
       domanda:
         "Chi è stato il primo imperatore cinese a unificare il paese nel 221 a.C.?",
-      risposte: ["Qin Shi Huang", "Sun Tzu", "Confucio", "Mao Zedong"],
+      risposte: ["Qin Shi Huang", "Mao Zedong", "Sun Tzu", "Confucio"],
       risposta_corretta: "Qin Shi Huang",
     },
     {
       domanda:
         "Quale città antica fu conosciuta come la 'Città dei Re' e fu capitale dell'antico Egitto per molti secoli?",
-      risposte: ["Tebe", "Giza", "Memphis", "Luxor"],
+      risposte: ["Luxor", "Memphis", "Giza", "Tebe"],
       risposta_corretta: "Tebe",
     },
     {
       domanda:
         "Chi era il leader della resistenza francese durante la Seconda Guerra Mondiale?",
       risposte: [
-        "Charles de Gaulle",
         "Philippe Pétain",
         "Jacques Chirac",
+        "Charles de Gaulle",
         "Napoleone Bonaparte",
       ],
       risposta_corretta: "Charles de Gaulle",
@@ -232,52 +231,52 @@ Alpine.data("quiz", () => ({
     {
       domanda:
         "In quale anno è stata firmata la Dichiarazione d'Indipendenza degli Stati Uniti?",
-      risposte: ["1776", "1789", "1804", "1812"],
+      risposte: ["1804", "1812", "1789", "1776"],
       risposta_corretta: "1776",
     },
     {
       domanda:
         "Qual è stata la battaglia decisiva che ha posto fine alla guerra tra Sparta e Atene nel 404 a.C.?",
       risposte: [
-        "Battaglia di Egospotami",
+        "Battaglia di Platea",
         "Battaglia delle Termopili",
         "Battaglia di Salamina",
-        "Battaglia di Platea",
+        "Battaglia di Egospotami",
       ],
       risposta_corretta: "Battaglia di Egospotami",
     },
     {
       domanda: "Chi è stato il primo presidente della Repubblica Italiana?",
       risposte: [
-        "Enrico De Nicola",
-        "Alcide De Gasperi",
-        "Giuseppe Saragat",
         "Umberto II",
+        "Giuseppe Saragat",
+        "Alcide De Gasperi",
+        "Enrico De Nicola",
       ],
       risposta_corretta: "Enrico De Nicola",
     },
     {
       domanda: "Qual è stato il regno più grande dell'antichità?",
       risposte: [
-        "Impero mongolo",
         "Impero romano",
-        "Impero persiano",
         "Impero britannico",
+        "Impero persiano",
+        "Impero mongolo",
       ],
       risposta_corretta: "Impero mongolo",
     },
     {
       domanda:
         "Quale città antica fu distrutta da un'eruzione vulcanica nel 1628 a.C.?",
-      risposte: ["Santorini (Thera)", "Pompei", "Ercolano", "Atene"],
+      risposte: ["Pompei", "Ercolano", "Atene", "Santorini (Thera)"],
       risposta_corretta: "Santorini (Thera)",
     },
     {
       domanda: "Chi fu il leader del movimento per l'indipendenza dell'India?",
       risposte: [
+        "Indira Gandhi",
         "Mahatma Gandhi",
         "Jawaharlal Nehru",
-        "Indira Gandhi",
         "Subhas Chandra Bose",
       ],
       risposta_corretta: "Mahatma Gandhi",
@@ -286,9 +285,9 @@ Alpine.data("quiz", () => ({
       domanda:
         "Qual è stato il trattato che pose fine alla Prima Guerra Mondiale?",
       risposte: [
-        "Trattato di Versailles",
-        "Trattato di Brest-Litovsk",
         "Trattato di Trianon",
+        "Trattato di Brest-Litovsk",
+        "Trattato di Versailles",
         "Trattato di Rapallo",
       ],
       risposta_corretta: "Trattato di Versailles",
