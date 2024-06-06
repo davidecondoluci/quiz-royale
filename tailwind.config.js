@@ -2,7 +2,18 @@
 export default {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['"JetBrains"', ...defaultTheme.fontFamily.sans],
+        serif: ['"Mondwest"', ...defaultTheme.fontFamily.serif],
+      },
+      colors: {
+        transparent: "transparent",
+        black: "#000000",
+        lightgray: "#eeeeee",
+        white: "#ffffff",
+      },
+    },
   },
   plugins: [],
 };
