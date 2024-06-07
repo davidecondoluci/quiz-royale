@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Quiz Royale - Game</title>
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚔️</text></svg>"
@@ -12,37 +12,50 @@
     <script type="module" src="./main.js"></script>
   </head>
   <body>
-    <main x-data="quiz()" class="w-full h-screen grid grid-cols-2">
-      <div id="game-view" class="bg-red-200 p-8">
-        <div class="flex flex-col bg-gray-400">
-          <div id="boss-hp" class="flex flex-wrap gap-1">
+    <main x-data="quiz()" class="flex flex-row w-full h-lvh">
+      <div
+        id="game-view"
+        class="flex flex-col w-1/2 h-full justify-between items-center bg-red-400 p-8"
+      >
+        <div
+          class="flex flex-col w-full h-1/2 justify-start items-center bg-gray-600 space-y-4"
+        >
+          <div
+            id="boss-hp"
+            class="flex flex-wrap justify-center items-center gap-1"
+          >
             <template x-for="heart in bossHp">
-              <img src="/img/hp_1.png" class="w-6 h-6" />
+              <img src="/img/hp_1.png" class="w-8 h-8" />
             </template>
             <template x-for="heart in bossDamage">
-              <img src="/img/hp_0.png" class="w-6 h-6" />
+              <img src="/img/hp_0.png" class="w-8 h-8" />
             </template>
           </div>
           <img
             id="boss-img"
             src="/img/boss.png"
             :src="bossHp <= 0 ? '/img/injured_boss.png' : '/img/boss.png'"
-            class="h-1/3 w-auto mx-auto top-4"
+            class="h-2/3 w-auto mx-auto"
           />
         </div>
 
-        <div class="flex flex-col bg-gray-600">
+        <div
+          class="flex flex-col w-full h-1/2 justify-end items-center bg-gray-400 space-y-4"
+        >
           <img
             id="player-img"
             src="/img/player.png"
-            class="h-1/4 w-auto mx-auto top-4"
+            class="flex h-2/4 w-auto mx-auto top-4"
           />
-          <div id="player-hp" class="flex flex-wrap gap-1">
+          <div
+            id="player-hp"
+            class="flex flex-wrap justify-center items-center gap-1"
+          >
             <template x-for="heart in playerHp">
-              <img src="/img/hp_1.png" class="w-6 h-6" />
+              <img src="/img/hp_1.png" class="w-8 h-8" />
             </template>
             <template x-for="heart in playerDamage">
-              <img src="/img/hp_0.png" class="w-6 h-6" />
+              <img src="/img/hp_0.png" class="w-8 h-8" />
             </template>
           </div>
         </div>
@@ -51,28 +64,55 @@
       <div
         id="quiz-view"
         x-show="state == 'game'"
-        class="bg-blue-200 flex items-center justify-center"
+        class="flex flex-col w-1/2 h-full justify-start items-center p-8 space-y-12 bg-blue-400"
       >
-        <div class="flex flex-col">
-          <h2 x-text="currentQuestion.domanda"></h2>
-
+        <h1>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="100%"
+            height="100"
+            class="logo"
+            viewBox="0 0 506 128"
+          >
+            <g fill="currentColor" clip-path="url(#a)">
+              <path
+                d="M60 24h-4v-4h-4v-4h-8v-4H20v4h-8v4H8v4H4v8H0v24h4v8h4v4h4v4h8v4h4v4h4v4h8v4h12v4h16v-4H52v-4h-8v-4h-4v-4h4v-4h8v-4h4v-4h4v-8h4V32h-4v-8Zm-8 32h-4v8h-4v4h-4v4H24v-4h-4v-4h-4v-8h-4V32h4v-8h4v-4h4v-4h16v4h4v4h4v8h4v24ZM92 68h-4V32H72v4h4v32h4v4h4v4h12v-4h-4v-4ZM116 32h-16v4h4v28h-4v4h4v8h16v-4h-4V32ZM100 68h-4v4h4v-4ZM142 12h-12v12h12V12ZM142 28h-4v4h-4v4h-4v4h-4v4h4v28h-4v4h20v-4h-4V28ZM190 68h-4v4h-22v-4h4v-4h4v-4h4v-4h4v-4h4v-4h4v-4h4V32h-32v-4h-4v8h-4v8h4v-4h4v-4h24v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v8h38v-4h4v-8h-4v4ZM276 68h-4v-4h-4v-4h-4v-4h-4v-4h-4v-4h8v-4h4v-4h4V20h-4v-4h-4v-4h-44v4h8v56h-8v4h28v-4h-8V52h4v4h4v4h4v4h4v4h4v4h4v4h20v-4h-8v-4Zm-36-24V16h16v4h4v20h-4v4h-16ZM330 40h-4v-4h-8v-4h-16v4h-8v4h-4v8h-4v12h4v8h4v4h8v4h16v-4h8v-4h4v-8h4V48h-4v-8Zm-8 20h-4v8h-4v4h-8v-4h-4v-8h-4V48h4v-8h4v-4h8v4h4v8h4v12ZM370 56h-4v10h4V56ZM362 56h-4V46h-4V36h6v-4h-24v4h6v10h4v10h4v10h4v10h4v8h4v-8h4V66h-4V56ZM368 36h6v10h4V36h6v-4h-16v4ZM374 46h-4v10h4V46ZM354 88h-4v4h-12v8h12v-4h4v-4h4v-8h-4v4ZM432 76v-4h-4V40h-4v-4h-4v-4h-24v4h-4v4h-4v4h12v-4h4v-4h8v4h4v8h-4v4h4v16h-4v4h8v4h12Z"
+              />
+              <path
+                d="M404 68h-4v-8h4v-4h8v-4h-12v4h-8v4h-4v8h4v4h4v4h16v-4h-8v-4ZM506 64h-4v4h4v-4ZM506 48v-8h-4v-4h-4v-4h-24v4h-4v4h-4v8h-4v12h4v8h4v4h4v4h24v-4h-16v-4h-4v-8h-4V48h32Zm-32-8h4v-4h12v4h4v4h-20v-4Z"
+              />
+              <path
+                d="M502 68h-4v4h4v-4ZM470 87.9h-4v4h-8v-4h-4V0h-4v4h-4v4h-4v4h-4v4h4v72h-4v3.9h-8v-4h-4v12h-4v8h4v-4h4v-4h4v-4h8v24h2v8h8v-8h2v-24h8v4h4v4h4v4h4v-8h-4v-12Z"
+              />
+            </g>
+          </svg>
+        </h1>
+        <div class="flex flex-col space-y-4 bg-red-200">
+          <h2
+            x-text="currentQuestion.domanda"
+            class="text-2xl text-center h-24 bg-slate-500"
+          ></h2>
           <template x-for="answer in currentQuestion.risposte">
             <button
               x-text="answer"
               @click="answerQuestion(answer)"
-              class="p-2 m-2 bg-blue-500 text-white"
+              class="px-16 py-4 bg-blue-500 text-white"
             ></button>
           </template>
         </div>
       </div>
       <div
         x-show="state == 'lose'"
-        class="bg-red-200 flex items-center justify-center"
-      ></div>
+        class="w-1/2 bg-red-200 flex items-center justify-center"
+      >
+        Hai perso
+      </div>
       <div
         x-show="state == 'win'"
-        class="bg-green-200 flex items-center justify-center"
-      ></div>
+        class="w-1/2 bg-green-200 flex items-center justify-center"
+      >
+        Hai vinto!
+      </div>
     </main>
   </body>
 </html>

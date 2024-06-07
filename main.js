@@ -7,7 +7,7 @@ window.Alpine = Alpine;
 
 gsap.to("#boss-img", {
   y: "5%",
-  scaleY: 1.02,
+  scaleY: 1,
   repeat: -1,
   duration: 1,
   ease: "sine.inOut",
@@ -15,9 +15,9 @@ gsap.to("#boss-img", {
 });
 
 gsap.to("#player-img", {
-  y: "5%",
+  x: "5%",
   delay: 0.5,
-  scaleY: 1.02,
+  scaleX: 1,
   repeat: -1,
   duration: 1,
   ease: "sine.inOut",
