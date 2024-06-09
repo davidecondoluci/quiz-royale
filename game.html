@@ -15,10 +15,10 @@
     <main x-data="quiz()" class="flex flex-row w-full h-lvh">
       <div
         id="game-view"
-        class="flex flex-col w-1/2 h-full justify-between items-center bg-red-400 p-8"
+        class="flex flex-col w-1/2 h-full justify-between items-center p-16 bg-white"
       >
         <div
-          class="flex flex-col w-full h-1/2 justify-start items-center bg-gray-600 space-y-4"
+          class="flex flex-col w-full h-1/2 justify-start items-center space-y-4"
         >
           <div
             id="boss-hp"
@@ -40,7 +40,7 @@
         </div>
 
         <div
-          class="flex flex-col w-full h-1/2 justify-end items-center bg-gray-400 space-y-4"
+          class="flex flex-col w-full h-1/2 justify-end items-center space-y-4"
         >
           <img
             id="player-img"
@@ -64,7 +64,7 @@
       <div
         id="quiz-view"
         x-show="state == 'game'"
-        class="flex flex-col w-1/2 h-full justify-start items-center p-8 space-y-12 bg-blue-400"
+        class="flex flex-col w-1/2 h-full justify-between items-center p-16 bg-lightgray"
       >
         <h1>
           <svg
@@ -87,31 +87,84 @@
             </g>
           </svg>
         </h1>
-        <div class="flex flex-col space-y-4 bg-red-200">
+        <div class="flex flex-col w-full space-y-4">
           <h2
             x-text="currentQuestion.domanda"
-            class="text-2xl text-center h-24 bg-slate-500"
+            class="text-2xl text-center h-24"
           ></h2>
           <template x-for="answer in currentQuestion.risposte">
             <button
               x-text="answer"
               @click="answerQuestion(answer)"
-              class="px-16 py-4 bg-blue-500 text-white"
+              class="text-2xl font-serif px-16 py-4 bg-black text-white border-2 border-black hover:bg-white hover:text-black transition-colors duration-300 ease-in-out"
             ></button>
           </template>
         </div>
+        <div class="flex flex-row w-full justify-between items-center">
+          <div x-show="state == 'game'" class="flex w-1/2">
+            Domande: <span x-text="questionCounter"></span>/30
+          </div>
+          <button
+            @click="exitGame"
+            class="font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out"
+          >
+            Esci
+          </button>
+        </div>
       </div>
+
       <div
         x-show="state == 'lose'"
-        class="w-1/2 bg-red-200 flex items-center justify-center"
+        class="flex flex-col w-1/2 items-center justify-center p-16 space-y-16 bg-black text-white"
       >
-        Hai perso
+        <h3 class="text-8xl">Hai perso</h3>
+        <div class="flex flex-row w-full justify-between">
+          <button
+            @click="restartGame"
+            class="text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue ransition-colors duration-300 ease-in-out"
+          >
+            Ricomincia
+          </button>
+          <button
+            @click="changeTopic"
+            class="text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
+          >
+            Cambia Argomento
+          </button>
+          <button
+            @click="exitGame"
+            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out"
+          >
+            Esci
+          </button>
+        </div>
       </div>
+
       <div
         x-show="state == 'win'"
-        class="w-1/2 bg-green-200 flex items-center justify-center"
+        class="flex flex-col w-1/2 items-center justify-center p-16 space-y-16 bg-black text-white"
       >
-        Hai vinto!
+        <h3 class="text-8xl">Hai vinto!!!</h3>
+        <div class="flex flex-row w-full justify-between">
+          <button
+            @click="restartGame"
+            class="px-4 py-2 bg-blue-500 text-white w-40"
+          >
+            Ricomincia
+          </button>
+          <button
+            @click="changeTopic"
+            class="px-4 py-2 bg-green-500 text-white w-40"
+          >
+            Cambia Argomento
+          </button>
+          <button
+            @click="exitGame"
+            class="px-4 py-2 bg-red-500 text-white w-40"
+          >
+            Esci
+          </button>
+        </div>
       </div>
     </main>
   </body>

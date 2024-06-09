@@ -31,6 +31,7 @@ Alpine.data("quiz", () => ({
   bossDamage: 0,
   playerDamage: 0,
   currentQuestionIndex: 0,
+  questionCounter: 1,
   get currentQuestion() {
     return this.questions[this.currentQuestionIndex];
   },
@@ -43,13 +44,29 @@ Alpine.data("quiz", () => ({
       this.playerDamage += 1;
     }
 
-    if (this.bossHp <= 0) {
+    if (this.bossHp <= this.playerHp) {
       this.state = "win";
     } else if (this.playerHp <= 0) {
       this.state = "lose";
     }
 
     this.currentQuestionIndex++;
+    this.questionCounter++;
+  },
+  restartGame() {
+    this.state = "game";
+    this.bossHp = 30;
+    this.playerHp = 10;
+    this.bossDamage = 0;
+    this.playerDamage = 0;
+    this.currentQuestionIndex = 0;
+    this.questionCounter = 1;
+  },
+  changeTopic() {
+    window.location.href = "topics.html";
+  },
+  exitGame() {
+    window.location.href = "index.html";
   },
   questions: [
     {
@@ -129,7 +146,6 @@ Alpine.data("quiz", () => ({
       ],
       risposta_corretta: "Friedrich Engels",
     },
-
     {
       domanda: "Qual è stata la prima civiltà mesopotamica?",
       risposte: ["Assiri", "Babilonesi", "Sumeri", "Ittiti"],
