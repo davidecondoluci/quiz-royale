@@ -34,7 +34,7 @@
           <img
             id="boss-img"
             src="/img/boss.png"
-            :src="bossHp <= 0 ? '/img/injured_boss.png' : '/img/boss.png'"
+            :src="currentQuestionIndex >= 30 ? '/img/injured_boss.png' : '/img/boss.png'"
             class="h-2/3 w-auto mx-auto"
           />
         </div>
@@ -144,23 +144,23 @@
         x-show="state == 'win'"
         class="flex flex-col w-1/2 items-center justify-center p-16 space-y-16 bg-black text-white"
       >
-        <h3 class="text-8xl">Hai vinto!!!</h3>
+        <h3 class="text-8xl">Hai vinto!</h3>
         <div class="flex flex-row w-full justify-between">
           <button
             @click="restartGame"
-            class="px-4 py-2 bg-blue-500 text-white w-40"
+            class="text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue ransition-colors duration-300 ease-in-out"
           >
             Ricomincia
           </button>
           <button
             @click="changeTopic"
-            class="px-4 py-2 bg-green-500 text-white w-40"
+            class="text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
           >
             Cambia Argomento
           </button>
           <button
             @click="exitGame"
-            class="px-4 py-2 bg-red-500 text-white w-40"
+            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out"
           >
             Esci
           </button>

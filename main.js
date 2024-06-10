@@ -44,14 +44,14 @@ Alpine.data("quiz", () => ({
       this.playerDamage += 1;
     }
 
-    if (this.bossHp <= this.playerHp) {
+    this.currentQuestionIndex++;
+    this.questionCounter++;
+
+    if (this.questionCounter > 30) {
       this.state = "win";
     } else if (this.playerHp <= 0) {
       this.state = "lose";
     }
-
-    this.currentQuestionIndex++;
-    this.questionCounter++;
   },
   restartGame() {
     this.state = "game";
