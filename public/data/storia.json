@@ -131,24 +131,24 @@
             "risposta_corretta": "Joseph Stalin"
         },
         {
-            "domanda": "Chi era l'ultimo faraone dell'antico Egitto?",
+            "domanda": "Quando avvenne l'attacco a Pearl Harbor?",
             "risposte": [
-                "Cleopatra",
-                "Ramses II",
-                "Tutankhamon",
-                "Akhenaton"
+                "7 dicembre 1941",
+                "4 luglio 1942",
+                "6 giugno 1944",
+                "15 agosto 1945"
             ],
-            "risposta_corretta": "Cleopatra"
+            "risposta_corretta": "7 dicembre 1941"
         },
         {
-            "domanda": "Qual è stata la conseguenza della guerra delle Falkland nel 1982?",
+            "domanda": "Quale evento segna l'inizio del Medioevo?",
             "risposte": [
-                "La vittoria dell'Argentina",
-                "La vittoria del Regno Unito",
-                "L'indipendenza delle Falkland",
-                "La guerra finì in stallo"
+                "La scoperta dell'America",
+                "La caduta dell'Impero Romano d'Occidente",
+                "La Riforma Protestante",
+                "La Guerra dei Cent'Anni"
             ],
-            "risposta_corretta": "La vittoria del Regno Unito"
+            "risposta_corretta": "La caduta dell'Impero Romano d'Occidente"
         },
         {
             "domanda": "Quando è stata fondata l'antica città di Roma?",
@@ -191,14 +191,14 @@
             "risposta_corretta": "L'invenzione della macchina a vapore"
         },
         {
-            "domanda": "Qual è stato il principale obiettivo della spedizione di Cristoforo Colombo del 1492?",
+            "domanda": "Chi fu il principale artefice dell'Unità d'Italia?",
             "risposte": [
-                "Raggiungere le Indie orientali via oceano",
-                "Scoprire nuove terre",
-                "Cercare una rotta per la Cina",
-                "Trovarsi nuove risorse per l'Europa"
+                "Giuseppe Garibaldi",
+                "Camillo Benso di Cavour",
+                "Vittorio Emanuele II",
+                "Giuseppe Mazzini"
             ],
-            "risposta_corretta": "Raggiungere le Indie orientali via oceano"
+            "risposta_corretta": "Camillo Benso di Cavour"
         },
         {
             "domanda": "Chi ha guidato la Rivoluzione Russa del 1917?",
@@ -299,54 +299,6 @@
                 "Accumulare ricchezze"
             ],
             "risposta_corretta": "Riconquistare Gerusalemme"
-        }
-    ],
-    "Gastronomia": [
-        {
-            "domanda": "Chi ha scoperto la legge di gravitazione universale?",
-            "risposte": [
-                "Isaac Newton",
-                "Albert Einstein",
-                "Galileo Galilei",
-                "Niccolò Copernico"
-            ],
-            "risposta_corretta": "Isaac Newton"
-        }
-    ],
-    "Sport": [
-        {
-            "domanda": "Chi ha scritto 'Il conte di Montecristo'?",
-            "risposte": [
-                "Victor Hugo",
-                "Fyodor Dostoevsky",
-                "Alexandre Dumas",
-                "Leo Tolstoy"
-            ],
-            "risposta_corretta": "Alexandre Dumas"
-        }
-    ],
-    "Fumetti": [
-        {
-            "domanda": "Chi ha scritto 'Il conte di Montecristo'?",
-            "risposte": [
-                "Victor Hugo",
-                "Fyodor Dostoevsky",
-                "Alexandre Dumas",
-                "Leo Tolstoy"
-            ],
-            "risposta_corretta": "Alexandre Dumas"
-        }
-    ],
-    "Mitologia": [
-        {
-            "domanda": "Chi ha scritto 'Il conte di Montecristo'?",
-            "risposte": [
-                "Victor Hugo",
-                "Fyodor Dostoevsky",
-                "Alexandre Dumas",
-                "Leo Tolstoy"
-            ],
-            "risposta_corretta": "Alexandre Dumas"
         }
     ]
 }
