@@ -8,6 +8,11 @@
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚔️</text></svg>"
     />
+    <style>
+      [x-cloak] {
+        display: none !important;
+      }
+    </style>
     <link rel="stylesheet" href="./style.css" />
     <script type="module" src="./main.js"></script>
   </head>
@@ -44,7 +49,7 @@
         >
           <img
             id="player-img"
-            src="/img/player.png"
+            :src="playerImage"
             class="flex h-2/4 w-auto mx-auto top-4"
           />
           <div
@@ -115,6 +120,7 @@
 
       <div
         x-show="state == 'lose'"
+        x-cloak
         class="flex flex-col w-1/2 items-center justify-center p-16 space-y-16 bg-black text-white"
       >
         <h3 class="text-8xl">Hai perso</h3>
@@ -142,6 +148,7 @@
 
       <div
         x-show="state == 'win'"
+        x-cloak
         class="flex flex-col w-1/2 items-center justify-center p-16 space-y-16 bg-black text-white"
       >
         <h3 class="text-8xl">Hai vinto!</h3>

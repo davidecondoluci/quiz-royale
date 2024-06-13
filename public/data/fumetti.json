@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/boss.png",
+    "questions": [
+        {
+            "domanda": "Mia o miao miao?",
+            "risposte": [
+                "Trattato di Versailles",
+                "Pace di Westphalia",
+                "Conferenza di Yalta",
+                "Accordo di Monaco"
+            ],
+            "risposta_corretta": "Trattato di Versailles"
+        },
+        {
+            "domanda": "Chi fu il primo presidente degli Stati Uniti d'America?",
+            "risposte": [
+                "George Washington",
+                "Thomas Jefferson",
+                "John Adams",
+                "James Madison"
+            ],
+            "risposta_corretta": "George Washington"
+        },
+        {
+            "domanda": "Quando è iniziata la Rivoluzione Francese?",
+            "risposte": [
+                "1789",
+                "1799",
+                "1776",
+                "1804"
+            ],
+            "risposta_corretta": "1789"
+        },
+        {
+            "domanda": "Qual è stato il risultato della Battaglia di Stalingrado?",
+            "risposte": [
+                "Vittoria dell'Asse",
+                "Vittoria degli Alleati",
+                "Stallo",
+                "Cessate il fuoco"
+            ],
+            "risposta_corretta": "Vittoria degli Alleati"
+        },
+        {
+            "domanda": "Chi era il leader della Germania nazista durante la Seconda Guerra Mondiale?",
+            "risposte": [
+                "Adolf Hitler",
+                "Joseph Stalin",
+                "Benito Mussolini",
+                "Hirohito"
+            ],
+            "risposta_corretta": "Adolf Hitler"
+        },
+        {
+            "domanda": "Dove è stata firmata la Dichiarazione di Indipendenza degli Stati Uniti?",
+            "risposte": [
+                "Filadelfia",
+                "Boston",
+                "New York",
+                "Washington D.C."
+            ],
+            "risposta_corretta": "Filadelfia"
+        },
+        {
+            "domanda": "Chi ha scoperto l'America?",
+            "risposte": [
+                "Cristoforo Colombo",
+                "Amerigo Vespucci",
+                "Ferdinando Magellano",
+                "Vasco da Gama"
+            ],
+            "risposta_corretta": "Cristoforo Colombo"
+        },
+        {
+            "domanda": "Qual è stata la causa principale della Guerra Civile Americana?",
+            "risposte": [
+                "La schiavitù",
+                "La tassazione senza rappresentanza",
+                "Le dispute territoriali",
+                "Le tensioni politiche"
+            ],
+            "risposta_corretta": "La schiavitù"
+        },
+        {
+            "domanda": "Chi era la regina d'Egitto famosa per il suo rapporto con Marco Antonio e Cesare?",
+            "risposte": [
+                "Cleopatra",
+                "Nefertiti",
+                "Hatshepsut",
+                "Iside"
+            ],
+            "risposta_corretta": "Cleopatra"
+        },
+        {
+            "domanda": "Qual era la capitale dell'Impero Romano d'Occidente prima della sua caduta?",
+            "risposte": [
+                "Roma",
+                "Costantinopoli",
+                "Atene",
+                "Cartagine"
+            ],
+            "risposta_corretta": "Roma"
+        },
+        {
+            "domanda": "Qual è stata la dinastia regnante in Inghilterra durante il Rinascimento inglese?",
+            "risposte": [
+                "Tudor",
+                "Stuart",
+                "Plantageneti",
+                "Hanoveriani"
+            ],
+            "risposta_corretta": "Tudor"
+        },
+        {
+            "domanda": "In quale anno è avvenuta la caduta dell'Impero Romano d'Occidente?",
+            "risposte": [
+                "476 d.C.",
+                "410 d.C.",
+                "455 d.C.",
+                "490 d.C."
+            ],
+            "risposta_corretta": "476 d.C."
+        },
+        {
+            "domanda": "Qual era il nome del leader sovietico che succedette a Lenin?",
+            "risposte": [
+                "Joseph Stalin",
+                "Leon Trotsky",
+                "Nikita Khrushchev",
+                "Mikhail Gorbachev"
+            ],
+            "risposta_corretta": "Joseph Stalin"
+        },
+        {
+            "domanda": "Quando avvenne l'attacco a Pearl Harbor?",
+            "risposte": [
+                "7 dicembre 1941",
+                "4 luglio 1942",
+                "6 giugno 1944",
+                "15 agosto 1945"
+            ],
+            "risposta_corretta": "7 dicembre 1941"
+        },
+        {
+            "domanda": "Quale evento segna l'inizio del Medioevo?",
+            "risposte": [
+                "La scoperta dell'America",
+                "La caduta dell'Impero Romano d'Occidente",
+                "La Riforma Protestante",
+                "La Guerra dei Cent'Anni"
+            ],
+            "risposta_corretta": "La caduta dell'Impero Romano d'Occidente"
+        },
+        {
+            "domanda": "Quando è stata fondata l'antica città di Roma?",
+            "risposte": [
+                "753 a.C.",
+                "509 a.C.",
+                "1000 a.C.",
+                "200 a.C."
+            ],
+            "risposta_corretta": "753 a.C."
+        },
+        {
+            "domanda": "Qual era la capitale dell'Impero Bizantino?",
+            "risposte": [
+                "Costantinopoli",
+                "Atene",
+                "Roma",
+                "Milano"
+            ],
+            "risposta_corretta": "Costantinopoli"
+        },
+        {
+            "domanda": "Chi era il fondatore della dinastia Ming in Cina?",
+            "risposte": [
+                "Zhu Yuanzhang",
+                "Qin Shi Huang",
+                "Gengis Khan",
+                "Sun Yat-sen"
+            ],
+            "risposta_corretta": "Zhu Yuanzhang"
+        },
+        {
+            "domanda": "Quale evento segnò l'inizio della Rivoluzione Industriale in Gran Bretagna?",
+            "risposte": [
+                "L'invenzione della macchina a vapore",
+                "La Rivoluzione Francese",
+                "La scoperta dell'elettricità",
+                "La fondazione dell'Impero britannico"
+            ],
+            "risposta_corretta": "L'invenzione della macchina a vapore"
+        },
+        {
+            "domanda": "Chi fu il principale artefice dell'Unità d'Italia?",
+            "risposte": [
+                "Giuseppe Garibaldi",
+                "Camillo Benso di Cavour",
+                "Vittorio Emanuele II",
+                "Giuseppe Mazzini"
+            ],
+            "risposta_corretta": "Camillo Benso di Cavour"
+        },
+        {
+            "domanda": "Chi ha guidato la Rivoluzione Russa del 1917?",
+            "risposte": [
+                "Vladimir Lenin",
+                "Joseph Stalin",
+                "Leon Trotsky",
+                "Nikita Khrushchev"
+            ],
+            "risposta_corretta": "Vladimir Lenin"
+        },
+        {
+            "domanda": "Qual è stato il risultato della Guerra dei Cent'Anni?",
+            "risposte": [
+                "Vittoria dell'Inghilterra",
+                "Vittoria della Francia",
+                "Stallo",
+                "Conflitto risolto da trattati di pace"
+            ],
+            "risposta_corretta": "Conflitto risolto da trattati di pace"
+        },
+        {
+            "domanda": "Chi è stato il primo imperatore romano?",
+            "risposte": [
+                "Augusto",
+                "Nerone",
+                "Caligola",
+                "Tiberio"
+            ],
+            "risposta_corretta": "Augusto"
+        },
+        {
+            "domanda": "Quale evento ha segnato la fine dell'Impero Ottomano?",
+            "risposte": [
+                "Trattato di Versailles",
+                "Trattato di Sèvres",
+                "Pace di Westphalia",
+                "Accordo di Monaco"
+            ],
+            "risposta_corretta": "Trattato di Sèvres"
+        },
+        {
+            "domanda": "Chi era il famoso esploratore portoghese che circumnavigò la Terra?",
+            "risposte": [
+                "Ferdinando Magellano",
+                "Vasco da Gama",
+                "Amerigo Vespucci",
+                "Henry Hudson"
+            ],
+            "risposta_corretta": "Ferdinando Magellano"
+        },
+        {
+            "domanda": "Quale città antica è considerata il luogo di nascita della democrazia?",
+            "risposte": [
+                "Atene",
+                "Roma",
+                "Cartagine",
+                "Sparta"
+            ],
+            "risposta_corretta": "Atene"
+        },
+        {
+            "domanda": "Qual era la principale causa della Rivoluzione Americana?",
+            "risposte": [
+                "La tassazione senza rappresentanza",
+                "La ribellione dei coloni",
+                "La conquista della Nuova Inghilterra",
+                "L'intervento straniero"
+            ],
+            "risposta_corretta": "La tassazione senza rappresentanza"
+        },
+        {
+            "domanda": "Qual era il nome della politica di segregazione razziale in Sudafrica?",
+            "risposte": [
+                "Apartheid",
+                "Jim Crow",
+                "Segregazione",
+                "Distinzione"
+            ],
+            "risposta_corretta": "Apartheid"
+        },
+        {
+            "domanda": "Chi era il leader della resistenza francese durante la Seconda Guerra Mondiale?",
+            "risposte": [
+                "Charles de Gaulle",
+                "Philippe Pétain",
+                "Henri Philippe Pétain",
+                "Jean Moulin"
+            ],
+            "risposta_corretta": "Charles de Gaulle"
+        },
+        {
+            "domanda": "Qual è stato il principale obiettivo delle Crociate?",
+            "risposte": [
+                "Riconquistare Gerusalemme",
+                "Espandere l'influenza cristiana",
+                "Conquistare l'Egitto",
+                "Accumulare ricchezze"
+            ],
+            "risposta_corretta": "Riconquistare Gerusalemme"
+        }
+    ]
+}

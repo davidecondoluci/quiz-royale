@@ -1,4 +1,5 @@
 {
+    "playerImage": "/img/player.png",
     "questions": [
         {
             "domanda": "Quale evento segnò la fine della Prima Guerra Mondiale?",

@@ -36,23 +36,19 @@
           </g>
         </svg>
       </h1>
-      <div
-        class="text-center space-y-8"
-        x-data="{ topics: ['🏛️ Storia', '🌍 Geografia', '🧪 Scienze', '📚 Letteratura', '🍕 Gastronomia', '🎵 Musica', '⚽ Sport', '💻 Tecnologia', '📏 Matematica', '👕 Moda', '🎮 Videogiochi', '🐈 Animali', '📺 Serie TV', '🖼️ Arte', '🦸‍♂️ Fumetti', '🏎️ Automobili', '🧜‍♂️ Mitologia', '🎥 Cinema'] }"
-      >
+      <div class="text-center space-y-8" x-data>
         <h2 class="text-4xl font-sans">Scegli un argomento</h2>
         <div class="space-y-4">
           <p>
             Seleziona uno degli argomenti qui sotto per iniziare la tua sfida
           </p>
           <div class="flex flex-wrap justify-center gap-4">
-            <template x-for="topic in topics" :key="topic">
-              <button
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
                 class="bg-lightgray text-black border-2 border-lightgray text-2xl font-sans px-4 py-2 hover:border-black"
-                x-text="topic.charAt(0).toUpperCase() + topic.slice(1)"
-                :aria-label="'Seleziona ' + topic"
-                @click="window.location.href = 'game.html?topic=' + topic"
-              ></button>
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
             </template>
           </div>
         </div>
