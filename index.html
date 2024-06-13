@@ -12,12 +12,25 @@
     <script type="module" src="./main.js"></script>
   </head>
   <body class="bg-cyan">
+    <div
+      class="flex flex-row w-full h-4/5 absolute left-0 bottom-0 z-10 bg-contain bg-no-repeat bg-left-bottom bg-[url('/img/trees-left.png')]"
+    ></div>
+
+    <div
+      class="flex flex-row w-full h-1/5 absolute center-0 bottom-0 z-0 bg-contain bg-bottom bg-no-repeat bg-[url('/img/street.png')]"
+    ></div>
+
+    <div
+      class="flex flex-row w-full h-4/5 absolute right-0 bottom-0 z-10 bg-contain bg-no-repeat bg-right-bottom bg-[url('/img/trees-right.png')]"
+    ></div>
+
     <main
-      class="flex flex-col justify-start items-center w-full h-lvh p-16 space-y-12"
+      class="flex flex-col justify-start items-center w-full h-lvh p-16 space-y-12 absolute z-10"
     >
       <h1>
         <svg
           id="logo"
+          class="overflow-visible"
           xmlns="http://www.w3.org/2000/svg"
           width="506"
           height="128"
@@ -25,38 +38,42 @@
           viewBox="0 0 506 128"
         >
           <g fill="#000">
-            <path
-              d="M44 76v-4h8v-4h4v-4h4v-8h4V32h-4v-8h-4v-4h-4v-4h-8v-4H20v4h-8v4H8v4H4v8H0v24h4v8h4v4h4v4h8v4h4v4h4v4h8v4h12v4h16v-4H52v-4h-8v-4h-4v-4h4Zm-20-4v-4h-4v-4h-4v-8h-4V32h4v-8h4v-4h4v-4h16v4h4v4h4v8h4v24h-4v8h-4v4h-4v4H24Z"
-            />
-            <path
-              d="M120 72v4h-16v-8h-4v-4h4V36h-4v-4h16v40h4Zm-24 0h4v-4h-4v4Zm-4-4h-4V32H72v4h4v32h4v4h4v4h12v-4h-4v-4Z"
-            />
-            <path
-              d="M142 72h4v4h-20v-4h4V44h-4v-4h4v-4h4v-4h4v-4h4v44Zm0-60h-12v12h12V12Z"
-            />
-            <path
-              d="M190 68h-4v4h-22v-4h4v-4h4v-4h4v-4h4v-4h4v-4h4v-4h4V32h-32v-4h-4v8h-4v8h4v-4h4v-4h24v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v8h38v-4h4v-8h-4v4Z"
-            />
-            <path
-              d="M276 68h-4v-4h-4v-4h-4v-4h-4v-4h-4v-4h8v-4h4v-4h4V20h-4v-4h-4v-4h-44v4h8v56h-8v4h28v-4h-8V52h4v4h4v4h4v4h4v4h4v4h4v4h20v-4h-8v-4Zm-36-24V16h16v4h4v20h-4v4h-16Z"
-            />
-            <path
-              d="M330 40h-4v-4h-8v-4h-16v4h-8v4h-4v8h-4v12h4v8h4v4h8v4h16v-4h8v-4h4v-8h4V48h-4v-8Zm-8 20h-4v8h-4v4h-8v-4h-4v-8h-4V48h4v-8h4v-4h8v4h4v8h4v12Z"
-            />
-            <path
-              d="M362 66h4v10h-4v8h-4v-8h-4V66h-4V56h-4V46h-4V36h-6v-4h24v4h-6v10h4v10h4v10Zm4 0h4V56h-4v10Zm2-30h6v10h4V36h6v-4h-16v4Zm2 20h4V46h-4v10Zm-16 32h-4v4h-12v8h12v-4h4v-4h4v-8h-4v4Z"
-            />
-            <path
-              d="M420 76v-4h-8v-4h4V52h-4v-4h4v-8h-4v-4h-8v4h-4v4h-12v-4h4v-4h4v-4h24v4h4v4h4v32h4v4h-12Zm-16-8h-4v-8h4v-4h8v-4h-12v4h-8v4h-4v8h4v4h4v4h16v-4h-8v-4Z"
-            />
+            <g id="left">
+              <path
+                d="M44 76v-4h8v-4h4v-4h4v-8h4V32h-4v-8h-4v-4h-4v-4h-8v-4H20v4h-8v4H8v4H4v8H0v24h4v8h4v4h4v4h8v4h4v4h4v4h8v4h12v4h16v-4H52v-4h-8v-4h-4v-4h4Zm-20-4v-4h-4v-4h-4v-8h-4V32h4v-8h4v-4h4v-4h16v4h4v4h4v8h4v24h-4v8h-4v4h-4v4H24Z"
+              />
+              <path
+                d="M120 72v4h-16v-8h-4v-4h4V36h-4v-4h16v40h4Zm-24 0h4v-4h-4v4Zm-4-4h-4V32H72v4h4v32h4v4h4v4h12v-4h-4v-4Z"
+              />
+              <path
+                d="M142 72h4v4h-20v-4h4V44h-4v-4h4v-4h4v-4h4v-4h4v44Zm0-60h-12v12h12V12Z"
+              />
+              <path
+                d="M190 68h-4v4h-22v-4h4v-4h4v-4h4v-4h4v-4h4v-4h4v-4h4V32h-32v-4h-4v8h-4v8h4v-4h4v-4h24v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v4h-4v8h38v-4h4v-8h-4v4Z"
+              />
+              <path
+                d="M276 68h-4v-4h-4v-4h-4v-4h-4v-4h-4v-4h8v-4h4v-4h4V20h-4v-4h-4v-4h-44v4h8v56h-8v4h28v-4h-8V52h4v4h4v4h4v4h4v4h4v4h4v4h20v-4h-8v-4Zm-36-24V16h16v4h4v20h-4v4h-16Z"
+              />
+              <path
+                d="M330 40h-4v-4h-8v-4h-16v4h-8v4h-4v8h-4v12h4v8h4v4h8v4h16v-4h8v-4h4v-8h4V48h-4v-8Zm-8 20h-4v8h-4v4h-8v-4h-4v-8h-4V48h4v-8h4v-4h8v4h4v8h4v12Z"
+              />
+              <path
+                d="M362 66h4v10h-4v8h-4v-8h-4V66h-4V56h-4V46h-4V36h-6v-4h24v4h-6v10h4v10h4v10Zm4 0h4V56h-4v10Zm2-30h6v10h4V36h6v-4h-16v4Zm2 20h4V46h-4v10Zm-16 32h-4v4h-12v8h12v-4h4v-4h4v-8h-4v4Z"
+              />
+              <path
+                d="M420 76v-4h-8v-4h4V52h-4v-4h4v-8h-4v-4h-8v4h-4v4h-12v-4h4v-4h4v-4h24v4h4v4h4v32h4v4h-12Zm-16-8h-4v-8h4v-4h8v-4h-12v4h-8v4h-4v8h4v4h4v4h16v-4h-8v-4Z"
+              />
+            </g>
             <path
               id="sword"
               d="M470 88h-4v4h-8v-4h-4V0h-4v4h-4v4h-4v4h-4v4h4v72h-4v4h-8v-4h-4v12h-4v8h4v-4h4v-4h4v-4h8v24h2v8h8v-8h2V96h8v4h4v4h4v4h4v-8h-4V88Z"
             />
             <path id="l" d="M438 76v-4h4V16h-4v-4h4V8h4V4h4V0h4v72h4v4h-20Z" />
-            <path
-              d="M506 68h-4v-4h4v4Zm-32-20v12h4v8h4v4h16v4h-24v-4h-4v-4h-4v-8h-4V48h4v-8h4v-4h4v-4h24v4h4v4h4v8h-32Zm0-4h20v-4h-4v-4h-12v4h-4v4Zm28 24h-4v4h4v-4Z"
-            />
+            <g id="right">
+              <path
+                d="M506 68h-4v-4h4v4Zm-32-20v12h4v8h4v4h16v4h-24v-4h-4v-4h-4v-8h-4V48h4v-8h4v-4h4v-4h24v4h4v4h4v8h-32Zm0-4h20v-4h-4v-4h-12v4h-4v4Zm28 24h-4v4h4v-4Z"
+              />
+            </g>
           </g>
         </svg>
       </h1>
