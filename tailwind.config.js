@@ -12,6 +12,7 @@ export default {
         transparent: "transparent",
         black: "#000000",
         lightgray: "#D1D7E0",
+        midgray: "#A4B0BC",
         darkgray: "#525E6C",
         white: "#ffffff",
         red: "#E83B3B",

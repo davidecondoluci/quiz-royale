@@ -5,6 +5,16 @@ import Alpine from "alpinejs";
 
 window.Alpine = Alpine;
 
+function flashDamage(target) {
+  gsap.to(target, {
+    opacity: 0,
+    duration: 0.1,
+    repeat: 5,
+    yoyo: true,
+    ease: "none",
+  });
+}
+
 gsap.to("#boss-img", {
   y: "5%",
   scaleY: 1,
@@ -39,9 +49,11 @@ Alpine.data("quiz", () => ({
     if (answer === this.currentQuestion.risposta_corretta) {
       this.bossHp -= 1;
       this.bossDamage += 1;
+      flashDamage("#boss-img");
     } else {
       this.playerHp -= 1;
       this.playerDamage += 1;
+      flashDamage("#player-img");
     }
 
     this.currentQuestionIndex++;
