@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="/style.css" />
     <script type="module" src="./main.js"></script>
   </head>
-  <body>
+  <body class="bg-cyan">
     <main
       class="flex flex-col justify-start items-center w-full h-lvh p-16 space-y-12"
     >
@@ -72,7 +72,7 @@
           <div class="flex flex-wrap justify-center gap-4">
             <template x-for="topic in $store.game.topics" :key="topic">
               <a
-                class="bg-lightgray text-black border-2 border-lightgray text-2xl font-sans px-4 py-2 hover:border-black"
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
                 x-text="topic.label"
                 :href="'game.html?topic=' + topic.slug"
               ></a>
