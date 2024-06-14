@@ -11,18 +11,21 @@
     <link rel="stylesheet" href="/style.css" />
     <script type="module" src="./main.js"></script>
   </head>
-  <body class="bg-cyan">
-    <div
+  <body
+    class="bg-cyan bg-[url('/img/bg_index_mobile.png')] lg:bg-[url('/img/bg_index.png')] bg-cover bg-no-repeat"
+  >
+    <div class="absolute z-0 w-full h-full"></div>
+    <!--    <div
       class="flex flex-row w-full h-[95lvh] absolute left-0 bottom-0 z-10 bg-contain bg-no-repeat bg-left-bottom bg-[url('/img/trees-left.png')]"
     ></div>
 
     <div
-      class="flex flex-row w-full h-[25lvh] absolute center-0 bottom-0 z-0 bg-contain bg-bottom bg-repeat-round bg-[url('/img/street.png')]"
+      class="flex flex-row w-full h-full absolute center-0 bottom-0 z-0 bg-contain bg-bottom bg-no-repeat bg-[url('/img/street.png')]"
     ></div>
 
     <div
       class="flex flex-row w-full h-[95lvh] absolute right-0 bottom-0 z-10 bg-contain bg-no-repeat bg-right-bottom bg-[url('/img/trees-right.png')]"
-    ></div>
+    ></div>-->
 
     <main
       class="flex flex-col justify-start items-center w-full h-lvh p-16 space-y-12 absolute z-10"
@@ -30,7 +33,7 @@
       <h1>
         <svg
           id="logo"
-          class="overflow-visible"
+          class="overflow-visible w-full h-full"
           xmlns="http://www.w3.org/2000/svg"
           width="594"
           height="150"
@@ -79,7 +82,7 @@
       </h1>
       <div class="flex flex-col text-center space-y-8">
         <h2 class="text-4xl font-sans h-1/2">Che cos'è?</h2>
-        <div class="space-y-4">
+        <div class="text-black space-y-4 bg-white bg-opacity-80 p-4">
           <p>Sfida la tua conoscenza in un'epica battaglia a quiz!</p>
           <ul class="list-disc list-inside">
             <li>Il boss ha 30 punti vita mentre tu ne hai 10</li>
@@ -96,7 +99,7 @@
       </div>
       <a href="topics.html"
         ><button
-          class="text-2xl font-serif bg-transparent text-black border-2 border-black px-8 py-4 hover:bg-black hover:text-white transition-colors duration-300 ease-in-out"
+          class="text-2xl font-serif bg-black text-white border-2 border-black px-8 py-4 hover:bg-transparent hover:text-black transition-colors duration-300 ease-in-out"
         >
           Clicca qui per giocare!
         </button></a
