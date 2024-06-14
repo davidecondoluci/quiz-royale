@@ -69,7 +69,7 @@
       <div
         id="quiz-view"
         x-show="state == 'game'"
-        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full justify-between items-center p-4 lg:p-16 bg-white"
+        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full justify-between items-center p-8 lg:p-16 bg-white"
       >
         <h1
           class="hidden lg:flex lg:flex-row lg:justify-center lg:items-center"
@@ -122,11 +122,11 @@
             class="text-2xl text-center h-32 lg:h-24"
           ></h2>
           <template x-for="answer in currentQuestion.risposte">
-            <a
+            <button
               x-text="answer"
               @click="answerQuestion(answer)"
               class="text-2xl font-serif lg:px-16 lg:py-4 bg-midgray text-white border-2 border-darkgray hover:bg-darkgray hover:text-white transition-colors duration-300 ease-in-out"
-            ></a>
+            ></button>
           </template>
         </div>
         <div class="flex flex-row w-full justify-between items-center">
@@ -145,50 +145,50 @@
       <div
         x-show="state == 'lose'"
         x-cloak
-        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full items-center justify-center text-center p-16 space-y-16 bg-darkpurple text-white"
+        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full items-center justify-center text-center p-16 space-y-16 bg-white text-black"
       >
         <h3 class="text-8xl">Hai perso</h3>
         <div class="flex flex-col lg:flex-row w-full justify-between">
-          <a
+          <button
             @click="restartGame"
             class="text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue ransition-colors duration-300 ease-in-out"
           >
             Ricomincia
-          </a>
-          <a
+          </button>
+          <button
             @click="changeTopic"
             class="text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
           >
             Cambia Argomento
-          </a>
-          <a
+          </button>
+          <button
             @click="exitGame"
             class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out"
           >
             Esci
-          </a>
+          </button>
         </div>
       </div>
 
       <div
         x-show="state == 'win'"
         x-cloak
-        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full items-center justify-center p-16 space-y-16 bg-blue text-white"
+        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full items-center justify-center text-center p-16 space-y-16 bg-white text-black"
       >
         <h3 class="text-8xl">Hai vinto!</h3>
         <div class="flex flex-row w-full justify-between">
-          <a
+          <button
             @click="restartGame"
             class="text-2xl font-serif px-8 py-2 bg-purple text-white hover:bg-darkpurple ransition-colors duration-300 ease-in-out"
           >
             Ricomincia
-          </a>
-          <a
+          </button>
+          <button
             @click="changeTopic"
             class="text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
           >
             Cambia Argomento
-          </a>
+          </button>
           <a
             @click="exitGame"
             class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out"
