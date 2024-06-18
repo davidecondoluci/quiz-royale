@@ -2,304 +2,304 @@
     "playerImage": "/img/player_trident.png",
     "questions": [
         {
-            "domanda": "Mia o miao miao?",
+            "domanda": "Chi è il dio del mare nella mitologia greca?",
             "risposte": [
-                "Trattato di Versailles",
-                "Pace di Westphalia",
-                "Conferenza di Yalta",
-                "Accordo di Monaco"
+                "Zeus",
+                "Ade",
+                "Ares",
+                "Poseidone"
             ],
-            "risposta_corretta": "Trattato di Versailles"
+            "risposta_corretta": "Poseidone"
         },
         {
-            "domanda": "Chi fu il primo presidente degli Stati Uniti d'America?",
+            "domanda": "Quale animale è associato alla dea Atena?",
             "risposte": [
-                "George Washington",
-                "Thomas Jefferson",
-                "John Adams",
-                "James Madison"
+                "Cavallo",
+                "Serpente",
+                "Civetta",
+                "Lupo"
             ],
-            "risposta_corretta": "George Washington"
+            "risposta_corretta": "Civetta"
         },
         {
-            "domanda": "Quando è iniziata la Rivoluzione Francese?",
+            "domanda": "Chi è il dio della guerra nella mitologia romana?",
             "risposte": [
-                "1789",
-                "1799",
-                "1776",
-                "1804"
+                "Apollo",
+                "Marte",
+                "Nettuno",
+                "Plutone"
             ],
-            "risposta_corretta": "1789"
+            "risposta_corretta": "Marte"
         },
         {
-            "domanda": "Qual è stato il risultato della Battaglia di Stalingrado?",
+            "domanda": "Chi è la dea dell'amore e della bellezza nella mitologia greca?",
             "risposte": [
-                "Vittoria dell'Asse",
-                "Vittoria degli Alleati",
-                "Stallo",
-                "Cessate il fuoco"
+                "Era",
+                "Atena",
+                "Artemide",
+                "Afrodite"
             ],
-            "risposta_corretta": "Vittoria degli Alleati"
+            "risposta_corretta": "Afrodite"
         },
         {
-            "domanda": "Chi era il leader della Germania nazista durante la Seconda Guerra Mondiale?",
+            "domanda": "Chi è il re degli dèi nella mitologia greca?",
             "risposte": [
-                "Adolf Hitler",
-                "Joseph Stalin",
-                "Benito Mussolini",
-                "Hirohito"
+                "Poseidone",
+                "Ade",
+                "Zeus",
+                "Ermes"
             ],
-            "risposta_corretta": "Adolf Hitler"
+            "risposta_corretta": "Zeus"
         },
         {
-            "domanda": "Dove è stata firmata la Dichiarazione di Indipendenza degli Stati Uniti?",
+            "domanda": "Quale è il nome del dio del sole nella mitologia egizia?",
             "risposte": [
-                "Filadelfia",
-                "Boston",
-                "New York",
-                "Washington D.C."
+                "Ra",
+                "Anubi",
+                "Osiride",
+                "Horus"
             ],
-            "risposta_corretta": "Filadelfia"
+            "risposta_corretta": "Ra"
         },
         {
-            "domanda": "Chi ha scoperto l'America?",
+            "domanda": "Chi è il dio del vino e delle feste nella mitologia greca?",
             "risposte": [
-                "Cristoforo Colombo",
-                "Amerigo Vespucci",
-                "Ferdinando Magellano",
-                "Vasco da Gama"
+                "Ermes",
+                "Dioniso",
+                "Ares",
+                "Apollo"
             ],
-            "risposta_corretta": "Cristoforo Colombo"
+            "risposta_corretta": "Dioniso"
         },
         {
-            "domanda": "Qual è stata la causa principale della Guerra Civile Americana?",
+            "domanda": "Quale eroe greco uccise il Minotauro?",
             "risposte": [
-                "La schiavitù",
-                "La tassazione senza rappresentanza",
-                "Le dispute territoriali",
-                "Le tensioni politiche"
+                "Ercole",
+                "Teseo",
+                "Achille",
+                "Perseo"
             ],
-            "risposta_corretta": "La schiavitù"
+            "risposta_corretta": "Teseo"
         },
         {
-            "domanda": "Chi era la regina d'Egitto famosa per il suo rapporto con Marco Antonio e Cesare?",
+            "domanda": "Chi è il dio del fuoco e della metallurgia nella mitologia romana?",
             "risposte": [
-                "Cleopatra",
-                "Nefertiti",
-                "Hatshepsut",
-                "Iside"
+                "Mercurio",
+                "Nettuno",
+                "Vulcano",
+                "Giove"
             ],
-            "risposta_corretta": "Cleopatra"
+            "risposta_corretta": "Vulcano"
         },
         {
-            "domanda": "Qual era la capitale dell'Impero Romano d'Occidente prima della sua caduta?",
+            "domanda": "Chi è la dea della caccia nella mitologia greca?",
             "risposte": [
-                "Roma",
-                "Costantinopoli",
-                "Atene",
-                "Cartagine"
+                "Afrodite",
+                "Atena",
+                "Demetra",
+                "Artemide"
             ],
-            "risposta_corretta": "Roma"
+            "risposta_corretta": "Artemide"
         },
         {
-            "domanda": "Qual è stata la dinastia regnante in Inghilterra durante il Rinascimento inglese?",
+            "domanda": "Quale è il nome del dio del cielo e del tuono nella mitologia norrena?",
             "risposte": [
-                "Tudor",
-                "Stuart",
-                "Plantageneti",
-                "Hanoveriani"
+                "Odino",
+                "Thor",
+                "Loki",
+                "Frey"
             ],
-            "risposta_corretta": "Tudor"
+            "risposta_corretta": "Thor"
         },
         {
-            "domanda": "In quale anno è avvenuta la caduta dell'Impero Romano d'Occidente?",
+            "domanda": "Chi è il dio degli inferi nella mitologia greca?",
             "risposte": [
-                "476 d.C.",
-                "410 d.C.",
-                "455 d.C.",
-                "490 d.C."
+                "Zeus",
+                "Poseidone",
+                "Ade",
+                "Ares"
             ],
-            "risposta_corretta": "476 d.C."
+            "risposta_corretta": "Ade"
         },
         {
-            "domanda": "Qual era il nome del leader sovietico che succedette a Lenin?",
+            "domanda": "Quale dea greca è associata alla magia e alla stregoneria?",
             "risposte": [
-                "Joseph Stalin",
-                "Leon Trotsky",
-                "Nikita Khrushchev",
-                "Mikhail Gorbachev"
+                "Hestia",
+                "Hera",
+                "Hecate",
+                "Aphrodite"
             ],
-            "risposta_corretta": "Joseph Stalin"
+            "risposta_corretta": "Hecate"
         },
         {
-            "domanda": "Quando avvenne l'attacco a Pearl Harbor?",
+            "domanda": "Chi è il dio della luce nella mitologia romana?",
             "risposte": [
-                "7 dicembre 1941",
-                "4 luglio 1942",
-                "6 giugno 1944",
-                "15 agosto 1945"
+                "Giove",
+                "Apollo",
+                "Plutone",
+                "Nettuno"
             ],
-            "risposta_corretta": "7 dicembre 1941"
+            "risposta_corretta": "Apollo"
         },
         {
-            "domanda": "Quale evento segna l'inizio del Medioevo?",
+            "domanda": "Chi è il dio della guerra e della tempesta nella mitologia egizia?",
             "risposte": [
-                "La scoperta dell'America",
-                "La caduta dell'Impero Romano d'Occidente",
-                "La Riforma Protestante",
-                "La Guerra dei Cent'Anni"
+                "Anubi",
+                "Osiride",
+                "Seth",
+                "Horus"
             ],
-            "risposta_corretta": "La caduta dell'Impero Romano d'Occidente"
+            "risposta_corretta": "Seth"
         },
         {
-            "domanda": "Quando è stata fondata l'antica città di Roma?",
+            "domanda": "Quale mostro mitologico è metà uomo e metà toro?",
             "risposte": [
-                "753 a.C.",
-                "509 a.C.",
-                "1000 a.C.",
-                "200 a.C."
+                "Ciclope",
+                "Minotauro",
+                "Caronte",
+                "Chimera"
             ],
-            "risposta_corretta": "753 a.C."
+            "risposta_corretta": "Minotauro"
         },
         {
-            "domanda": "Qual era la capitale dell'Impero Bizantino?",
+            "domanda": "Chi è il dio dell'amore nella mitologia greca?",
             "risposte": [
-                "Costantinopoli",
-                "Atene",
-                "Roma",
-                "Milano"
+                "Apollo",
+                "Eros",
+                "Dioniso",
+                "Ares"
             ],
-            "risposta_corretta": "Costantinopoli"
+            "risposta_corretta": "Eros"
         },
         {
-            "domanda": "Chi era il fondatore della dinastia Ming in Cina?",
+            "domanda": "Quale è il nome della dea della saggezza e della guerra nella mitologia romana?",
             "risposte": [
-                "Zhu Yuanzhang",
-                "Qin Shi Huang",
-                "Gengis Khan",
-                "Sun Yat-sen"
+                "Giunone",
+                "Diana",
+                "Minerva",
+                "Venere"
             ],
-            "risposta_corretta": "Zhu Yuanzhang"
+            "risposta_corretta": "Minerva"
         },
         {
-            "domanda": "Quale evento segnò l'inizio della Rivoluzione Industriale in Gran Bretagna?",
+            "domanda": "Quale creatura mitologica aveva la testa di un leone, il corpo di una capra e la coda di un serpente?",
             "risposte": [
-                "L'invenzione della macchina a vapore",
-                "La Rivoluzione Francese",
-                "La scoperta dell'elettricità",
-                "La fondazione dell'Impero britannico"
+                "Medusa",
+                "Chimera",
+                "Cerbero",
+                "Sfinge"
             ],
-            "risposta_corretta": "L'invenzione della macchina a vapore"
+            "risposta_corretta": "Chimera"
         },
         {
-            "domanda": "Chi fu il principale artefice dell'Unità d'Italia?",
+            "domanda": "Chi era la regina degli dei nella mitologia romana?",
             "risposte": [
-                "Giuseppe Garibaldi",
-                "Camillo Benso di Cavour",
-                "Vittorio Emanuele II",
-                "Giuseppe Mazzini"
+                "Venere",
+                "Minerva",
+                "Giunone",
+                "Diana"
             ],
-            "risposta_corretta": "Camillo Benso di Cavour"
+            "risposta_corretta": "Giunone"
         },
         {
-            "domanda": "Chi ha guidato la Rivoluzione Russa del 1917?",
+            "domanda": "Chi è il dio della medicina nella mitologia greca?",
             "risposte": [
-                "Vladimir Lenin",
-                "Joseph Stalin",
-                "Leon Trotsky",
-                "Nikita Khrushchev"
+                "Apollo",
+                "Asclepio",
+                "Hermes",
+                "Zeus"
             ],
-            "risposta_corretta": "Vladimir Lenin"
+            "risposta_corretta": "Asclepio"
         },
         {
-            "domanda": "Qual è stato il risultato della Guerra dei Cent'Anni?",
+            "domanda": "Quale mostro mitologico aveva serpenti al posto dei capelli e poteva pietrificare chiunque la guardasse negli occhi?",
             "risposte": [
-                "Vittoria dell'Inghilterra",
-                "Vittoria della Francia",
-                "Stallo",
-                "Conflitto risolto da trattati di pace"
+                "Medusa",
+                "Aracne",
+                "Sirena",
+                "Harpia"
             ],
-            "risposta_corretta": "Conflitto risolto da trattati di pace"
+            "risposta_corretta": "Medusa"
         },
         {
-            "domanda": "Chi è stato il primo imperatore romano?",
+            "domanda": "Chi è il dio del sole nella mitologia greca?",
             "risposte": [
-                "Augusto",
-                "Nerone",
-                "Caligola",
-                "Tiberio"
+                "Apollo",
+                "Helios",
+                "Hermes",
+                "Zeus"
             ],
-            "risposta_corretta": "Augusto"
+            "risposta_corretta": "Helios"
         },
         {
-            "domanda": "Quale evento ha segnato la fine dell'Impero Ottomano?",
+            "domanda": "Chi è il dio del vino nella mitologia romana?",
             "risposte": [
-                "Trattato di Versailles",
-                "Trattato di Sèvres",
-                "Pace di Westphalia",
-                "Accordo di Monaco"
+                "Bacco",
+                "Marte",
+                "Giove",
+                "Mercurio"
             ],
-            "risposta_corretta": "Trattato di Sèvres"
+            "risposta_corretta": "Bacco"
         },
         {
-            "domanda": "Chi era il famoso esploratore portoghese che circumnavigò la Terra?",
+            "domanda": "Quale è il nome del dio del mare nella mitologia romana?",
             "risposte": [
-                "Ferdinando Magellano",
-                "Vasco da Gama",
-                "Amerigo Vespucci",
-                "Henry Hudson"
+                "Giove",
+                "Nettuno",
+                "Plutone",
+                "Marte"
             ],
-            "risposta_corretta": "Ferdinando Magellano"
+            "risposta_corretta": "Nettuno"
         },
         {
-            "domanda": "Quale città antica è considerata il luogo di nascita della democrazia?",
+            "domanda": "Chi è la dea della fertilità e dell'agricoltura nella mitologia greca?",
             "risposte": [
-                "Atene",
-                "Roma",
-                "Cartagine",
-                "Sparta"
+                "Afrodite",
+                "Atena",
+                "Demetra",
+                "Era"
             ],
-            "risposta_corretta": "Atene"
+            "risposta_corretta": "Demetra"
         },
         {
-            "domanda": "Qual era la principale causa della Rivoluzione Americana?",
+            "domanda": "Chi è il re degli dei nella mitologia romana?",
             "risposte": [
-                "La tassazione senza rappresentanza",
-                "La ribellione dei coloni",
-                "La conquista della Nuova Inghilterra",
-                "L'intervento straniero"
+                "Marte",
+                "Giove",
+                "Nettuno",
+                "Plutone"
             ],
-            "risposta_corretta": "La tassazione senza rappresentanza"
+            "risposta_corretta": "Giove"
         },
         {
-            "domanda": "Qual era il nome della politica di segregazione razziale in Sudafrica?",
+            "domanda": "Quale è il nome della dea della vittoria nella mitologia greca?",
             "risposte": [
-                "Apartheid",
-                "Jim Crow",
-                "Segregazione",
-                "Distinzione"
+                "Nike",
+                "Hera",
+                "Gaia",
+                "Persefone"
             ],
-            "risposta_corretta": "Apartheid"
+            "risposta_corretta": "Nike"
         },
         {
-            "domanda": "Chi era il leader della resistenza francese durante la Seconda Guerra Mondiale?",
+            "domanda": "Quale è il nome del dio degli dei nella mitologia norrena?",
             "risposte": [
-                "Charles de Gaulle",
-                "Philippe Pétain",
-                "Henri Philippe Pétain",
-                "Jean Moulin"
+                "Thor",
+                "Loki",
+                "Freyr",
+                "Odino"
             ],
-            "risposta_corretta": "Charles de Gaulle"
+            "risposta_corretta": "Odino"
         },
         {
-            "domanda": "Qual è stato il principale obiettivo delle Crociate?",
+            "domanda": "Quale animale è associato alla dea greca Artemide?",
             "risposte": [
-                "Riconquistare Gerusalemme",
-                "Espandere l'influenza cristiana",
-                "Conquistare l'Egitto",
-                "Accumulare ricchezze"
+                "Aquila",
+                "Cane",
+                "Serpente",
+                "Cervo"
             ],
-            "risposta_corretta": "Riconquistare Gerusalemme"
+            "risposta_corretta": "Cervo"
         }
     ]
 }

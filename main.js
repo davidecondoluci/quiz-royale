@@ -66,6 +66,15 @@ function flashDamage(target) {
   );
 }
 
+const startButton = document.getElementById("startButton");
+gsap.to(startButton, {
+  scale: 1.05, // Scala del 5% in più
+  duration: 1, // Durata dell'animazione in secondi
+  repeat: -1, // Ripeti l'animazione all'infinito
+  yoyo: true, // Ripeti l'animazione al contrario per rendere pulsante
+  ease: "power1.inOut", // Easing dell'animazione (opzionale)
+});
+
 gsap.to("#boss-img", {
   y: "5%",
   scaleY: 1,

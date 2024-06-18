@@ -17,10 +17,10 @@
     <script type="module" src="./main.js"></script>
   </head>
   <body>
-    <main x-data="quiz()" class="flex flex-col lg:flex-row w-full h-lvh">
+    <main x-data="quiz()" class="flex flex-col lg:flex-row w-full h-screen">
       <div
         id="game-view"
-        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full justify-between items-center p-4 lg:p-16 bg-[url('/img/bg.png')] bg-no-repeat bg-cover"
+        class="flex flex-col w-full lg:w-1/2 h-2/5 md:h-1/2 lg:h-full justify-between items-center p-4 lg:p-16 bg-[url('/img/bg.png')] bg-bottom bg-no-repeat bg-cover"
       >
         <div
           class="flex flex-col w-full h-1/2 justify-start items-center space-y-4"
@@ -69,7 +69,7 @@
       <div
         id="quiz-view"
         x-show="state == 'game'"
-        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full justify-between items-center p-8 lg:p-16 bg-white"
+        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-between items-center p-8 lg:p-16 bg-white"
       >
         <h1
           class="hidden lg:flex lg:flex-row lg:justify-center lg:items-center"
@@ -163,7 +163,7 @@
           </button>
           <button
             @click="exitGame"
-            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out"
+            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out cursor-pointer"
           >
             Esci
           </button>
@@ -191,7 +191,7 @@
           </button>
           <a
             @click="exitGame"
-            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out"
+            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out cursor-pointer"
           >
             Esci
           </a>

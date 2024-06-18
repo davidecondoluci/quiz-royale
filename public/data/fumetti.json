@@ -2,304 +2,304 @@
     "playerImage": "/img/player_wizard_hat.png",
     "questions": [
         {
-            "domanda": "Mia o miao miao?",
+            "domanda": "Qual è il soprannome di Natasha Romanoff?",
             "risposte": [
-                "Trattato di Versailles",
-                "Pace di Westphalia",
-                "Conferenza di Yalta",
-                "Accordo di Monaco"
+                "Black Canary",
+                "Black Widow",
+                "Scarlet Witch",
+                "Catwoman"
             ],
-            "risposta_corretta": "Trattato di Versailles"
+            "risposta_corretta": "Black Widow"
         },
         {
-            "domanda": "Chi fu il primo presidente degli Stati Uniti d'America?",
+            "domanda": "Qual è il vero nome di Spider-Man?",
             "risposte": [
-                "George Washington",
-                "Thomas Jefferson",
-                "John Adams",
-                "James Madison"
+                "Bruce Banner",
+                "Steve Rogers",
+                "Peter Parker",
+                "Matt Murdock"
             ],
-            "risposta_corretta": "George Washington"
+            "risposta_corretta": "Peter Parker"
         },
         {
-            "domanda": "Quando è iniziata la Rivoluzione Francese?",
+            "domanda": "Chi è il nemico principale di Spider-Man?",
             "risposte": [
-                "1789",
-                "1799",
-                "1776",
-                "1804"
+                "Venom",
+                "Green Goblin",
+                "Doctor Octopus",
+                "Magneto"
             ],
-            "risposta_corretta": "1789"
+            "risposta_corretta": "Green Goblin"
         },
         {
-            "domanda": "Qual è stato il risultato della Battaglia di Stalingrado?",
+            "domanda": "Qual è il colore predominante dell'abito di Iron Man?",
             "risposte": [
-                "Vittoria dell'Asse",
-                "Vittoria degli Alleati",
-                "Stallo",
-                "Cessate il fuoco"
+                "Blu",
+                "Giallo",
+                "Rosso",
+                "Verde"
             ],
-            "risposta_corretta": "Vittoria degli Alleati"
+            "risposta_corretta": "Rosso"
         },
         {
-            "domanda": "Chi era il leader della Germania nazista durante la Seconda Guerra Mondiale?",
+            "domanda": "Qual è il nome del pianeta natale di Superman?",
             "risposte": [
-                "Adolf Hitler",
-                "Joseph Stalin",
-                "Benito Mussolini",
-                "Hirohito"
+                "Krypton",
+                "Tatooine",
+                "Mars",
+                "Earth"
             ],
-            "risposta_corretta": "Adolf Hitler"
+            "risposta_corretta": "Krypton"
         },
         {
-            "domanda": "Dove è stata firmata la Dichiarazione di Indipendenza degli Stati Uniti?",
+            "domanda": "Chi è il principale avversario di Batman?",
             "risposte": [
-                "Filadelfia",
-                "Boston",
-                "New York",
-                "Washington D.C."
+                "The Joker",
+                "Lex Luthor",
+                "Catwoman",
+                "Harley Quinn"
             ],
-            "risposta_corretta": "Filadelfia"
+            "risposta_corretta": "The Joker"
         },
         {
-            "domanda": "Chi ha scoperto l'America?",
+            "domanda": "Chi è il creatore di Spider-Man?",
             "risposte": [
-                "Cristoforo Colombo",
-                "Amerigo Vespucci",
-                "Ferdinando Magellano",
-                "Vasco da Gama"
+                "Stan Lee",
+                "Bob Kane",
+                "Jack Kirby",
+                "Alan Moore"
             ],
-            "risposta_corretta": "Cristoforo Colombo"
+            "risposta_corretta": "Stan Lee"
         },
         {
-            "domanda": "Qual è stata la causa principale della Guerra Civile Americana?",
+            "domanda": "Qual è il simbolo che porta sul petto Superman?",
             "risposte": [
-                "La schiavitù",
-                "La tassazione senza rappresentanza",
-                "Le dispute territoriali",
-                "Le tensioni politiche"
+                "Una rana",
+                "Una stella",
+                "Una S",
+                "Un fulmine"
             ],
-            "risposta_corretta": "La schiavitù"
+            "risposta_corretta": "Una S"
         },
         {
-            "domanda": "Chi era la regina d'Egitto famosa per il suo rapporto con Marco Antonio e Cesare?",
+            "domanda": "Qual è l'identità segreta di Wonder Woman?",
             "risposte": [
-                "Cleopatra",
-                "Nefertiti",
-                "Hatshepsut",
-                "Iside"
+                "Diana Prince",
+                "Selina Kyle",
+                "Natasha Romanoff",
+                "Carol Danvers"
             ],
-            "risposta_corretta": "Cleopatra"
+            "risposta_corretta": "Diana Prince"
         },
         {
-            "domanda": "Qual era la capitale dell'Impero Romano d'Occidente prima della sua caduta?",
+            "domanda": "Chi è il nemico di lunga data di Captain America?",
             "risposte": [
-                "Roma",
-                "Costantinopoli",
-                "Atene",
-                "Cartagine"
+                "Red Skull",
+                "Loki",
+                "Thanos",
+                "Ultron"
             ],
-            "risposta_corretta": "Roma"
+            "risposta_corretta": "Red Skull"
         },
         {
-            "domanda": "Qual è stata la dinastia regnante in Inghilterra durante il Rinascimento inglese?",
+            "domanda": "Qual è il vero nome di Thor?",
             "risposte": [
-                "Tudor",
-                "Stuart",
-                "Plantageneti",
-                "Hanoveriani"
+                "Tony Stark",
+                "Bruce Banner",
+                "Thor Odinson",
+                "Steve Rogers"
             ],
-            "risposta_corretta": "Tudor"
+            "risposta_corretta": "Thor Odinson"
         },
         {
-            "domanda": "In quale anno è avvenuta la caduta dell'Impero Romano d'Occidente?",
+            "domanda": "Chi è il creatore di Hulk?",
             "risposte": [
-                "476 d.C.",
-                "410 d.C.",
-                "455 d.C.",
-                "490 d.C."
+                "Jack Kirby",
+                "Stan Lee",
+                "Frank Miller",
+                "Todd McFarlane"
             ],
-            "risposta_corretta": "476 d.C."
+            "risposta_corretta": "Stan Lee"
         },
         {
-            "domanda": "Qual era il nome del leader sovietico che succedette a Lenin?",
+            "domanda": "Qual è il nome della città in cui si svolgono le avventure di Batman?",
             "risposte": [
-                "Joseph Stalin",
-                "Leon Trotsky",
-                "Nikita Khrushchev",
-                "Mikhail Gorbachev"
+                "Gotham City",
+                "Metropolis",
+                "Central City",
+                "Star City"
             ],
-            "risposta_corretta": "Joseph Stalin"
+            "risposta_corretta": "Gotham City"
         },
         {
-            "domanda": "Quando avvenne l'attacco a Pearl Harbor?",
+            "domanda": "Chi è il nemico principale di Flash?",
             "risposte": [
-                "7 dicembre 1941",
-                "4 luglio 1942",
-                "6 giugno 1944",
-                "15 agosto 1945"
+                "Reverse Flash",
+                "Zoom",
+                "Captain Cold",
+                "Gorilla Grodd"
             ],
-            "risposta_corretta": "7 dicembre 1941"
+            "risposta_corretta": "Reverse Flash"
         },
         {
-            "domanda": "Quale evento segna l'inizio del Medioevo?",
+            "domanda": "Qual è il nome del mentor di Green Lantern?",
             "risposte": [
-                "La scoperta dell'America",
-                "La caduta dell'Impero Romano d'Occidente",
-                "La Riforma Protestante",
-                "La Guerra dei Cent'Anni"
+                "Sinestro",
+                "Kilowog",
+                "Hal Jordan",
+                "Abin Sur"
             ],
-            "risposta_corretta": "La caduta dell'Impero Romano d'Occidente"
+            "risposta_corretta": "Abin Sur"
         },
         {
-            "domanda": "Quando è stata fondata l'antica città di Roma?",
+            "domanda": "Quale supereroe ha una cintura con gadget a forma di pipistrello?",
             "risposte": [
-                "753 a.C.",
-                "509 a.C.",
-                "1000 a.C.",
-                "200 a.C."
+                "Superman",
+                "Wonder Woman",
+                "Green Lantern",
+                "Batman"
             ],
-            "risposta_corretta": "753 a.C."
+            "risposta_corretta": "Batman"
         },
         {
-            "domanda": "Qual era la capitale dell'Impero Bizantino?",
+            "domanda": "Qual è il nome del robot amico di Astro Boy?",
             "risposte": [
-                "Costantinopoli",
-                "Atene",
-                "Roma",
-                "Milano"
+                "Mazinger Z",
+                "Voltron",
+                "Gundam",
+                "Uran"
             ],
-            "risposta_corretta": "Costantinopoli"
+            "risposta_corretta": "Uran"
         },
         {
-            "domanda": "Chi era il fondatore della dinastia Ming in Cina?",
+            "domanda": "Chi è il nemico di Wolverine noto per il rivestimento di adamantio?",
             "risposte": [
-                "Zhu Yuanzhang",
-                "Qin Shi Huang",
-                "Gengis Khan",
-                "Sun Yat-sen"
+                "Sabretooth",
+                "Magneto",
+                "Juggernaut",
+                "Mystique"
             ],
-            "risposta_corretta": "Zhu Yuanzhang"
+            "risposta_corretta": "Sabretooth"
         },
         {
-            "domanda": "Quale evento segnò l'inizio della Rivoluzione Industriale in Gran Bretagna?",
+            "domanda": "Qual è il nome della ragazza adolescente che può controllare il tempo?",
             "risposte": [
-                "L'invenzione della macchina a vapore",
-                "La Rivoluzione Francese",
-                "La scoperta dell'elettricità",
-                "La fondazione dell'Impero britannico"
+                "Storm",
+                "Rogue",
+                "Jean Grey",
+                "Jubilee"
             ],
-            "risposta_corretta": "L'invenzione della macchina a vapore"
+            "risposta_corretta": "Storm"
         },
         {
-            "domanda": "Chi fu il principale artefice dell'Unità d'Italia?",
+            "domanda": "Chi è il creatore di Deadpool?",
             "risposte": [
-                "Giuseppe Garibaldi",
-                "Camillo Benso di Cavour",
-                "Vittorio Emanuele II",
-                "Giuseppe Mazzini"
+                "Rob Liefeld",
+                "Jim Lee",
+                "Todd McFarlane",
+                "Frank Miller"
             ],
-            "risposta_corretta": "Camillo Benso di Cavour"
+            "risposta_corretta": "Rob Liefeld"
         },
         {
-            "domanda": "Chi ha guidato la Rivoluzione Russa del 1917?",
+            "domanda": "Qual è il nome del fumetto dove appare Hellboy?",
             "risposte": [
-                "Vladimir Lenin",
-                "Joseph Stalin",
-                "Leon Trotsky",
-                "Nikita Khrushchev"
+                "Dark Horse Comics",
+                "Marvel Comics",
+                "DC Comics",
+                "Image Comics"
             ],
-            "risposta_corretta": "Vladimir Lenin"
+            "risposta_corretta": "Dark Horse Comics"
         },
         {
-            "domanda": "Qual è stato il risultato della Guerra dei Cent'Anni?",
+            "domanda": "Chi è il nemico principale di Daredevil?",
             "risposte": [
-                "Vittoria dell'Inghilterra",
-                "Vittoria della Francia",
-                "Stallo",
-                "Conflitto risolto da trattati di pace"
+                "Kingpin",
+                "Bullseye",
+                "The Punisher",
+                "Elektra"
             ],
-            "risposta_corretta": "Conflitto risolto da trattati di pace"
+            "risposta_corretta": "Kingpin"
         },
         {
-            "domanda": "Chi è stato il primo imperatore romano?",
+            "domanda": "Qual è il nome dell'intelligenza artificiale che aiuta Tony Stark?",
             "risposte": [
-                "Augusto",
-                "Nerone",
-                "Caligola",
-                "Tiberio"
+                "Jarvis",
+                "Ultron",
+                "Vision",
+                "Friday"
             ],
-            "risposta_corretta": "Augusto"
+            "risposta_corretta": "Jarvis"
         },
         {
-            "domanda": "Quale evento ha segnato la fine dell'Impero Ottomano?",
+            "domanda": "Chi è il famoso acerrimo nemico di Captain America con il teschio rosso?",
             "risposte": [
-                "Trattato di Versailles",
-                "Trattato di Sèvres",
-                "Pace di Westphalia",
-                "Accordo di Monaco"
+                "Red Skull",
+                "Baron Zemo",
+                "Crossbones",
+                "Winter Soldier"
             ],
-            "risposta_corretta": "Trattato di Sèvres"
+            "risposta_corretta": "Red Skull"
         },
         {
-            "domanda": "Chi era il famoso esploratore portoghese che circumnavigò la Terra?",
+            "domanda": "Qual è il nome della ragazza adolescente che può controllare il tempo?",
             "risposte": [
-                "Ferdinando Magellano",
-                "Vasco da Gama",
-                "Amerigo Vespucci",
-                "Henry Hudson"
+                "Storm",
+                "Rogue",
+                "Jean Grey",
+                "Stormy Daniels"
             ],
-            "risposta_corretta": "Ferdinando Magellano"
+            "risposta_corretta": "Storm"
         },
         {
-            "domanda": "Quale città antica è considerata il luogo di nascita della democrazia?",
+            "domanda": "Chi è il creatore di Spawn?",
             "risposte": [
-                "Atene",
-                "Roma",
-                "Cartagine",
-                "Sparta"
+                "Todd McFarlane",
+                "Alan Moore",
+                "Frank Miller",
+                "Neil Gaiman"
             ],
-            "risposta_corretta": "Atene"
+            "risposta_corretta": "Todd McFarlane"
         },
         {
-            "domanda": "Qual era la principale causa della Rivoluzione Americana?",
+            "domanda": "Qual è il nome del gruppo di supereroi di Marvel che include Iron Man, Thor, Captain America e Hulk?",
             "risposte": [
-                "La tassazione senza rappresentanza",
-                "La ribellione dei coloni",
-                "La conquista della Nuova Inghilterra",
-                "L'intervento straniero"
+                "The Avengers",
+                "The X-Men",
+                "The Defenders",
+                "The Fantastic Four"
             ],
-            "risposta_corretta": "La tassazione senza rappresentanza"
+            "risposta_corretta": "The Avengers"
         },
         {
-            "domanda": "Qual era il nome della politica di segregazione razziale in Sudafrica?",
+            "domanda": "Chi è il supereroe noto per essere il più veloce del mondo?",
             "risposte": [
-                "Apartheid",
-                "Jim Crow",
-                "Segregazione",
-                "Distinzione"
+                "The Flash",
+                "Quicksilver",
+                "Green Arrow",
+                "Silver Surfer"
             ],
-            "risposta_corretta": "Apartheid"
+            "risposta_corretta": "The Flash"
         },
         {
-            "domanda": "Chi era il leader della resistenza francese durante la Seconda Guerra Mondiale?",
+            "domanda": "Qual è il nome del geniale villain dell'universo di Batman che è noto per le sue abilità nel criminale?",
             "risposte": [
-                "Charles de Gaulle",
-                "Philippe Pétain",
-                "Henri Philippe Pétain",
-                "Jean Moulin"
+                "Joker",
+                "Riddler",
+                "Penguin",
+                "Mr. Freeze"
             ],
-            "risposta_corretta": "Charles de Gaulle"
+            "risposta_corretta": "Riddler"
         },
         {
-            "domanda": "Qual è stato il principale obiettivo delle Crociate?",
+            "domanda": "Chi è il creatore di Wonder Woman?",
             "risposte": [
-                "Riconquistare Gerusalemme",
-                "Espandere l'influenza cristiana",
-                "Conquistare l'Egitto",
-                "Accumulare ricchezze"
+                "William Moulton Marston",
+                "Bob Kane",
+                "Stan Lee",
+                "Joe Shuster"
             ],
-            "risposta_corretta": "Riconquistare Gerusalemme"
+            "risposta_corretta": "William Moulton Marston"
         }
     ]
 }
