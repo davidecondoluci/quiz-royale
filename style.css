@@ -5,8 +5,8 @@
 /*Title*/
 @font-face {
   font-family: "Mondwest";
-  src: url("./fonts/PPMondwest-Regular.woff2") format("woff2"),
-    url("./fonts/PPMondwest-Regular.woff") format("woff");
+  src: url("./public/fonts/PPMondwest-Regular.woff2") format("woff2"),
+    url("./public/fonts/PPMondwest-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -14,8 +14,8 @@
 
 @font-face {
   font-family: "Mondwest";
-  src: url("./fonts/PPMondwest-Bold.woff2") format("woff2"),
-    url("./fonts/PPMondwest-Bold.woff") format("woff");
+  src: url("./public/fonts/PPMondwest-Bold.woff2") format("woff2"),
+    url("./public/fonts/PPMondwest-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -24,8 +24,8 @@
 /*Text*/
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-Bold.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-Bold.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -33,8 +33,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-BoldItalic.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-BoldItalic.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-BoldItalic.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -42,8 +42,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-ExtraBold.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-ExtraBold.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-ExtraBold.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -51,8 +51,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-MediumItalic.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-MediumItalic.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-MediumItalic.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
@@ -60,8 +60,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-Thin.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-Thin.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-Thin.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
   font-display: swap;
@@ -69,8 +69,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-SemiBoldItalic.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-SemiBoldItalic.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-SemiBoldItalic.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
   font-display: swap;
@@ -78,8 +78,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-ThinItalic.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-ThinItalic.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-ThinItalic.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
   font-display: swap;
@@ -87,8 +87,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-Regular.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-Regular.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -96,8 +96,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-Light.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-Light.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-Light.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
@@ -105,8 +105,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-Medium.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-Medium.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-Medium.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -114,8 +114,9 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-ExtraLightItalic.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-ExtraLightItalic.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-ExtraLightItalic.woff2")
+      format("woff2"),
+    url("./public/fonts/JetBrainsMono-ExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
   font-display: swap;
@@ -123,8 +124,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-SemiBold.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-SemiBold.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-SemiBold.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -132,8 +133,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-Italic.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-Italic.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-Italic.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
@@ -141,8 +142,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-ExtraBoldItalic.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-ExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
@@ -150,8 +151,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-LightItalic.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-LightItalic.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-LightItalic.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
@@ -159,8 +160,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("./fonts/JetBrainsMono-ExtraLight.woff2") format("woff2"),
-    url("./fonts/JetBrainsMono-ExtraLight.woff") format("woff");
+  src: url("./public/fonts/JetBrainsMono-ExtraLight.woff2") format("woff2"),
+    url("./public/fonts/JetBrainsMono-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
