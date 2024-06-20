@@ -238,23 +238,26 @@ timeline
 Alpine.start();
 
 document.addEventListener("DOMContentLoaded", () => {
-  const marquee1 = document.getElementById("line1");
-  const marquee2 = document.getElementById("line2");
+  const line1 = document.getElementById("line1");
+  const line2 = document.getElementById("line2");
+  const line3 = document.getElementById("line3");
 
-  const createMarqueeAnimation = (element, direction) => {
+  const createLineAnimation = (element, direction) => {
     const distance = element.scrollWidth;
+    const duration = 60;
     gsap.fromTo(
       element,
-      { x: direction === "left" ? distance : -distance },
+      { x: direction === "left" ? distance / 3 : -distance / 3 },
       {
         x: direction === "left" ? -distance : distance,
-        duration: 30,
+        duration: duration,
         ease: "linear",
         repeat: -1,
       }
     );
   };
 
-  createMarqueeAnimation(marquee1, "left");
-  createMarqueeAnimation(marquee2, "right");
+  createLineAnimation(line1, "left");
+  createLineAnimation(line2, "right");
+  createLineAnimation(line3, "left");
 });
