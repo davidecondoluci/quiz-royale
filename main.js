@@ -68,11 +68,11 @@ function flashDamage(target) {
 
 const startButton = document.getElementById("startButton");
 gsap.to(startButton, {
-  scale: 1.05, // Scala del 5% in più
-  duration: 1, // Durata dell'animazione in secondi
-  repeat: -1, // Ripeti l'animazione all'infinito
-  yoyo: true, // Ripeti l'animazione al contrario per rendere pulsante
-  ease: "power1.inOut", // Easing dell'animazione (opzionale)
+  scale: 1.05,
+  duration: 1,
+  repeat: -1,
+  yoyo: true,
+  ease: "power1.inOut",
 });
 
 gsap.to("#boss-img", {
@@ -238,18 +238,22 @@ timeline
 Alpine.start();
 
 document.addEventListener("DOMContentLoaded", () => {
+  const topicsContainer = document.getElementById("topics-container");
   const line1 = document.getElementById("line1");
   const line2 = document.getElementById("line2");
   const line3 = document.getElementById("line3");
+  const line4 = document.getElementById("line4");
+
+  let animationPaused = false;
 
   const createLineAnimation = (element, direction) => {
-    const distance = element.scrollWidth;
-    const duration = 60;
-    gsap.fromTo(
+    const duration = 30;
+    const offset = 25;
+    return gsap.fromTo(
       element,
-      { x: direction === "left" ? distance / 3 : -distance / 3 },
+      { x: direction === "left" ? `${-25 + offset}%` : `${25 - offset}%` },
       {
-        x: direction === "left" ? -distance : distance,
+        x: direction === "left" ? `${-50 + offset}%` : `${50 - offset}%`,
         duration: duration,
         ease: "linear",
         repeat: -1,
@@ -257,7 +261,20 @@ document.addEventListener("DOMContentLoaded", () => {
     );
   };
 
-  createLineAnimation(line1, "left");
-  createLineAnimation(line2, "right");
-  createLineAnimation(line3, "left");
+  const animations = [
+    createLineAnimation(line1, "left"),
+    createLineAnimation(line2, "right"),
+    createLineAnimation(line3, "left"),
+    createLineAnimation(line4, "right"),
+  ];
+
+  topicsContainer.addEventListener("mouseenter", () => {
+    animationPaused = true;
+    animations.forEach((animation) => animation.pause());
+  });
+
+  topicsContainer.addEventListener("mouseleave", () => {
+    animationPaused = false;
+    animations.forEach((animation) => animation.play());
+  });
 });

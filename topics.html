@@ -13,7 +13,7 @@
   </head>
   <body class="bg-cyan">
     <main
-      class="flex flex-col justify-start items-center w-full p-16 space-y-12"
+      class="flex flex-col justify-start overflow-hidden items-center w-full p-16 space-y-12"
     >
       <a href="index.html">
         <h1>
@@ -60,37 +60,130 @@
           </svg>
         </h1>
       </a>
-      <div class="flex flex-col text-center space-y-8" x-data>
+      <div class="flex flex-col text-center space-y-8">
         <h2 class="text-2xl md:text-4xl lg:text-4xl font-sans">
           Scegli un argomento
         </h2>
-        <div class="w-full overflow-hidden">
+        <div
+          id="topics-container"
+          class="flex flex-col space-y-8 max-w-full"
+          x-data
+        >
           <div id="line1" class="flex whitespace-nowrap">
             <template x-for="topic in $store.game.topics" :key="topic">
               <a
-                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
                 x-text="topic.label"
                 :href="'game.html?topic=' + topic.slug"
               ></a>
             </template>
           </div>
-        </div>
-        <div class="w-full overflow-hidden">
           <div id="line2" class="flex whitespace-nowrap">
             <template x-for="topic in $store.game.topics" :key="topic">
               <a
-                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
                 x-text="topic.label"
                 :href="'game.html?topic=' + topic.slug"
               ></a>
             </template>
           </div>
-        </div>
-        <div class="w-full overflow-hidden">
           <div id="line3" class="flex whitespace-nowrap">
             <template x-for="topic in $store.game.topics" :key="topic">
               <a
-                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+          </div>
+          <div id="line4" class="flex whitespace-nowrap">
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                x-text="topic.label"
+                :href="'game.html?topic=' + topic.slug"
+              ></a>
+            </template>
+            <template x-for="topic in $store.game.topics" :key="topic">
+              <a
+                class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 mx-4 hover:border-darkblue transition-colors duration-300 ease-in-out"
                 x-text="topic.label"
                 :href="'game.html?topic=' + topic.slug"
               ></a>
