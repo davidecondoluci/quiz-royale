@@ -28,7 +28,7 @@ Alpine.store("game", {
       slug: "tecnologia",
     },
     {
-      label: "📏 Matematica",
+      label: "🔢 Matematica",
       slug: "matematica",
     },
     { label: "👕 Moda", slug: "moda" },
@@ -236,3 +236,25 @@ timeline
   );
 
 Alpine.start();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const marquee1 = document.getElementById("line1");
+  const marquee2 = document.getElementById("line2");
+
+  const createMarqueeAnimation = (element, direction) => {
+    const distance = element.scrollWidth;
+    gsap.fromTo(
+      element,
+      { x: direction === "left" ? distance : -distance },
+      {
+        x: direction === "left" ? -distance : distance,
+        duration: 30,
+        ease: "linear",
+        repeat: -1,
+      }
+    );
+  };
+
+  createMarqueeAnimation(marquee1, "left");
+  createMarqueeAnimation(marquee2, "right");
+});
