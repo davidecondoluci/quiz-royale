@@ -2,304 +2,304 @@
     "playerImage": "/img/player_baseball_bat.png",
     "questions": [
         {
-            "domanda": "Mia o miao miao?",
+            "domanda": "Qual è il record mondiale dei 100 metri piani maschili?",
             "risposte": [
-                "Trattato di Versailles",
-                "Pace di Westphalia",
-                "Conferenza di Yalta",
-                "Accordo di Monaco"
+                "9.58 secondi",
+                "9.81 secondi",
+                "9.69 secondi",
+                "9.74 secondi"
             ],
-            "risposta_corretta": "Trattato di Versailles"
+            "risposta_corretta": "9.58 secondi"
         },
         {
-            "domanda": "Chi fu il primo presidente degli Stati Uniti d'America?",
+            "domanda": "Quale squadra di calcio ha vinto il maggior numero di Coppe del Mondo FIFA?",
             "risposte": [
-                "George Washington",
-                "Thomas Jefferson",
-                "John Adams",
-                "James Madison"
+                "Italia",
+                "Argentina",
+                "Germania",
+                "Brasile"
             ],
-            "risposta_corretta": "George Washington"
+            "risposta_corretta": "Brasile"
         },
         {
-            "domanda": "Quando è iniziata la Rivoluzione Francese?",
+            "domanda": "Chi è stato il primo giocatore di basket ad essere selezionato come numero 1 assoluto al draft NBA nel 2003?",
             "risposte": [
-                "1789",
-                "1799",
-                "1776",
-                "1804"
+                "Chris Bosh",
+                "LeBron James",
+                "Dwyane Wade",
+                "Carmelo Anthony"
             ],
-            "risposta_corretta": "1789"
+            "risposta_corretta": "LeBron James"
         },
         {
-            "domanda": "Qual è stato il risultato della Battaglia di Stalingrado?",
+            "domanda": "Qual è stato il primo sport olimpico ad accettare le donne come partecipanti?",
             "risposte": [
-                "Vittoria dell'Asse",
-                "Vittoria degli Alleati",
-                "Stallo",
-                "Cessate il fuoco"
+                "Tennis",
+                "Atletica leggera",
+                "Nuoto",
+                "Ginnastica"
             ],
-            "risposta_corretta": "Vittoria degli Alleati"
+            "risposta_corretta": "Tennis"
         },
         {
-            "domanda": "Chi era il leader della Germania nazista durante la Seconda Guerra Mondiale?",
+            "domanda": "Chi è considerato il miglior giocatore di cricket di tutti i tempi?",
             "risposte": [
-                "Adolf Hitler",
-                "Joseph Stalin",
-                "Benito Mussolini",
-                "Hirohito"
+                "Jacques Kallis",
+                "Ricky Ponting",
+                "Brian Lara",
+                "Sachin Tendulkar"
             ],
-            "risposta_corretta": "Adolf Hitler"
+            "risposta_corretta": "Sachin Tendulkar"
         },
         {
-            "domanda": "Dove è stata firmata la Dichiarazione di Indipendenza degli Stati Uniti?",
+            "domanda": "Qual è la distanza di una maratona olimpica?",
             "risposte": [
-                "Filadelfia",
-                "Boston",
-                "New York",
-                "Washington D.C."
+                "50 chilometri",
+                "42.195 chilometri",
+                "45 chilometri",
+                "40 chilometri"
             ],
-            "risposta_corretta": "Filadelfia"
+            "risposta_corretta": "42.195 chilometri"
         },
         {
-            "domanda": "Chi ha scoperto l'America?",
+            "domanda": "Chi è stato il primo pilota di Formula 1 a vincere sette campionati mondiali?",
             "risposte": [
-                "Cristoforo Colombo",
-                "Amerigo Vespucci",
-                "Ferdinando Magellano",
-                "Vasco da Gama"
+                "Alain Prost",
+                "Lewis Hamilton",
+                "Michael Schumacher",
+                "Ayrton Senna"
             ],
-            "risposta_corretta": "Cristoforo Colombo"
+            "risposta_corretta": "Michael Schumacher"
         },
         {
-            "domanda": "Qual è stata la causa principale della Guerra Civile Americana?",
-            "risposte": [
-                "La schiavitù",
-                "La tassazione senza rappresentanza",
-                "Le dispute territoriali",
-                "Le tensioni politiche"
-            ],
-            "risposta_corretta": "La schiavitù"
-        },
-        {
-            "domanda": "Chi era la regina d'Egitto famosa per il suo rapporto con Marco Antonio e Cesare?",
-            "risposte": [
-                "Cleopatra",
-                "Nefertiti",
-                "Hatshepsut",
-                "Iside"
-            ],
-            "risposta_corretta": "Cleopatra"
-        },
-        {
-            "domanda": "Qual era la capitale dell'Impero Romano d'Occidente prima della sua caduta?",
+            "domanda": "In quale città si sono svolti i primi Giochi Olimpici moderni nel 1896?",
             "risposte": [
                 "Roma",
-                "Costantinopoli",
                 "Atene",
-                "Cartagine"
-            ],
-            "risposta_corretta": "Roma"
-        },
-        {
-            "domanda": "Qual è stata la dinastia regnante in Inghilterra durante il Rinascimento inglese?",
-            "risposte": [
-                "Tudor",
-                "Stuart",
-                "Plantageneti",
-                "Hanoveriani"
-            ],
-            "risposta_corretta": "Tudor"
-        },
-        {
-            "domanda": "In quale anno è avvenuta la caduta dell'Impero Romano d'Occidente?",
-            "risposte": [
-                "476 d.C.",
-                "410 d.C.",
-                "455 d.C.",
-                "490 d.C."
-            ],
-            "risposta_corretta": "476 d.C."
-        },
-        {
-            "domanda": "Qual era il nome del leader sovietico che succedette a Lenin?",
-            "risposte": [
-                "Joseph Stalin",
-                "Leon Trotsky",
-                "Nikita Khrushchev",
-                "Mikhail Gorbachev"
-            ],
-            "risposta_corretta": "Joseph Stalin"
-        },
-        {
-            "domanda": "Quando avvenne l'attacco a Pearl Harbor?",
-            "risposte": [
-                "7 dicembre 1941",
-                "4 luglio 1942",
-                "6 giugno 1944",
-                "15 agosto 1945"
-            ],
-            "risposta_corretta": "7 dicembre 1941"
-        },
-        {
-            "domanda": "Quale evento segna l'inizio del Medioevo?",
-            "risposte": [
-                "La scoperta dell'America",
-                "La caduta dell'Impero Romano d'Occidente",
-                "La Riforma Protestante",
-                "La Guerra dei Cent'Anni"
-            ],
-            "risposta_corretta": "La caduta dell'Impero Romano d'Occidente"
-        },
-        {
-            "domanda": "Quando è stata fondata l'antica città di Roma?",
-            "risposte": [
-                "753 a.C.",
-                "509 a.C.",
-                "1000 a.C.",
-                "200 a.C."
-            ],
-            "risposta_corretta": "753 a.C."
-        },
-        {
-            "domanda": "Qual era la capitale dell'Impero Bizantino?",
-            "risposte": [
-                "Costantinopoli",
-                "Atene",
-                "Roma",
-                "Milano"
-            ],
-            "risposta_corretta": "Costantinopoli"
-        },
-        {
-            "domanda": "Chi era il fondatore della dinastia Ming in Cina?",
-            "risposte": [
-                "Zhu Yuanzhang",
-                "Qin Shi Huang",
-                "Gengis Khan",
-                "Sun Yat-sen"
-            ],
-            "risposta_corretta": "Zhu Yuanzhang"
-        },
-        {
-            "domanda": "Quale evento segnò l'inizio della Rivoluzione Industriale in Gran Bretagna?",
-            "risposte": [
-                "L'invenzione della macchina a vapore",
-                "La Rivoluzione Francese",
-                "La scoperta dell'elettricità",
-                "La fondazione dell'Impero britannico"
-            ],
-            "risposta_corretta": "L'invenzione della macchina a vapore"
-        },
-        {
-            "domanda": "Chi fu il principale artefice dell'Unità d'Italia?",
-            "risposte": [
-                "Giuseppe Garibaldi",
-                "Camillo Benso di Cavour",
-                "Vittorio Emanuele II",
-                "Giuseppe Mazzini"
-            ],
-            "risposta_corretta": "Camillo Benso di Cavour"
-        },
-        {
-            "domanda": "Chi ha guidato la Rivoluzione Russa del 1917?",
-            "risposte": [
-                "Vladimir Lenin",
-                "Joseph Stalin",
-                "Leon Trotsky",
-                "Nikita Khrushchev"
-            ],
-            "risposta_corretta": "Vladimir Lenin"
-        },
-        {
-            "domanda": "Qual è stato il risultato della Guerra dei Cent'Anni?",
-            "risposte": [
-                "Vittoria dell'Inghilterra",
-                "Vittoria della Francia",
-                "Stallo",
-                "Conflitto risolto da trattati di pace"
-            ],
-            "risposta_corretta": "Conflitto risolto da trattati di pace"
-        },
-        {
-            "domanda": "Chi è stato il primo imperatore romano?",
-            "risposte": [
-                "Augusto",
-                "Nerone",
-                "Caligola",
-                "Tiberio"
-            ],
-            "risposta_corretta": "Augusto"
-        },
-        {
-            "domanda": "Quale evento ha segnato la fine dell'Impero Ottomano?",
-            "risposte": [
-                "Trattato di Versailles",
-                "Trattato di Sèvres",
-                "Pace di Westphalia",
-                "Accordo di Monaco"
-            ],
-            "risposta_corretta": "Trattato di Sèvres"
-        },
-        {
-            "domanda": "Chi era il famoso esploratore portoghese che circumnavigò la Terra?",
-            "risposte": [
-                "Ferdinando Magellano",
-                "Vasco da Gama",
-                "Amerigo Vespucci",
-                "Henry Hudson"
-            ],
-            "risposta_corretta": "Ferdinando Magellano"
-        },
-        {
-            "domanda": "Quale città antica è considerata il luogo di nascita della democrazia?",
-            "risposte": [
-                "Atene",
-                "Roma",
-                "Cartagine",
-                "Sparta"
+                "Londra",
+                "Parigi"
             ],
             "risposta_corretta": "Atene"
         },
         {
-            "domanda": "Qual era la principale causa della Rivoluzione Americana?",
+            "domanda": "Chi ha vinto il Pallone d'Oro FIFA nel 2021?",
             "risposte": [
-                "La tassazione senza rappresentanza",
-                "La ribellione dei coloni",
-                "La conquista della Nuova Inghilterra",
-                "L'intervento straniero"
+                "Kylian Mbappé",
+                "Lionel Messi",
+                "Cristiano Ronaldo",
+                "Mohamed Salah"
             ],
-            "risposta_corretta": "La tassazione senza rappresentanza"
+            "risposta_corretta": "Lionel Messi"
         },
         {
-            "domanda": "Qual era il nome della politica di segregazione razziale in Sudafrica?",
+            "domanda": "Qual è lo sport principale giocato nel Super Bowl negli Stati Uniti?",
             "risposte": [
-                "Apartheid",
-                "Jim Crow",
-                "Segregazione",
-                "Distinzione"
+                "Hockey su ghiaccio",
+                "Basket",
+                "Football americano",
+                "Baseball"
             ],
-            "risposta_corretta": "Apartheid"
+            "risposta_corretta": "Football americano"
         },
         {
-            "domanda": "Chi era il leader della resistenza francese durante la Seconda Guerra Mondiale?",
+            "domanda": "Qual è il nome del trofeo assegnato al vincitore del campionato mondiale di rugby?",
             "risposte": [
-                "Charles de Gaulle",
-                "Philippe Pétain",
-                "Henri Philippe Pétain",
-                "Jean Moulin"
+                "Coppa Webb Ellis",
+                "Coppa del Mondo di Rugby",
+                "Coppa Bledisloe",
+                "Coppa Six Nations"
             ],
-            "risposta_corretta": "Charles de Gaulle"
+            "risposta_corretta": "Coppa Webb Ellis"
         },
         {
-            "domanda": "Qual è stato il principale obiettivo delle Crociate?",
+            "domanda": "Quale giocatore di tennis ha vinto il maggior numero di titoli del Grande Slam nella storia?",
             "risposte": [
-                "Riconquistare Gerusalemme",
-                "Espandere l'influenza cristiana",
-                "Conquistare l'Egitto",
-                "Accumulare ricchezze"
+                "Novak Djokovic",
+                "Roger Federer",
+                "Rafael Nadal",
+                "Margaret Court"
             ],
-            "risposta_corretta": "Riconquistare Gerusalemme"
+            "risposta_corretta": "Margaret Court"
+        },
+        {
+            "domanda": "Quale squadra NBA ha vinto il maggior numero di campionati nella storia della lega?",
+            "risposte": [
+                "Chicago Bulls",
+                "Los Angeles Lakers",
+                "Boston Celtics",
+                "Golden State Warriors"
+            ],
+            "risposta_corretta": "Boston Celtics"
+        },
+        {
+            "domanda": "Qual è il soprannome della squadra di calcio nazionale dell'Argentina?",
+            "risposte": [
+                "Albicelestes",
+                "Seleção",
+                "Los Cafeteros",
+                "La Roja"
+            ],
+            "risposta_corretta": "Albicelestes"
+        },
+        {
+            "domanda": "Chi ha vinto il maggior numero di medaglie d'oro in una singola edizione delle Olimpiadi estive?",
+            "risposte": [
+                "Michael Phelps",
+                "Usain Bolt",
+                "Simone Biles",
+                "Larisa Latynina"
+            ],
+            "risposta_corretta": "Michael Phelps"
+        },
+        {
+            "domanda": "Quale giocatore di golf è noto come 'The Golden Bear'?",
+            "risposte": [
+                "Tiger Woods",
+                "Arnold Palmer",
+                "Jack Nicklaus",
+                "Gary Player"
+            ],
+            "risposta_corretta": "Jack Nicklaus"
+        },
+        {
+            "domanda": "In quale sport è famoso il termine 'slam dunk'?",
+            "risposte": [
+                "Hockey su ghiaccio",
+                "Tennis",
+                "Basket",
+                "Calcio"
+            ],
+            "risposta_corretta": "Basket"
+        },
+        {
+            "domanda": "Quale paese ha ospitato i Giochi Olimpici invernali nel 2018?",
+            "risposte": [
+                "Canada",
+                "Giappone",
+                "Svizzera",
+                "Corea del Sud"
+            ],
+            "risposta_corretta": "Corea del Sud"
+        },
+        {
+            "domanda": "Chi è stato il primo corridore a completare una maratona in meno di due ore?",
+            "risposte": [
+                "Eliud Kipchoge",
+                "Kenenisa Bekele",
+                "Mo Farah",
+                "Haile Gebrselassie"
+            ],
+            "risposta_corretta": "Eliud Kipchoge"
+        },
+        {
+            "domanda": "Qual è il nome della squadra di cricket nazionale dell'India?",
+            "risposte": [
+                "Windies",
+                "Proteas",
+                "Baggy Greens",
+                "Men in Blue"
+            ],
+            "risposta_corretta": "Men in Blue"
+        },
+        {
+            "domanda": "Chi è stato il primo tennista ad ottenere il Career Grand Slam nel tennis maschile?",
+            "risposte": [
+                "Roger Federer",
+                "Novak Djokovic",
+                "Rafael Nadal",
+                "Rod Laver"
+            ],
+            "risposta_corretta": "Rod Laver"
+        },
+        {
+            "domanda": "Qual è il nome del trofeo assegnato al vincitore del campionato mondiale di Formula 1?",
+            "risposte": [
+                "Coppa FIA",
+                "Coppa del Mondo di Formula 1",
+                "Coppa del Costruttori",
+                "Coppa del Campione"
+            ],
+            "risposta_corretta": "Coppa del Campione"
+        },
+        {
+            "domanda": "Qual è il nome del giocatore di football americano spesso indicato come 'GOAT' (Greatest Of All Time)?",
+            "risposte": [
+                "Tom Brady",
+                "Peyton Manning",
+                "Joe Montana",
+                "Brett Favre"
+            ],
+            "risposta_corretta": "Tom Brady"
+        },
+        {
+            "domanda": "In quale città si è svolta la prima edizione dei Giochi Paralimpici nel 1960?",
+            "risposte": [
+                "Roma",
+                "Tokyo",
+                "Berlino",
+                "New York"
+            ],
+            "risposta_corretta": "Roma"
+        },
+        {
+            "domanda": "Chi è stato il primo giocatore di golf a vincere tutti e quattro i major nella stessa stagione?",
+            "risposte": [
+                "Tiger Woods",
+                "Rory McIlroy",
+                "Jack Nicklaus",
+                "Ben Hogan"
+            ],
+            "risposta_corretta": "Ben Hogan"
+        },
+        {
+            "domanda": "Quale squadra di calcio ha vinto il maggior numero di Coppe Libertadores?",
+            "risposte": [
+                "São Paulo FC",
+                "Boca Juniors",
+                "River Plate",
+                "Independiente"
+            ],
+            "risposta_corretta": "Independiente"
+        },
+        {
+            "domanda": "Qual è il soprannome della squadra di rugby nazionale della Nuova Zelanda?",
+            "risposte": [
+                "Springboks",
+                "All Blacks",
+                "Pumas",
+                "Wallabies"
+            ],
+            "risposta_corretta": "All Blacks"
+        },
+        {
+            "domanda": "Chi è stato il primo pilota di motociclismo a vincere dieci campionati del mondo nella categoria regina?",
+            "risposte": [
+                "Valentino Rossi",
+                "Giacomo Agostini",
+                "Marc Marquez",
+                "Mike Hailwood"
+            ],
+            "risposta_corretta": "Giacomo Agostini"
+        },
+        {
+            "domanda": "Quale paese ha vinto più medaglie d'oro nella storia delle Olimpiadi estive?",
+            "risposte": [
+                "Stati Uniti",
+                "Unione Sovietica",
+                "Cina",
+                "Gran Bretagna"
+            ],
+            "risposta_corretta": "Stati Uniti"
+        },
+        {
+            "domanda": "Chi è stato il primo pilota di rally a vincere sette campionati del mondo?",
+            "risposte": [
+                "Sébastien Loeb",
+                "Colin McRae",
+                "Tommi Mäkinen",
+                "Juha Kankkunen"
+            ],
+            "risposta_corretta": "Sébastien Loeb"
         }
     ]
 }

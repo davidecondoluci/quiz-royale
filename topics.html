@@ -12,6 +12,21 @@
       [x-cloak] {
         display: none !important;
       }
+
+      @keyframes moveInLoop {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+
+      .flex-wrap {
+        display: flex;
+        width: 200%;
+        animation: moveInLoop 20s linear infinite;
+      }
     </style>
     <link rel="stylesheet" href="/style.css" />
     <script type="module" src="./main.js"></script>

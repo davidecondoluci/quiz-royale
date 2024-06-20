@@ -2,304 +2,304 @@
     "playerImage": "/img/player_chef_hat.png",
     "questions": [
         {
-            "domanda": "Mia o miao miao?",
+            "domanda": "Qual è l'ingrediente principale della carbonara?",
             "risposte": [
-                "Trattato di Versailles",
-                "Pace di Westphalia",
-                "Conferenza di Yalta",
-                "Accordo di Monaco"
+                "Pancetta",
+                "Guanciale",
+                "Prosciutto crudo",
+                "Salsiccia"
             ],
-            "risposta_corretta": "Trattato di Versailles"
+            "risposta_corretta": "Guanciale"
         },
         {
-            "domanda": "Chi fu il primo presidente degli Stati Uniti d'America?",
+            "domanda": "Da cosa è ottenuto il parmigiano reggiano?",
             "risposte": [
-                "George Washington",
-                "Thomas Jefferson",
-                "John Adams",
-                "James Madison"
+                "Latte di capra",
+                "Latte di pecora",
+                "Latte di bufala",
+                "Latte di mucca"
             ],
-            "risposta_corretta": "George Washington"
+            "risposta_corretta": "Latte di mucca"
         },
         {
-            "domanda": "Quando è iniziata la Rivoluzione Francese?",
+            "domanda": "Qual è l'origine della paella?",
             "risposte": [
-                "1789",
-                "1799",
-                "1776",
-                "1804"
+                "Italia",
+                "Francia",
+                "Spagna",
+                "Portogallo"
             ],
-            "risposta_corretta": "1789"
+            "risposta_corretta": "Spagna"
         },
         {
-            "domanda": "Qual è stato il risultato della Battaglia di Stalingrado?",
+            "domanda": "Quale vino è tradizionalmente utilizzato per il risotto alla milanese?",
             "risposte": [
-                "Vittoria dell'Asse",
-                "Vittoria degli Alleati",
-                "Stallo",
-                "Cessate il fuoco"
+                "Barolo",
+                "Chianti",
+                "Sangiovese",
+                "Zafferano"
             ],
-            "risposta_corretta": "Vittoria degli Alleati"
+            "risposta_corretta": "Zafferano"
         },
         {
-            "domanda": "Chi era il leader della Germania nazista durante la Seconda Guerra Mondiale?",
+            "domanda": "A quale cucina è associato il couscous?",
             "risposte": [
-                "Adolf Hitler",
-                "Joseph Stalin",
-                "Benito Mussolini",
-                "Hirohito"
+                "Greca",
+                "Turca",
+                "Marocchina",
+                "Spagnola"
             ],
-            "risposta_corretta": "Adolf Hitler"
+            "risposta_corretta": "Marocchina"
         },
         {
-            "domanda": "Dove è stata firmata la Dichiarazione di Indipendenza degli Stati Uniti?",
+            "domanda": "Quale alimento è alla base del tzatziki greco?",
             "risposte": [
-                "Filadelfia",
-                "Boston",
-                "New York",
-                "Washington D.C."
+                "Melanzane",
+                "Peperoni",
+                "Cetrioli",
+                "Zucchine"
             ],
-            "risposta_corretta": "Filadelfia"
+            "risposta_corretta": "Cetrioli"
         },
         {
-            "domanda": "Chi ha scoperto l'America?",
+            "domanda": "Qual è il formaggio principale della fonduta svizzera?",
             "risposte": [
-                "Cristoforo Colombo",
-                "Amerigo Vespucci",
-                "Ferdinando Magellano",
-                "Vasco da Gama"
+                "Gruyère",
+                "Emmental",
+                "Fontina",
+                "Provolone"
             ],
-            "risposta_corretta": "Cristoforo Colombo"
+            "risposta_corretta": "Emmental"
         },
         {
-            "domanda": "Qual è stata la causa principale della Guerra Civile Americana?",
+            "domanda": "A quale regione italiana appartiene il prosciutto di Parma?",
             "risposte": [
-                "La schiavitù",
-                "La tassazione senza rappresentanza",
-                "Le dispute territoriali",
-                "Le tensioni politiche"
+                "Toscana",
+                "Piemonte",
+                "Emilia-Romagna",
+                "Lombardia"
             ],
-            "risposta_corretta": "La schiavitù"
+            "risposta_corretta": "Emilia-Romagna"
         },
         {
-            "domanda": "Chi era la regina d'Egitto famosa per il suo rapporto con Marco Antonio e Cesare?",
+            "domanda": "Qual è l'ingrediente principale del dolce tiramisù?",
             "risposte": [
-                "Cleopatra",
-                "Nefertiti",
-                "Hatshepsut",
-                "Iside"
+                "Mascarpone",
+                "Ricotta",
+                "Marsala",
+                "Amaretto"
             ],
-            "risposta_corretta": "Cleopatra"
+            "risposta_corretta": "Mascarpone"
         },
         {
-            "domanda": "Qual era la capitale dell'Impero Romano d'Occidente prima della sua caduta?",
+            "domanda": "Che tipo di carne è utilizzata per il tradizionale bœuf bourguignon francese?",
             "risposte": [
-                "Roma",
-                "Costantinopoli",
-                "Atene",
-                "Cartagine"
+                "Manzo",
+                "Maiale",
+                "Pollo",
+                "Agnello"
             ],
-            "risposta_corretta": "Roma"
+            "risposta_corretta": "Manzo"
         },
         {
-            "domanda": "Qual è stata la dinastia regnante in Inghilterra durante il Rinascimento inglese?",
+            "domanda": "Qual è l'ingrediente principale della zuppa di cipolle francese?",
             "risposte": [
-                "Tudor",
-                "Stuart",
-                "Plantageneti",
-                "Hanoveriani"
+                "Porri",
+                "Scalogno",
+                "Cipolle",
+                "Aglio"
             ],
-            "risposta_corretta": "Tudor"
+            "risposta_corretta": "Cipolle"
         },
         {
-            "domanda": "In quale anno è avvenuta la caduta dell'Impero Romano d'Occidente?",
+            "domanda": "Qual è l'ingrediente principale del ceviche peruviano?",
             "risposte": [
-                "476 d.C.",
-                "410 d.C.",
-                "455 d.C.",
-                "490 d.C."
+                "Gamberi",
+                "Pollo",
+                "Salmone",
+                "Pesce crudo"
             ],
-            "risposta_corretta": "476 d.C."
+            "risposta_corretta": "Pesce crudo"
         },
         {
-            "domanda": "Qual era il nome del leader sovietico che succedette a Lenin?",
+            "domanda": "Quale alimento è alla base del gazpacho spagnolo?",
             "risposte": [
-                "Joseph Stalin",
-                "Leon Trotsky",
-                "Nikita Khrushchev",
-                "Mikhail Gorbachev"
+                "Pomodori",
+                "Cetrioli",
+                "Peperoni",
+                "Carote"
             ],
-            "risposta_corretta": "Joseph Stalin"
+            "risposta_corretta": "Pomodori"
         },
         {
-            "domanda": "Quando avvenne l'attacco a Pearl Harbor?",
+            "domanda": "A quale paese è originario il sushi?",
             "risposte": [
-                "7 dicembre 1941",
-                "4 luglio 1942",
-                "6 giugno 1944",
-                "15 agosto 1945"
+                "Giappone",
+                "Corea del Sud",
+                "Cina",
+                "Vietnam"
             ],
-            "risposta_corretta": "7 dicembre 1941"
+            "risposta_corretta": "Giappone"
         },
         {
-            "domanda": "Quale evento segna l'inizio del Medioevo?",
+            "domanda": "Qual è l'ingrediente principale della moussaka greca?",
             "risposte": [
-                "La scoperta dell'America",
-                "La caduta dell'Impero Romano d'Occidente",
-                "La Riforma Protestante",
-                "La Guerra dei Cent'Anni"
+                "Melanzane",
+                "Zucchine",
+                "Patate",
+                "Cavolfiore"
             ],
-            "risposta_corretta": "La caduta dell'Impero Romano d'Occidente"
+            "risposta_corretta": "Melanzane"
         },
         {
-            "domanda": "Quando è stata fondata l'antica città di Roma?",
+            "domanda": "Qual è l'origine del curry indiano?",
             "risposte": [
-                "753 a.C.",
-                "509 a.C.",
-                "1000 a.C.",
-                "200 a.C."
+                "Cina",
+                "Thailandia",
+                "India",
+                "Indonesia"
             ],
-            "risposta_corretta": "753 a.C."
+            "risposta_corretta": "India"
         },
         {
-            "domanda": "Qual era la capitale dell'Impero Bizantino?",
+            "domanda": "Quale vino è tradizionalmente utilizzato per il coq au vin francese?",
             "risposte": [
-                "Costantinopoli",
-                "Atene",
-                "Roma",
-                "Milano"
+                "Merlot",
+                "Pinot Noir",
+                "Sauvignon Blanc",
+                "Chardonnay"
             ],
-            "risposta_corretta": "Costantinopoli"
+            "risposta_corretta": "Pinot Noir"
         },
         {
-            "domanda": "Chi era il fondatore della dinastia Ming in Cina?",
+            "domanda": "Qual è l'ingrediente principale del dolce crème brûlée?",
             "risposte": [
-                "Zhu Yuanzhang",
-                "Qin Shi Huang",
-                "Gengis Khan",
-                "Sun Yat-sen"
+                "Cioccolato",
+                "Vaniglia",
+                "Caramello",
+                "Crema"
             ],
-            "risposta_corretta": "Zhu Yuanzhang"
+            "risposta_corretta": "Vaniglia"
         },
         {
-            "domanda": "Quale evento segnò l'inizio della Rivoluzione Industriale in Gran Bretagna?",
+            "domanda": "A quale regione italiana appartiene la bistecca alla fiorentina?",
             "risposte": [
-                "L'invenzione della macchina a vapore",
-                "La Rivoluzione Francese",
-                "La scoperta dell'elettricità",
-                "La fondazione dell'Impero britannico"
+                "Sicilia",
+                "Veneto",
+                "Toscana",
+                "Campania"
             ],
-            "risposta_corretta": "L'invenzione della macchina a vapore"
+            "risposta_corretta": "Toscana"
         },
         {
-            "domanda": "Chi fu il principale artefice dell'Unità d'Italia?",
+            "domanda": "Quale tipo di pesce è utilizzato nel fish and chips inglese?",
             "risposte": [
-                "Giuseppe Garibaldi",
-                "Camillo Benso di Cavour",
-                "Vittorio Emanuele II",
-                "Giuseppe Mazzini"
+                "Salmone",
+                "Baccalà",
+                "Merluzzo",
+                "Tonno"
             ],
-            "risposta_corretta": "Camillo Benso di Cavour"
+            "risposta_corretta": "Merluzzo"
         },
         {
-            "domanda": "Chi ha guidato la Rivoluzione Russa del 1917?",
+            "domanda": "Quale ingrediente non può mancare nella salsa bolognese italiana?",
             "risposte": [
-                "Vladimir Lenin",
-                "Joseph Stalin",
-                "Leon Trotsky",
-                "Nikita Khrushchev"
+                "Carote",
+                "Sedano",
+                "Pomodori",
+                "Zucchine"
             ],
-            "risposta_corretta": "Vladimir Lenin"
+            "risposta_corretta": "Zucchine"
         },
         {
-            "domanda": "Qual è stato il risultato della Guerra dei Cent'Anni?",
+            "domanda": "Qual è l'ingrediente principale della crema catalana spagnola?",
             "risposte": [
-                "Vittoria dell'Inghilterra",
-                "Vittoria della Francia",
-                "Stallo",
-                "Conflitto risolto da trattati di pace"
+                "Zucchero",
+                "Uova",
+                "Latte",
+                "Vaniglia"
             ],
-            "risposta_corretta": "Conflitto risolto da trattati di pace"
+            "risposta_corretta": "Uova"
         },
         {
-            "domanda": "Chi è stato il primo imperatore romano?",
+            "domanda": "Da quale regione italiana proviene il formaggio pecorino?",
             "risposte": [
-                "Augusto",
-                "Nerone",
-                "Caligola",
-                "Tiberio"
+                "Sardegna",
+                "Lazio",
+                "Calabria",
+                "Puglia"
             ],
-            "risposta_corretta": "Augusto"
+            "risposta_corretta": "Sardegna"
         },
         {
-            "domanda": "Quale evento ha segnato la fine dell'Impero Ottomano?",
+            "domanda": "Qual è l'ingrediente principale delle arepas venezuelane?",
             "risposte": [
-                "Trattato di Versailles",
-                "Trattato di Sèvres",
-                "Pace di Westphalia",
-                "Accordo di Monaco"
+                "Mais",
+                "Riso",
+                "Farina di grano",
+                "Avena"
             ],
-            "risposta_corretta": "Trattato di Sèvres"
+            "risposta_corretta": "Mais"
         },
         {
-            "domanda": "Chi era il famoso esploratore portoghese che circumnavigò la Terra?",
+            "domanda": "Quale ingrediente è fondamentale nella paella valenciana spagnola?",
             "risposte": [
-                "Ferdinando Magellano",
-                "Vasco da Gama",
-                "Amerigo Vespucci",
-                "Henry Hudson"
+                "Riso",
+                "Orzo",
+                "Fregola",
+                "Quinoa"
             ],
-            "risposta_corretta": "Ferdinando Magellano"
+            "risposta_corretta": "Riso"
         },
         {
-            "domanda": "Quale città antica è considerata il luogo di nascita della democrazia?",
+            "domanda": "A quale paese è originaria la salsa tzatziki?",
             "risposte": [
-                "Atene",
-                "Roma",
-                "Cartagine",
-                "Sparta"
+                "Italia",
+                "Grecia",
+                "Libano",
+                "Turchia"
             ],
-            "risposta_corretta": "Atene"
+            "risposta_corretta": "Grecia"
         },
         {
-            "domanda": "Qual era la principale causa della Rivoluzione Americana?",
+            "domanda": "Qual è l'ingrediente principale della poutine canadese?",
             "risposte": [
-                "La tassazione senza rappresentanza",
-                "La ribellione dei coloni",
-                "La conquista della Nuova Inghilterra",
-                "L'intervento straniero"
+                "Patatine fritte",
+                "Riso",
+                "Pane",
+                "Pollo"
             ],
-            "risposta_corretta": "La tassazione senza rappresentanza"
+            "risposta_corretta": "Patatine fritte"
         },
         {
-            "domanda": "Qual era il nome della politica di segregazione razziale in Sudafrica?",
+            "domanda": "Quale ingrediente non può mancare nelle enchiladas messicane?",
             "risposte": [
-                "Apartheid",
-                "Jim Crow",
-                "Segregazione",
-                "Distinzione"
+                "Salsa verde",
+                "Salsa rossa",
+                "Tortillas di mais",
+                "Fagioli neri"
             ],
-            "risposta_corretta": "Apartheid"
+            "risposta_corretta": "Fagioli neri"
         },
         {
-            "domanda": "Chi era il leader della resistenza francese durante la Seconda Guerra Mondiale?",
+            "domanda": "Qual è l'ingrediente principale del sushi sashimi giapponese?",
             "risposte": [
-                "Charles de Gaulle",
-                "Philippe Pétain",
-                "Henri Philippe Pétain",
-                "Jean Moulin"
+                "Pesce crudo",
+                "Riso",
+                "Alga nori",
+                "Wasabi"
             ],
-            "risposta_corretta": "Charles de Gaulle"
+            "risposta_corretta": "Pesce crudo"
         },
         {
-            "domanda": "Qual è stato il principale obiettivo delle Crociate?",
+            "domanda": "A quale cucina è associata la salsa chimichurri?",
             "risposte": [
-                "Riconquistare Gerusalemme",
-                "Espandere l'influenza cristiana",
-                "Conquistare l'Egitto",
-                "Accumulare ricchezze"
+                "Argentina",
+                "Brasile",
+                "Colombia",
+                "Perù"
             ],
-            "risposta_corretta": "Riconquistare Gerusalemme"
+            "risposta_corretta": "Argentina"
         }
     ]
 }
