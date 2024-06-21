@@ -12,6 +12,10 @@
     <script type="module" src="./main.js"></script>
   </head>
   <body>
+    <audio id="background-music" loop>
+      <source src="/music/music-2.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
     <main x-data="quiz()" class="flex flex-col lg:flex-row w-full h-dvh">
       <div
         id="game-view"
@@ -25,10 +29,10 @@
             class="flex flex-wrap justify-center items-center gap-1"
           >
             <template x-for="heart in bossHp">
-              <img src="/img/hp_1.png" class="w-6 h-6 lg:w-8 lg:h-8" />
+              <img src="/img/hp_1.png" class="w-4 h-4 lg:w-8 lg:h-8" />
             </template>
             <template x-for="heart in bossDamage">
-              <img src="/img/hp_0.png" class="w-6 h-6 lg:w-8 lg:h-8" />
+              <img src="/img/hp_0.png" class="w-4 h-4 lg:w-8 lg:h-8" />
             </template>
           </div>
           <img
@@ -52,10 +56,10 @@
             class="flex flex-wrap justify-center items-center gap-1"
           >
             <template x-for="heart in playerHp">
-              <img src="/img/hp_1.png" class="w-6 h-6 lg:w-8 lg:h-8" />
+              <img src="/img/hp_1.png" class="w-4 h-4 lg:w-8 lg:h-8" />
             </template>
             <template x-for="heart in playerDamage">
-              <img src="/img/hp_0.png" class="w-6 h-6 lg:w-8 lg:h-8" />
+              <img src="/img/hp_0.png" class="w-4 h-4 lg:w-8 lg:h-8" />
             </template>
           </div>
         </div>
@@ -64,8 +68,9 @@
       <div
         id="quiz-view"
         x-show="state == 'game'"
-        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-between items-center p-8 lg:p-16 bg-white"
+        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-between items-center p-4 md:p-8 lg:p-16 bg-white"
       >
+        <!-- Logo -->
         <a href="index.html">
           <h1
             class="hidden lg:flex lg:flex-row lg:justify-center lg:items-center"
@@ -113,48 +118,52 @@
             </svg>
           </h1>
         </a>
+        <!-- Domande e risposte -->
         <div class="flex flex-col w-full space-y-4">
           <h2
             x-text="currentQuestion.domanda"
-            class="text-2xl text-center h-32 lg:h-24"
+            class="text-xl md:text-2xl lg:text-2xl text-center h-28 lg:h-24"
           ></h2>
           <template x-for="answer in currentQuestion.risposte">
             <button
               x-text="answer"
               @click="answerQuestion(answer)"
-              class="text-2xl font-serif lg:px-16 lg:py-4 bg-midgray text-white border-2 border-darkgray hover:bg-darkgray hover:text-white transition-colors duration-300 ease-in-out"
+              class="text-xl md:text-2xl lg:text-2xl font-serif lg:px-16 lg:py-4 bg-midgray text-white border-2 border-darkgray hover:bg-darkgray hover:text-white transition-colors duration-300 ease-in-out"
             ></button>
           </template>
         </div>
+        <!-- N°domande ed Esci -->
         <div class="flex flex-row w-full justify-between items-center">
           <div x-show="state == 'game'" class="flex w-1/2">
-            Domande: <span x-text="questionCounter"></span>/30
+            <p class="font-sans text-base">
+              Domanda <span x-text="questionCounter"></span>/30
+            </p>
           </div>
           <a
             @click="exitGame"
-            class="font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out cursor-pointer"
+            class="font-serif text-base px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out cursor-pointer"
           >
             Esci
           </a>
         </div>
       </div>
-
+      <!-- Fine gioco -->
       <div
         x-show="state == 'lose'"
         x-cloak
-        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full items-center justify-center text-center p-16 space-y-16 bg-white text-black"
+        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-center items-center text-center p-4 lg:p-16 space-y-16 bg-white text-black"
       >
-        <h3 class="text-8xl">Hai perso</h3>
-        <div class="flex flex-col lg:flex-row w-full justify-between">
+        <h3 class="text-6xl md:text-8xl lg:text-8xl">Hai perso</h3>
+        <div class="flex flex-col lg:flex-row w-full gap-4">
           <button
             @click="restartGame"
-            class="text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue ransition-colors duration-300 ease-in-out"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue ransition-colors duration-300 ease-in-out"
           >
             Ricomincia
           </button>
           <button
             @click="changeTopic"
-            class="text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
           >
             Cambia Argomento
           </button>
@@ -166,29 +175,29 @@
           </button>
         </div>
       </div>
-
+      <!-- Vittoria -->
       <div
         x-show="state == 'win'"
         x-cloak
-        class="flex flex-col w-full h-1/2 lg:w-1/2 lg:h-full items-center justify-center text-center p-16 space-y-16 bg-white text-black"
+        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-center items-center text-center p-4 lg:p-16 space-y-16 bg-white text-black"
       >
-        <h3 class="text-8xl">Hai vinto!</h3>
-        <div class="flex flex-row w-full justify-between">
+        <h3 class="text-6xl md:text-8xl lg:text-8xl">Hai vinto!</h3>
+        <div class="flex flex-col lg:flex-row w-full gap-4">
           <button
             @click="restartGame"
-            class="text-2xl font-serif px-8 py-2 bg-purple text-white hover:bg-darkpurple ransition-colors duration-300 ease-in-out"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue ransition-colors duration-300 ease-in-out"
           >
             Ricomincia
           </button>
           <button
             @click="changeTopic"
-            class="text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
           >
             Cambia Argomento
           </button>
           <a
             @click="exitGame"
-            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out cursor-pointer"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out cursor-pointer"
           >
             Esci
           </a>

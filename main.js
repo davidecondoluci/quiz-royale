@@ -1,5 +1,4 @@
 import "./style.css";
-
 import gsap from "gsap";
 import Alpine from "alpinejs";
 
@@ -95,6 +94,12 @@ Alpine.data("quiz", () => ({
   currentQuestionIndex: 0,
   questionCounter: 1,
   playerImage: null,
+  audio: null,
+  audioContext: null,
+  audioBuffer: null,
+  audioSource: null,
+  gainNode: null,
+
   init() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
@@ -114,14 +119,76 @@ Alpine.data("quiz", () => ({
       .then((data) => {
         this.questions = data.questions;
         this.playerImage = data.playerImage;
+        this.startBackgroundMusic();
       })
       .catch(function (err) {
         window.location.href = "topics.html";
       });
+
+    // Aggiungi i listener per visibilitychange
+    document.addEventListener(
+      "visibilitychange",
+      this.handleVisibilityChange.bind(this)
+    );
   },
+
+  startBackgroundMusic() {
+    this.audioContext = new (window.AudioContext ||
+      window.webkitAudioContext)();
+    this.gainNode = this.audioContext.createGain();
+    this.gainNode.gain.value = 0.1; // Imposta il volume al 10%
+    this.gainNode.connect(this.audioContext.destination);
+
+    fetch("/music/music-2.mp3")
+      .then((response) => response.arrayBuffer())
+      .then((buffer) => this.audioContext.decodeAudioData(buffer))
+      .then((decodedData) => {
+        this.audioBuffer = decodedData;
+        this.playAudio();
+      });
+  },
+
+  playAudio() {
+    if (this.audioSource) {
+      this.audioSource.stop();
+    }
+
+    this.audioSource = this.audioContext.createBufferSource();
+    this.audioSource.buffer = this.audioBuffer;
+    this.audioSource.connect(this.gainNode);
+    this.audioSource.loop = true;
+    this.audioSource.start(0);
+  },
+
+  stopAudio() {
+    if (this.audioSource) {
+      this.audioSource.stop();
+    }
+  },
+
+  handleVisibilityChange() {
+    if (document.hidden) {
+      this.stopAudio();
+    } else {
+      this.playAudio();
+    }
+  },
+
+  stopBackgroundMusic() {
+    if (this.audioSource) {
+      this.audioSource.stop();
+      this.audioSource = null;
+    }
+    if (this.audioContext) {
+      this.audioContext.close();
+      this.audioContext = null;
+    }
+  },
+
   get currentQuestion() {
     return this.questions[this.currentQuestionIndex];
   },
+
   answerQuestion(answer) {
     if (answer === this.currentQuestion.risposta_corretta) {
       this.bossHp -= 1;
@@ -138,10 +205,13 @@ Alpine.data("quiz", () => ({
 
     if (this.questionCounter > 30) {
       this.state = "win";
+      this.stopBackgroundMusic();
     } else if (this.playerHp <= 0) {
       this.state = "lose";
+      this.stopBackgroundMusic();
     }
   },
+
   restartGame() {
     this.state = "game";
     this.bossHp = 30;
@@ -150,12 +220,17 @@ Alpine.data("quiz", () => ({
     this.playerDamage = 0;
     this.currentQuestionIndex = 0;
     this.questionCounter = 1;
+    this.startBackgroundMusic();
   },
+
   changeTopic() {
     window.location.href = "topics.html";
+    this.stopBackgroundMusic();
   },
+
   exitGame() {
     window.location.href = "index.html";
+    this.stopBackgroundMusic();
   },
 }));
 
@@ -192,10 +267,10 @@ timeline
     {
       x: 40,
       duration: 0.2,
+      yoyo: true,
     },
     "<"
   )
-
   .fromTo(
     logo.sword,
     {
@@ -203,7 +278,7 @@ timeline
       y: "200%",
     },
     {
-      ease: "back.out(1.5)",
+      ease: "back.out(1.4)",
       opacity: 1,
       y: 0,
     },
@@ -212,19 +287,27 @@ timeline
   .to(
     logo.l,
     {
-      ease: "back.out(1.5)",
-      opacity: 0,
-      y: "-200%",
+      ease: "back.out(1.4)",
+      opacity: 1,
+      y: 0,
     },
-    "<+0.1"
+    "<"
   )
   .to(
-    "#logo g#right path",
+    "#logo g#left path",
     {
       x: 0,
-      duration: 1,
+      duration: 0.6,
     },
-    "-=0.5"
+    "<"
+  )
+  .from(
+    "#logo #l path",
+    {
+      opacity: 0,
+      stagger: 0.1,
+    },
+    "<"
   );
 
 Alpine.start();
