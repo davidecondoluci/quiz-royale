@@ -66,32 +66,42 @@ function flashDamage(target) {
   );
 }
 
-const startButton = document.getElementById("startButton");
-gsap.to(startButton, {
-  scale: 1.05,
-  duration: 1,
-  repeat: -1,
-  yoyo: true,
-  ease: "power1.inOut",
-});
+document.addEventListener("DOMContentLoaded", () => {
+  const startButton = document.getElementById("startButton");
+  if (startButton) {
+    gsap.to(startButton, {
+      scale: 1.05,
+      duration: 1,
+      repeat: -1,
+      yoyo: true,
+      ease: "power1.inOut",
+    });
+  }
 
-gsap.to("#boss-img", {
-  y: "5%",
-  scaleY: 1,
-  repeat: -1,
-  duration: 1,
-  ease: "sine.inOut",
-  yoyo: true,
-});
+  const bossImg = document.getElementById("boss-img");
+  if (bossImg) {
+    gsap.to("#boss-img", {
+      y: "5%",
+      scaleY: 1,
+      repeat: -1,
+      duration: 1,
+      ease: "sine.inOut",
+      yoyo: true,
+    });
+  }
 
-gsap.to("#player-img", {
-  x: "5%",
-  delay: 0.5,
-  scaleX: 1,
-  repeat: -1,
-  duration: 1,
-  ease: "sine.inOut",
-  yoyo: true,
+  const playerImg = document.getElementById("player-img");
+  if (playerImg) {
+    gsap.to("#player-img", {
+      x: "5%",
+      delay: 0.5,
+      scaleX: 1,
+      repeat: -1,
+      duration: 1,
+      ease: "sine.inOut",
+      yoyo: true,
+    });
+  }
 });
 
 Alpine.data("quiz", () => ({
@@ -237,16 +247,16 @@ timeline
 
 Alpine.start();
 
-document.addEventListener("DOMContentLoaded", () => {
-  const topicsContainer = document.getElementById("topics-container");
+let topicsContainer = document.getElementById("topics-container");
+
+if (topicsContainer) {
   const line1 = document.getElementById("line1");
   const line2 = document.getElementById("line2");
   const line3 = document.getElementById("line3");
   const line4 = document.getElementById("line4");
 
-  let animationPaused = false;
-
   const createLineAnimation = (element, direction) => {
+    if (!element) return;
     const duration = 30;
     const offset = 25;
     return gsap.fromTo(
@@ -266,15 +276,13 @@ document.addEventListener("DOMContentLoaded", () => {
     createLineAnimation(line2, "right"),
     createLineAnimation(line3, "left"),
     createLineAnimation(line4, "right"),
-  ];
+  ].filter((animation) => animation !== undefined);
 
   topicsContainer.addEventListener("mouseenter", () => {
-    animationPaused = true;
     animations.forEach((animation) => animation.pause());
   });
 
   topicsContainer.addEventListener("mouseleave", () => {
-    animationPaused = false;
     animations.forEach((animation) => animation.play());
   });
-});
+}
