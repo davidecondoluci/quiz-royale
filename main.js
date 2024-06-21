@@ -7,48 +7,29 @@ window.Alpine = Alpine;
 
 Alpine.store("game", {
   topics: [
-    { label: "🏛️ Storia", slug: "storia" },
-    {
-      label: "🌍 Geografia",
-      slug: "geografia",
-    },
-    { label: "🧪 Scienze", slug: "scienze" },
-    {
-      label: "📚 Letteratura",
-      slug: "letteratura",
-    },
-    {
-      label: "🍕 Gastronomia",
-      slug: "gastronomia",
-    },
-    { label: "🎵 Musica", slug: "musica" },
-    { label: "⚽ Sport", slug: "sport" },
-    {
-      label: "💻 Tecnologia",
-      slug: "tecnologia",
-    },
-    {
-      label: "🔢 Matematica",
-      slug: "matematica",
-    },
-    { label: "👕 Moda", slug: "moda" },
-    {
-      label: "🎮 Videogiochi",
-      slug: "videogiochi",
-    },
-    { label: "🐈 Animali", slug: "animali" },
-    { label: "📺 Serie TV", slug: "serie-tv" },
-    { label: "🖼️ Arte", slug: "arte" },
-    { label: "🦸‍♂️ Fumetti", slug: "fumetti" },
-    {
-      label: "🏎️ Automobili",
-      slug: "automobili",
-    },
-    {
-      label: "🧜‍♂️ Mitologia",
-      slug: "mitologia",
-    },
     { label: "🎥 Cinema", slug: "cinema" },
+    { label: "🔢 Matematica", slug: "matematica" },
+    { label: "🧜‍♂️ Mitologia", slug: "mitologia" },
+    { label: "🎨 Design", slug: "design" },
+    { label: "🏎️ Automobili", slug: "automobili" },
+    { label: "🚀 Astronomia", slug: "astronomia" },
+    { label: "🖼️ Arte", slug: "arte" },
+    { label: "📚 Letteratura", slug: "letteratura" },
+    { label: "💼 Economia", slug: "economia" },
+    { label: "📺 Serie TV", slug: "serie-tv" },
+    { label: "🍃 Natura", slug: "natura" },
+    { label: "🦸‍♂️ Fumetti", slug: "fumetti" },
+    { label: "🏛️ Storia", slug: "storia" },
+    { label: "🔬 Fisica", slug: "fisica" },
+    { label: "⚽ Sport", slug: "sport" },
+    { label: "💻 Tecnologia", slug: "tecnologia" },
+    { label: "🍕 Gastronomia", slug: "gastronomia" },
+    { label: "⚖️ Diritto", slug: "diritto" },
+    { label: "🐈 Animali", slug: "animali" },
+    { label: "🎵 Musica", slug: "musica" },
+    { label: "🌍 Geografia", slug: "geografia" },
+    { label: "👕 Moda", slug: "moda" },
+    { label: "🧪 Scienze", slug: "scienze" },
   ],
 });
 
@@ -112,6 +93,7 @@ Alpine.data("quiz", () => ({
   playerDamage: 0,
   currentQuestionIndex: 0,
   questionCounter: 1,
+  playerImage: null,
   init() {
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
@@ -131,7 +113,6 @@ Alpine.data("quiz", () => ({
       .then((data) => {
         this.questions = data.questions;
         this.playerImage = data.playerImage;
-        console.log(data);
       })
       .catch(function (err) {
         window.location.href = "topics.html";
@@ -246,43 +227,3 @@ timeline
   );
 
 Alpine.start();
-
-let topicsContainer = document.getElementById("topics-container");
-
-if (topicsContainer) {
-  const line1 = document.getElementById("line1");
-  const line2 = document.getElementById("line2");
-  const line3 = document.getElementById("line3");
-  const line4 = document.getElementById("line4");
-
-  const createLineAnimation = (element, direction) => {
-    if (!element) return;
-    const duration = 30;
-    const offset = 25;
-    return gsap.fromTo(
-      element,
-      { x: direction === "left" ? `${-25 + offset}%` : `${25 - offset}%` },
-      {
-        x: direction === "left" ? `${-50 + offset}%` : `${50 - offset}%`,
-        duration: duration,
-        ease: "linear",
-        repeat: -1,
-      }
-    );
-  };
-
-  const animations = [
-    createLineAnimation(line1, "left"),
-    createLineAnimation(line2, "right"),
-    createLineAnimation(line3, "left"),
-    createLineAnimation(line4, "right"),
-  ].filter((animation) => animation !== undefined);
-
-  topicsContainer.addEventListener("mouseenter", () => {
-    animations.forEach((animation) => animation.pause());
-  });
-
-  topicsContainer.addEventListener("mouseleave", () => {
-    animations.forEach((animation) => animation.play());
-  });
-}
