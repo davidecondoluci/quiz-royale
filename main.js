@@ -19,6 +19,7 @@ Alpine.store("game", {
     { label: "📺 Serie TV", slug: "serie-tv" },
     { label: "🍃 Natura", slug: "natura" },
     { label: "🦸‍♂️ Fumetti", slug: "fumetti" },
+    { label: "🌐 Web", slug: "web" },
     { label: "🏛️ Storia", slug: "storia" },
     { label: "🔬 Fisica", slug: "fisica" },
     { label: "⚽ Sport", slug: "sport" },
