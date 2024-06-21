@@ -267,7 +267,7 @@ timeline
     {
       x: 40,
       duration: 0.2,
-      yoyo: true,
+      yoyo: true, // Aggiunto per fare tornare le lettere a destra indietro
     },
     "<"
   )
@@ -288,26 +288,18 @@ timeline
     logo.l,
     {
       ease: "back.out(1.4)",
-      opacity: 1,
-      y: 0,
+      opacity: 0,
+      y: "-200%",
     },
-    "<"
+    "<+0.1"
   )
   .to(
-    "#logo g#left path",
+    "#logo g#right path",
     {
       x: 0,
       duration: 0.6,
     },
-    "<"
-  )
-  .from(
-    "#logo #l path",
-    {
-      opacity: 0,
-      stagger: 0.1,
-    },
-    "<"
+    "-=0.4"
   );
 
 Alpine.start();
