@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è la capitale dell'Italia?",
+            "risposte": [
+                "Roma",
+                "Milano",
+                "Napoli",
+                "Torino"
+            ],
+            "risposta_corretta": "Roma"
+        },
+        {
+            "domanda": "Qual è il fiume più lungo del mondo?",
+            "risposte": [
+                "Nilo",
+                "Amazzonia",
+                "Yangtze",
+                "Mississippi"
+            ],
+            "risposta_corretta": "Amazzonia"
+        },
+        {
+            "domanda": "Qual è il monte più alto del mondo?",
+            "risposte": [
+                "K2",
+                "Kilimangiaro",
+                "Everest",
+                "Mont Blanc"
+            ],
+            "risposta_corretta": "Everest"
+        },
+        {
+            "domanda": "In quale continente si trova il deserto del Sahara?",
+            "risposte": [
+                "Asia",
+                "Africa",
+                "Australia",
+                "America del Sud"
+            ],
+            "risposta_corretta": "Africa"
+        },
+        {
+            "domanda": "Qual è la capitale della Francia?",
+            "risposte": [
+                "Berlino",
+                "Madrid",
+                "Roma",
+                "Parigi"
+            ],
+            "risposta_corretta": "Parigi"
+        },
+        {
+            "domanda": "Qual è il lago più grande del mondo?",
+            "risposte": [
+                "Lago Vittoria",
+                "Lago Superiore",
+                "Mar Caspio",
+                "Lago Michigan"
+            ],
+            "risposta_corretta": "Mar Caspio"
+        },
+        {
+            "domanda": "Quale città è conosciuta come la 'Città della Canzone'?",
+            "risposte": [
+                "Vienna",
+                "Parigi",
+                "New York",
+                "Napoli"
+            ],
+            "risposta_corretta": "Napoli"
+        },
+        {
+            "domanda": "Qual è il paese più grande del mondo per superficie?",
+            "risposte": [
+                "Cina",
+                "Stati Uniti",
+                "Canada",
+                "Russia"
+            ],
+            "risposta_corretta": "Russia"
+        },
+        {
+            "domanda": "Qual è la capitale del Giappone?",
+            "risposte": [
+                "Seul",
+                "Pechino",
+                "Tokyo",
+                "Bangkok"
+            ],
+            "risposta_corretta": "Tokyo"
+        },
+        {
+            "domanda": "In quale oceano si trova l'arcipelago delle Hawaii?",
+            "risposte": [
+                "Oceano Atlantico",
+                "Oceano Indiano",
+                "Oceano Pacifico",
+                "Oceano Artico"
+            ],
+            "risposta_corretta": "Oceano Pacifico"
+        },
+        {
+            "domanda": "Qual è la capitale dell'Australia?",
+            "risposte": [
+                "Sydney",
+                "Melbourne",
+                "Canberra",
+                "Brisbane"
+            ],
+            "risposta_corretta": "Canberra"
+        },
+        {
+            "domanda": "Qual è il deserto più grande del mondo?",
+            "risposte": [
+                "Deserto del Gobi",
+                "Deserto del Sahara",
+                "Deserto del Kalahari",
+                "Deserto del Namib"
+            ],
+            "risposta_corretta": "Deserto del Sahara"
+        },
+        {
+            "domanda": "Qual è la città più popolosa del mondo?",
+            "risposte": [
+                "New York",
+                "Tokyo",
+                "Mumbai",
+                "Shanghai"
+            ],
+            "risposta_corretta": "Tokyo"
+        },
+        {
+            "domanda": "Quale fiume attraversa Londra?",
+            "risposte": [
+                "Tevere",
+                "Senna",
+                "Tamesi",
+                "Danubio"
+            ],
+            "risposta_corretta": "Tamesi"
+        },
+        {
+            "domanda": "Quale mare bagna l'Italia a est?",
+            "risposte": [
+                "Mar Ligure",
+                "Mar Tirreno",
+                "Mar Adriatico",
+                "Mar Ionio"
+            ],
+            "risposta_corretta": "Mar Adriatico"
+        },
+        {
+            "domanda": "Qual è la capitale del Canada?",
+            "risposte": [
+                "Toronto",
+                "Vancouver",
+                "Montreal",
+                "Ottawa"
+            ],
+            "risposta_corretta": "Ottawa"
+        },
+        {
+            "domanda": "Qual è il monte più alto d'Italia?",
+            "risposte": [
+                "Monte Bianco",
+                "Monte Rosa",
+                "Gran Paradiso",
+                "Monte Viso"
+            ],
+            "risposta_corretta": "Monte Bianco"
+        },
+        {
+            "domanda": "Quale continente è anche un paese?",
+            "risposte": [
+                "Africa",
+                "Australia",
+                "Asia",
+                "Antartide"
+            ],
+            "risposta_corretta": "Australia"
+        },
+        {
+            "domanda": "Qual è la capitale della Germania?",
+            "risposte": [
+                "Berlino",
+                "Monaco",
+                "Francoforte",
+                "Amburgo"
+            ],
+            "risposta_corretta": "Berlino"
+        },
+        {
+            "domanda": "Quale stato americano è conosciuto come 'The Sunshine State'?",
+            "risposte": [
+                "California",
+                "Florida",
+                "Texas",
+                "Hawaii"
+            ],
+            "risposta_corretta": "Florida"
+        },
+        {
+            "domanda": "Qual è la capitale della Spagna?",
+            "risposte": [
+                "Barcellona",
+                "Valencia",
+                "Madrid",
+                "Siviglia"
+            ],
+            "risposta_corretta": "Madrid"
+        },
+        {
+            "domanda": "Quale mare bagna la Grecia?",
+            "risposte": [
+                "Mar Nero",
+                "Mar Rosso",
+                "Mar Egeo",
+                "Mar Baltico"
+            ],
+            "risposta_corretta": "Mar Egeo"
+        },
+        {
+            "domanda": "Qual è la capitale dell'Egitto?",
+            "risposte": [
+                "Cairo",
+                "Alessandria",
+                "Luxor",
+                "Giza"
+            ],
+            "risposta_corretta": "Cairo"
+        },
+        {
+            "domanda": "Quale catena montuosa separa l'Europa dall'Asia?",
+            "risposte": [
+                "Alpi",
+                "Himalaya",
+                "Ande",
+                "Urali"
+            ],
+            "risposta_corretta": "Urali"
+        },
+        {
+            "domanda": "Qual è la capitale del Brasile?",
+            "risposte": [
+                "Rio de Janeiro",
+                "San Paolo",
+                "Brasilia",
+                "Salvador"
+            ],
+            "risposta_corretta": "Brasilia"
+        },
+        {
+            "domanda": "Qual è la lingua ufficiale del Messico?",
+            "risposte": [
+                "Inglese",
+                "Francese",
+                "Portoghese",
+                "Spagnolo"
+            ],
+            "risposta_corretta": "Spagnolo"
+        },
+        {
+            "domanda": "Quale paese ha la maggiore popolazione?",
+            "risposte": [
+                "Stati Uniti",
+                "India",
+                "Cina",
+                "Indonesia"
+            ],
+            "risposta_corretta": "Cina"
+        },
+        {
+            "domanda": "Quale città è conosciuta come la 'Grande Mela'?",
+            "risposte": [
+                "Los Angeles",
+                "Chicago",
+                "New York",
+                "Boston"
+            ],
+            "risposta_corretta": "New York"
+        },
+        {
+            "domanda": "Qual è la capitale della Russia?",
+            "risposte": [
+                "San Pietroburgo",
+                "Mosca",
+                "Novosibirsk",
+                "Kazan"
+            ],
+            "risposta_corretta": "Mosca"
+        },
+        {
+            "domanda": "Quale stato italiano è conosciuto come la 'Repubblica dei Dogi'?",
+            "risposte": [
+                "Venezia",
+                "Genova",
+                "Pisa",
+                "Napoli"
+            ],
+            "risposta_corretta": "Venezia"
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Quale pianeta del Sistema Solare ha la temperatura superficiale più alta?",
+            "risposte": [
+                "Venere",
+                "Mercurio",
+                "Giove",
+                "Marte"
+            ],
+            "risposta_corretta": "Venere"
+        },
+        {
+            "domanda": "Qual è il nome della forza che attrae qualsiasi oggetto con massa verso il centro della Terra?",
+            "risposte": [
+                "Forza centrifuga",
+                "Momento angolare",
+                "Forza gravitazionale",
+                "Forza nucleare forte"
+            ],
+            "risposta_corretta": "Forza gravitazionale"
+        },
+        {
+            "domanda": "Quale elemento chimico è alla base di tutta la vita sulla Terra?",
+            "risposte": [
+                "Idrogeno",
+                "Carbonio",
+                "Ossigeno",
+                "Azoto"
+            ],
+            "risposta_corretta": "Carbonio"
+        },
+        {
+            "domanda": "In quale branca della scienza si studia la struttura e la funzione delle cellule viventi?",
+            "risposte": [
+                "Fisica",
+                "Chimica",
+                "Biologia",
+                "Matematica"
+            ],
+            "risposta_corretta": "Biologia"
+        },
+        {
+            "domanda": "Quale processo converte l'energia solare in energia chimica nelle piante?",
+            "risposte": [
+                "Respirazione cellulare",
+                "Fotosintesi",
+                "Fermentazione",
+                "Mitrosi"
+            ],
+            "risposta_corretta": "Fotosintesi"
+        },
+        {
+            "domanda": "Quale teoria spiega la formazione e l'evoluzione dell'universo?",
+            "risposte": [
+                "Teoria della relatività generale",
+                "Teoria del Big Bang",
+                "Teoria quantistica",
+                "Teoria della gravitazione universale"
+            ],
+            "risposta_corretta": "Teoria del Big Bang"
+        },
+        {
+            "domanda": "Quale gas è responsabile dell'effetto serra sulla Terra?",
+            "risposte": [
+                "Ossigeno",
+                "Azoto",
+                "Anidride carbonica",
+                "Metano"
+            ],
+            "risposta_corretta": "Anidride carbonica"
+        },
+        {
+            "domanda": "Qual è il nome del processo che trasforma le rocce sedimentarie in rocce metamorfiche?",
+            "risposte": [
+                "Fusione",
+                "Solidificazione",
+                "Metamorfismo",
+                "Subduzione"
+            ],
+            "risposta_corretta": "Metamorfismo"
+        },
+        {
+            "domanda": "Quale animale è il più grande mammifero terrestre?",
+            "risposte": [
+                "Elefante africano",
+                "Balena azzurra",
+                "Giraffa",
+                "Orso polare"
+            ],
+            "risposta_corretta": "Elefante africano"
+        },
+        {
+            "domanda": "Quale continente ospita la maggior parte della biodiversità sulla Terra?",
+            "risposte": [
+                "Africa",
+                "Sud America",
+                "Asia",
+                "Antartide"
+            ],
+            "risposta_corretta": "Sud America"
+        },
+        {
+            "domanda": "Quale organello cellulare è responsabile della produzione di energia?",
+            "risposte": [
+                "Mitocondri",
+                "Nucleo",
+                "Reticolo endoplasmatico",
+                "Apparato di Golgi"
+            ],
+            "risposta_corretta": "Mitocondri"
+        },
+        {
+            "domanda": "In quale fase del ciclo cellulare si duplica il DNA?",
+            "risposte": [
+                "Interfase",
+                "Mitosi",
+                "Meiosi",
+                "Citocinesi"
+            ],
+            "risposta_corretta": "Interfase"
+        },
+        {
+            "domanda": "Qual è il nome della forza che tiene uniti gli atomi nelle molecole?",
+            "risposte": [
+                "Forza nucleare forte",
+                "Forza nucleare debole",
+                "Forza elettromagnetica",
+                "Legami chimici"
+            ],
+            "risposta_corretta": "Legami chimici"
+        },
+        {
+            "domanda": "Quale elemento chimico è essenziale per la fotosintesi?",
+            "risposte": [
+                "Idrogeno",
+                "Carbonio",
+                "Ossigeno",
+                "Azoto"
+            ],
+            "risposta_corretta": "Carbonio"
+        },
+        {
+            "domanda": "Quale tipo di onda trasporta l'energia del suono?",
+            "risposte": [
+                "Onde longitudinali",
+                "Onde trasversali",
+                "Onde elettromagnetiche",
+                "Onde meccaniche"
+            ],
+            "risposta_corretta": "Onde meccaniche"
+        },
+        {
+            "domanda": "Qual è il nome della forza che agisce su un oggetto in movimento circolare?",
+            "risposte": [
+                "Forza centrifuga",
+                "Momento angolare",
+                "Forza gravitazionale",
+                "Forza nucleare forte"
+            ],
+            "risposta_corretta": "Forza centrifuga"
+        },
+        {
+            "domanda": "Quale pianeta del Sistema Solare ha il maggior numero di lune?",
+            "risposte": [
+                "Giove",
+                "Saturno",
+                "Urano",
+                "Nettuno"
+            ],
+            "risposta_corretta": "Giove"
+        },
+        {
+            "domanda": "Quale teoria spiega il comportamento della luce come onda e particella?",
+            "risposte": [
+                "Teoria della relatività generale",
+                "Teoria del Big Bang",
+                "Teoria quantistica",
+                "Teoria della gravitazione universale"
+            ],
+            "risposta_corretta": "Teoria quantistica"
+        },
+        {
+            "domanda": "Quale gas è il più abbondante nell'atmosfera terrestre?",
+            "risposte": [
+                "Ossigeno",
+                "Azoto",
+                "Anidride carbonica",
+                "Metano"
+            ],
+            "risposta_corretta": "Azoto"
+        },
+        {
+            "domanda": "Quale processo geologico è responsabile della formazione delle montagne?",
+            "risposte": [
+                "Fusione",
+                "Solidificazione",
+                "Metamorfismo",
+                "Tettonica a placche"
+            ],
+            "risposta_corretta": "Tettonica a placche"
+        },
+        {
+            "domanda": "Quale cellula del corpo umano è responsabile della produzione di anticorpi?",
+            "risposte": [
+                "Globuli rossi",
+                "Globuli bianchi",
+                "Piastrine",
+                "Neuroni"
+            ],
+            "risposta_corretta": "Globuli bianchi"
+        },
+        {
+            "domanda": "Quale processo converte il cibo in energia utilizzabile dal corpo?",
+            "risposte": [
+                "Respirazione cellulare",
+                "Fotosintesi",
+                "Fermentazione",
+                "Mitrosi"
+            ],
+            "risposta_corretta": "Respirazione cellulare"
+        },
+        {
+            "domanda": "Qual è il nome della forza che tiene uniti i nucleoni all'interno di un atomo?",
+            "risposte": [
+                "Forza nucleare forte",
+                "Forza nucleare debole",
+                "Forza elettromagnetica",
+                "Legami chimici"
+            ],
+            "risposta_corretta": "Forza nucleare forte"
+        },
+        {
+            "domanda": "Quale molecola è la base dell'ereditarietà?",
+            "risposte": [
+                "DNA",
+                "RNA",
+                "Proteine",
+                "Lipidi"
+            ],
+            "risposta_corretta": "DNA"
+        },
+        {
+            "domanda": "Quale tipo di onda trasporta l'energia della luce?",
+            "risposte": [
+                "Onde longitudinali",
+                "Onde trasversali",
+                "Onde elettromagnetiche",
+                "Onde meccaniche"
+            ],
+            "risposta_corretta": "Onde elettromagnetiche"
+        },
+        {
+            "domanda": "Qual è il nome del processo che trasforma l'energia potenziale gravitazionale in energia cinetica?",
+            "risposte": [
+                "Teoria della relatività generale",
+                "Teoria del Big Bang",
+                "Teoria quantistica",
+                "Teoria della gravitazione universale"
+            ],
+            "risposta_corretta": "Teoria della gravitazione universale"
+        },
+        {
+            "domanda": "Quale pianeta del Sistema Solare ha la giornata più lunga?",
+            "risposte": [
+                "Venere",
+                "Mercurio",
+                "Giove",
+                "Marte"
+            ],
+            "risposta_corretta": "Venere"
+        },
+        {
+            "domanda": "Quale teoria spiega l'origine degli elementi chimici nell'universo?",
+            "risposte": [
+                "Teoria della relatività generale",
+                "Teoria del Big Bang",
+                "Teoria quantistica",
+                "Teoria della gravitazione universale"
+            ],
+            "risposta_corretta": "Teoria del Big Bang"
+        },
+        {
+            "domanda": "Quale gas è responsabile dell'effetto serra su Marte?",
+            "risposte": [
+                "Ossigeno",
+                "Azoto",
+                "Anidride carbonica",
+                "Metano"
+            ],
+            "risposta_corretta": "Anidride carbonica"
+        },
+        {
+            "domanda": "Qual è il nome del processo che trasforma le rocce ignee in rocce sedimentarie?",
+            "risposte": [
+                "Fusione",
+                "Solidificazione",
+                "Metamorfismo",
+                "Erosione"
+            ],
+            "risposta_corretta": "Erosione"
+        }
+    ]
+}

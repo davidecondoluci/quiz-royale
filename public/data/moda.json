@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Chi è considerato il padre dell'alta moda?",
+            "risposte": [
+                "Coco Chanel",
+                "Christian Dior",
+                "Charles Frederick Worth",
+                "Giorgio Armani"
+            ],
+            "risposta_corretta": "Charles Frederick Worth"
+        },
+        {
+            "domanda": "Quale stilista italiano è famoso per i suoi abiti da sposa?",
+            "risposte": [
+                "Roberto Cavalli",
+                "Valentino",
+                "Gucci",
+                "Versace"
+            ],
+            "risposta_corretta": "Valentino"
+        },
+        {
+            "domanda": "Qual è il simbolo iconico della marca Chanel?",
+            "risposte": [
+                "La cintura",
+                "Il tailleur",
+                "Il fiocco",
+                "La doppia C"
+            ],
+            "risposta_corretta": "La doppia C"
+        },
+        {
+            "domanda": "Quale marca di moda è famosa per il motivo a scacchi beige?",
+            "risposte": [
+                "Prada",
+                "Louis Vuitton",
+                "Burberry",
+                "Hermès"
+            ],
+            "risposta_corretta": "Burberry"
+        },
+        {
+            "domanda": "Chi è il fondatore della casa di moda Balenciaga?",
+            "risposte": [
+                "Cristóbal Balenciaga",
+                "Karl Lagerfeld",
+                "Alexander McQueen",
+                "John Galliano"
+            ],
+            "risposta_corretta": "Cristóbal Balenciaga"
+        },
+        {
+            "domanda": "Quale stilista ha creato il 'New Look' nel 1947?",
+            "risposte": [
+                "Yves Saint Laurent",
+                "Christian Dior",
+                "Coco Chanel",
+                "Jean Paul Gaultier"
+            ],
+            "risposta_corretta": "Christian Dior"
+        },
+        {
+            "domanda": "Qual è il materiale principale delle borse Hermès Birkin?",
+            "risposte": [
+                "Velluto",
+                "Camoscio",
+                "Pelle",
+                "Cotone"
+            ],
+            "risposta_corretta": "Pelle"
+        },
+        {
+            "domanda": "Quale stilista ha lanciato la famosa fragranza 'No. 5'?",
+            "risposte": [
+                "Giorgio Armani",
+                "Dolce & Gabbana",
+                "Coco Chanel",
+                "Versace"
+            ],
+            "risposta_corretta": "Coco Chanel"
+        },
+        {
+            "domanda": "In quale città si tiene la Fashion Week più antica?",
+            "risposte": [
+                "Parigi",
+                "Milano",
+                "New York",
+                "Londra"
+            ],
+            "risposta_corretta": "Parigi"
+        },
+        {
+            "domanda": "Qual è il nome del fondatore di Gucci?",
+            "risposte": [
+                "Salvatore Ferragamo",
+                "Guccio Gucci",
+                "Miuccia Prada",
+                "Domenico Dolce"
+            ],
+            "risposta_corretta": "Guccio Gucci"
+        },
+        {
+            "domanda": "Chi ha creato la gonna a palloncino?",
+            "risposte": [
+                "Vivienne Westwood",
+                "Pierre Cardin",
+                "Cristóbal Balenciaga",
+                "Christian Lacroix"
+            ],
+            "risposta_corretta": "Pierre Cardin"
+        },
+        {
+            "domanda": "Quale marchio è noto per i suoi occhiali da sole con logo a medusa?",
+            "risposte": [
+                "Fendi",
+                "Versace",
+                "Dolce & Gabbana",
+                "Prada"
+            ],
+            "risposta_corretta": "Versace"
+        },
+        {
+            "domanda": "Quale stilista ha lanciato la collezione 'Savage X Fenty'?",
+            "risposte": [
+                "Rihanna",
+                "Beyoncé",
+                "Kanye West",
+                "Ariana Grande"
+            ],
+            "risposta_corretta": "Rihanna"
+        },
+        {
+            "domanda": "Quale città è famosa per la produzione di seta in Italia?",
+            "risposte": [
+                "Napoli",
+                "Firenze",
+                "Como",
+                "Torino"
+            ],
+            "risposta_corretta": "Como"
+        },
+        {
+            "domanda": "Quale tessuto è ottenuto dalla pianta del cotone?",
+            "risposte": [
+                "Lino",
+                "Seta",
+                "Cotone",
+                "Cachemire"
+            ],
+            "risposta_corretta": "Cotone"
+        },
+        {
+            "domanda": "Quale stilista è noto per le sue scarpe con la suola rossa?",
+            "risposte": [
+                "Jimmy Choo",
+                "Manolo Blahnik",
+                "Christian Louboutin",
+                "Giuseppe Zanotti"
+            ],
+            "risposta_corretta": "Christian Louboutin"
+        },
+        {
+            "domanda": "Quale stilista ha creato il profumo 'Opium'?",
+            "risposte": [
+                "Yves Saint Laurent",
+                "Jean-Paul Gaultier",
+                "Giorgio Armani",
+                "Calvin Klein"
+            ],
+            "risposta_corretta": "Yves Saint Laurent"
+        },
+        {
+            "domanda": "Chi è il direttore creativo di Louis Vuitton a partire dal 2021?",
+            "risposte": [
+                "Nicolas Ghesquière",
+                "Virgil Abloh",
+                "Marc Jacobs",
+                "Kim Jones"
+            ],
+            "risposta_corretta": "Virgil Abloh"
+        },
+        {
+            "domanda": "Quale marca è famosa per le sue giacche trapuntate?",
+            "risposte": [
+                "Burberry",
+                "Moncler",
+                "Canada Goose",
+                "North Face"
+            ],
+            "risposta_corretta": "Moncler"
+        },
+        {
+            "domanda": "Quale stilista ha lanciato la propria linea di lingerie nel 2018?",
+            "risposte": [
+                "Kylie Jenner",
+                "Rihanna",
+                "Gigi Hadid",
+                "Bella Hadid"
+            ],
+            "risposta_corretta": "Rihanna"
+        },
+        {
+            "domanda": "Quale designer è famoso per le sue fantasie floreali?",
+            "risposte": [
+                "Alexander McQueen",
+                "Oscar de la Renta",
+                "Gianni Versace",
+                "Dolce & Gabbana"
+            ],
+            "risposta_corretta": "Oscar de la Renta"
+        },
+        {
+            "domanda": "Qual è il nome del fratello di Donatella Versace, fondatore della casa di moda Versace?",
+            "risposte": [
+                "Alessandro",
+                "Giovanni",
+                "Giulio",
+                "Gianni"
+            ],
+            "risposta_corretta": "Gianni"
+        },
+        {
+            "domanda": "Quale casa di moda è famosa per la sua linea di borse 'Baguette'?",
+            "risposte": [
+                "Prada",
+                "Gucci",
+                "Fendi",
+                "Chloé"
+            ],
+            "risposta_corretta": "Fendi"
+        },
+        {
+            "domanda": "Quale stilista ha lavorato per Givenchy prima di fondare la propria linea?",
+            "risposte": [
+                "Jean-Paul Gaultier",
+                "Alexander McQueen",
+                "John Galliano",
+                "Riccardo Tisci"
+            ],
+            "risposta_corretta": "Alexander McQueen"
+        },
+        {
+            "domanda": "Quale marchio è noto per il logo a doppia F?",
+            "risposte": [
+                "Fendi",
+                "Ferragamo",
+                "Furla",
+                "Fila"
+            ],
+            "risposta_corretta": "Fendi"
+        },
+        {
+            "domanda": "Quale designer ha creato il famoso vestito nero di Audrey Hepburn in 'Colazione da Tiffany'?",
+            "risposte": [
+                "Yves Saint Laurent",
+                "Coco Chanel",
+                "Hubert de Givenchy",
+                "Karl Lagerfeld"
+            ],
+            "risposta_corretta": "Hubert de Givenchy"
+        },
+        {
+            "domanda": "Quale stilista ha inventato la minigonna negli anni '60?",
+            "risposte": [
+                "Mary Quant",
+                "Vivienne Westwood",
+                "Diane von Fürstenberg",
+                "Miuccia Prada"
+            ],
+            "risposta_corretta": "Mary Quant"
+        },
+        {
+            "domanda": "Quale stilista è noto per il suo lavoro con i tessuti plissettati?",
+            "risposte": [
+                "Issey Miyake",
+                "Karl Lagerfeld",
+                "Giorgio Armani",
+                "Valentino"
+            ],
+            "risposta_corretta": "Issey Miyake"
+        },
+        {
+            "domanda": "Quale stilista è noto per le sue collezioni futuristiche e architettoniche?",
+            "risposte": [
+                "Alexander Wang",
+                "Tom Ford",
+                "Pierre Cardin",
+                "Hedi Slimane"
+            ],
+            "risposta_corretta": "Pierre Cardin"
+        },
+        {
+            "domanda": "Quale stilista ha creato la famosa scarpa con cinturino 'Rockstud'?",
+            "risposte": [
+                "Manolo Blahnik",
+                "Valentino",
+                "Jimmy Choo",
+                "Christian Louboutin"
+            ],
+            "risposta_corretta": "Valentino"
+        }
+    ]
+}

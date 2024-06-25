@@ -2,304 +2,304 @@
     "playerImage": "/img/player_trident.png",
     "questions": [
         {
-            "domanda": "Chi è il dio del mare nella mitologia greca?",
+            "domanda": "Chi è il dio greco del mare?",
             "risposte": [
                 "Zeus",
+                "Poseidone",
                 "Ade",
-                "Ares",
-                "Poseidone"
+                "Ermes"
             ],
             "risposta_corretta": "Poseidone"
         },
         {
-            "domanda": "Quale animale è associato alla dea Atena?",
+            "domanda": "Chi è la dea romana dell'amore?",
             "risposte": [
-                "Cavallo",
-                "Serpente",
-                "Civetta",
-                "Lupo"
+                "Minerva",
+                "Venere",
+                "Giunone",
+                "Diana"
             ],
-            "risposta_corretta": "Civetta"
+            "risposta_corretta": "Venere"
         },
         {
-            "domanda": "Chi è il dio della guerra nella mitologia romana?",
+            "domanda": "Quale creatura mitologica ha la testa di leone, il corpo di capra e la coda di serpente?",
             "risposte": [
-                "Apollo",
-                "Marte",
-                "Nettuno",
-                "Plutone"
+                "Grifone",
+                "Chimera",
+                "Idra",
+                "Cerbero"
             ],
-            "risposta_corretta": "Marte"
+            "risposta_corretta": "Chimera"
         },
         {
-            "domanda": "Chi è la dea dell'amore e della bellezza nella mitologia greca?",
+            "domanda": "Chi era il re degli dei nell'antica Grecia?",
             "risposte": [
-                "Era",
-                "Atena",
-                "Artemide",
-                "Afrodite"
-            ],
-            "risposta_corretta": "Afrodite"
-        },
-        {
-            "domanda": "Chi è il re degli dèi nella mitologia greca?",
-            "risposte": [
-                "Poseidone",
-                "Ade",
+                "Ares",
+                "Ermes",
                 "Zeus",
-                "Ermes"
+                "Poseidone"
             ],
             "risposta_corretta": "Zeus"
         },
         {
-            "domanda": "Quale è il nome del dio del sole nella mitologia egizia?",
+            "domanda": "Quale eroe greco ha ucciso Medusa?",
             "risposte": [
-                "Ra",
+                "Teseo",
+                "Achille",
+                "Eracle",
+                "Perseo"
+            ],
+            "risposta_corretta": "Perseo"
+        },
+        {
+            "domanda": "Chi è il dio egizio del sole?",
+            "risposte": [
                 "Anubi",
                 "Osiride",
+                "Ra",
                 "Horus"
             ],
             "risposta_corretta": "Ra"
         },
         {
-            "domanda": "Chi è il dio del vino e delle feste nella mitologia greca?",
+            "domanda": "Quale dio norreno è conosciuto come il dio del tuono?",
             "risposte": [
-                "Ermes",
-                "Dioniso",
-                "Ares",
-                "Apollo"
-            ],
-            "risposta_corretta": "Dioniso"
-        },
-        {
-            "domanda": "Quale eroe greco uccise il Minotauro?",
-            "risposte": [
-                "Ercole",
-                "Teseo",
-                "Achille",
-                "Perseo"
-            ],
-            "risposta_corretta": "Teseo"
-        },
-        {
-            "domanda": "Chi è il dio del fuoco e della metallurgia nella mitologia romana?",
-            "risposte": [
-                "Mercurio",
-                "Nettuno",
-                "Vulcano",
-                "Giove"
-            ],
-            "risposta_corretta": "Vulcano"
-        },
-        {
-            "domanda": "Chi è la dea della caccia nella mitologia greca?",
-            "risposte": [
-                "Afrodite",
-                "Atena",
-                "Demetra",
-                "Artemide"
-            ],
-            "risposta_corretta": "Artemide"
-        },
-        {
-            "domanda": "Quale è il nome del dio del cielo e del tuono nella mitologia norrena?",
-            "risposte": [
-                "Odino",
-                "Thor",
                 "Loki",
-                "Frey"
+                "Odin",
+                "Thor",
+                "Baldr"
             ],
             "risposta_corretta": "Thor"
         },
         {
-            "domanda": "Chi è il dio degli inferi nella mitologia greca?",
+            "domanda": "Chi è il dio greco del vino e della follia?",
             "risposte": [
-                "Zeus",
-                "Poseidone",
-                "Ade",
-                "Ares"
-            ],
-            "risposta_corretta": "Ade"
-        },
-        {
-            "domanda": "Quale dea greca è associata alla magia e alla stregoneria?",
-            "risposte": [
-                "Hestia",
-                "Hera",
-                "Hecate",
-                "Aphrodite"
-            ],
-            "risposta_corretta": "Hecate"
-        },
-        {
-            "domanda": "Chi è il dio della luce nella mitologia romana?",
-            "risposte": [
-                "Giove",
+                "Dioniso",
+                "Ares",
                 "Apollo",
-                "Plutone",
-                "Nettuno"
+                "Ermes"
             ],
-            "risposta_corretta": "Apollo"
+            "risposta_corretta": "Dioniso"
         },
         {
-            "domanda": "Chi è il dio della guerra e della tempesta nella mitologia egizia?",
+            "domanda": "Qual è il nome del fiume che le anime devono attraversare per entrare negli inferi greci?",
             "risposte": [
-                "Anubi",
+                "Stige",
+                "Eufrate",
+                "Nilo",
+                "Gange"
+            ],
+            "risposta_corretta": "Stige"
+        },
+        {
+            "domanda": "Chi è la dea greca della saggezza?",
+            "risposte": [
+                "Afrodite",
+                "Artemide",
+                "Era",
+                "Atena"
+            ],
+            "risposta_corretta": "Atena"
+        },
+        {
+            "domanda": "Chi era il marito di Iside nella mitologia egizia?",
+            "risposte": [
                 "Osiride",
-                "Seth",
+                "Ra",
+                "Anubi",
                 "Horus"
             ],
-            "risposta_corretta": "Seth"
+            "risposta_corretta": "Osiride"
         },
         {
-            "domanda": "Quale mostro mitologico è metà uomo e metà toro?",
+            "domanda": "Quale creatura mitologica è metà uomo e metà cavallo?",
             "risposte": [
-                "Ciclope",
                 "Minotauro",
-                "Caronte",
+                "Ciclope",
+                "Centauro",
+                "Fauno"
+            ],
+            "risposta_corretta": "Centauro"
+        },
+        {
+            "domanda": "Chi è il dio greco della guerra?",
+            "risposte": [
+                "Zeus",
+                "Ares",
+                "Apollo",
+                "Efesto"
+            ],
+            "risposta_corretta": "Ares"
+        },
+        {
+            "domanda": "Quale creatura mitologica custodiva il Labirinto di Creta?",
+            "risposte": [
+                "Sfinge",
+                "Grifone",
+                "Minotauro",
                 "Chimera"
             ],
             "risposta_corretta": "Minotauro"
         },
         {
-            "domanda": "Chi è il dio dell'amore nella mitologia greca?",
+            "domanda": "Chi è il dio romano del commercio e dei viaggi?",
             "risposte": [
-                "Apollo",
-                "Eros",
-                "Dioniso",
-                "Ares"
-            ],
-            "risposta_corretta": "Eros"
-        },
-        {
-            "domanda": "Quale è il nome della dea della saggezza e della guerra nella mitologia romana?",
-            "risposte": [
-                "Giunone",
-                "Diana",
-                "Minerva",
-                "Venere"
-            ],
-            "risposta_corretta": "Minerva"
-        },
-        {
-            "domanda": "Quale creatura mitologica aveva la testa di un leone, il corpo di una capra e la coda di un serpente?",
-            "risposte": [
-                "Medusa",
-                "Chimera",
-                "Cerbero",
-                "Sfinge"
-            ],
-            "risposta_corretta": "Chimera"
-        },
-        {
-            "domanda": "Chi era la regina degli dei nella mitologia romana?",
-            "risposte": [
-                "Venere",
-                "Minerva",
-                "Giunone",
-                "Diana"
-            ],
-            "risposta_corretta": "Giunone"
-        },
-        {
-            "domanda": "Chi è il dio della medicina nella mitologia greca?",
-            "risposte": [
-                "Apollo",
-                "Asclepio",
-                "Hermes",
-                "Zeus"
-            ],
-            "risposta_corretta": "Asclepio"
-        },
-        {
-            "domanda": "Quale mostro mitologico aveva serpenti al posto dei capelli e poteva pietrificare chiunque la guardasse negli occhi?",
-            "risposte": [
-                "Medusa",
-                "Aracne",
-                "Sirena",
-                "Harpia"
-            ],
-            "risposta_corretta": "Medusa"
-        },
-        {
-            "domanda": "Chi è il dio del sole nella mitologia greca?",
-            "risposte": [
-                "Apollo",
-                "Helios",
-                "Hermes",
-                "Zeus"
-            ],
-            "risposta_corretta": "Helios"
-        },
-        {
-            "domanda": "Chi è il dio del vino nella mitologia romana?",
-            "risposte": [
-                "Bacco",
                 "Marte",
-                "Giove",
-                "Mercurio"
-            ],
-            "risposta_corretta": "Bacco"
-        },
-        {
-            "domanda": "Quale è il nome del dio del mare nella mitologia romana?",
-            "risposte": [
-                "Giove",
+                "Mercurio",
                 "Nettuno",
-                "Plutone",
-                "Marte"
+                "Giove"
             ],
-            "risposta_corretta": "Nettuno"
+            "risposta_corretta": "Mercurio"
         },
         {
-            "domanda": "Chi è la dea della fertilità e dell'agricoltura nella mitologia greca?",
+            "domanda": "Chi è la dea greca dell'amore e della bellezza?",
             "risposte": [
-                "Afrodite",
+                "Era",
                 "Atena",
-                "Demetra",
-                "Era"
+                "Afrodite",
+                "Artemide"
             ],
-            "risposta_corretta": "Demetra"
+            "risposta_corretta": "Afrodite"
+        },
+        {
+            "domanda": "Chi è il dio greco della musica, delle arti e della profezia?",
+            "risposte": [
+                "Apollo",
+                "Dioniso",
+                "Ares",
+                "Ermes"
+            ],
+            "risposta_corretta": "Apollo"
+        },
+        {
+            "domanda": "Quale eroe greco compì le dodici fatiche?",
+            "risposte": [
+                "Teseo",
+                "Eracle",
+                "Perseo",
+                "Achille"
+            ],
+            "risposta_corretta": "Eracle"
+        },
+        {
+            "domanda": "Chi è il dio romano del fuoco e della forgia?",
+            "risposte": [
+                "Vulcano",
+                "Giove",
+                "Marte",
+                "Nettuno"
+            ],
+            "risposta_corretta": "Vulcano"
+        },
+        {
+            "domanda": "Quale dea egizia è rappresentata con le corna di mucca e il disco solare?",
+            "risposte": [
+                "Iside",
+                "Bastet",
+                "Hathor",
+                "Maat"
+            ],
+            "risposta_corretta": "Hathor"
+        },
+        {
+            "domanda": "Chi è il dio norreno della saggezza e della conoscenza?",
+            "risposte": [
+                "Thor",
+                "Loki",
+                "Odin",
+                "Freyr"
+            ],
+            "risposta_corretta": "Odin"
+        },
+        {
+            "domanda": "Quale creatura mitologica è famosa per le sue sfide di enigmi?",
+            "risposte": [
+                "Medusa",
+                "Cerbero",
+                "Sfinge",
+                "Grifone"
+            ],
+            "risposta_corretta": "Sfinge"
         },
         {
             "domanda": "Chi è il re degli dei nella mitologia romana?",
             "risposte": [
+                "Nettuno",
                 "Marte",
                 "Giove",
-                "Nettuno",
-                "Plutone"
+                "Saturno"
             ],
             "risposta_corretta": "Giove"
         },
         {
-            "domanda": "Quale è il nome della dea della vittoria nella mitologia greca?",
+            "domanda": "Chi era la moglie di Orfeo, il famoso musicista della mitologia greca?",
             "risposte": [
-                "Nike",
-                "Hera",
-                "Gaia",
-                "Persefone"
+                "Euridice",
+                "Elena",
+                "Penelope",
+                "Andromeda"
             ],
-            "risposta_corretta": "Nike"
+            "risposta_corretta": "Euridice"
         },
         {
-            "domanda": "Quale è il nome del dio degli dei nella mitologia norrena?",
+            "domanda": "Quale dio greco è associato al sole, oltre ad Apollo?",
             "risposte": [
-                "Thor",
-                "Loki",
-                "Freyr",
-                "Odino"
+                "Zeus",
+                "Ermes",
+                "Helios",
+                "Ares"
             ],
-            "risposta_corretta": "Odino"
+            "risposta_corretta": "Helios"
         },
         {
-            "domanda": "Quale animale è associato alla dea greca Artemide?",
+            "domanda": "Chi è il dio indù della distruzione e della trasformazione?",
             "risposte": [
-                "Aquila",
-                "Cane",
-                "Serpente",
-                "Cervo"
+                "Vishnu",
+                "Brahma",
+                "Indra",
+                "Shiva"
             ],
-            "risposta_corretta": "Cervo"
+            "risposta_corretta": "Shiva"
+        },
+        {
+            "domanda": "Quale mitico uccello rinasce dalle proprie ceneri?",
+            "risposte": [
+                "Fenice",
+                "Grifone",
+                "Pegaso",
+                "Sirena"
+            ],
+            "risposta_corretta": "Fenice"
+        },
+        {
+            "domanda": "Chi era il padre di Romolo e Remo, i leggendari fondatori di Roma?",
+            "risposte": [
+                "Giove",
+                "Marte",
+                "Nettuno",
+                "Mercurio"
+            ],
+            "risposta_corretta": "Marte"
+        },
+        {
+            "domanda": "Chi è il dio greco dei sogni?",
+            "risposte": [
+                "Hypnos",
+                "Thanatos",
+                "Morpheus",
+                "Crono"
+            ],
+            "risposta_corretta": "Morpheus"
+        },
+        {
+            "domanda": "Quale creatura mitologica ha ucciso il padre e sposato la madre?",
+            "risposte": [
+                "Edipo",
+                "Teseo",
+                "Perseo",
+                "Achille"
+            ],
+            "risposta_corretta": "Edipo"
         }
     ]
 }

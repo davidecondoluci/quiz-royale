@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è l'organo giurisdizionale supremo in Italia?",
+            "risposte": [
+                "Corte Costituzionale",
+                "Corte di Cassazione",
+                "Consiglio di Stato",
+                "Tribunale Superiore"
+            ],
+            "risposta_corretta": "Corte di Cassazione"
+        },
+        {
+            "domanda": "Quale principio stabilisce che nessuno può essere punito per un fatto che la legge non considera come reato?",
+            "risposte": [
+                "Principio di legalità",
+                "Principio di tassatività",
+                "Principio di irretroattività",
+                "Principio di offensività"
+            ],
+            "risposta_corretta": "Principio di legalità"
+        },
+        {
+            "domanda": "Chi nomina il Presidente della Repubblica Italiana?",
+            "risposte": [
+                "Il Presidente del Consiglio",
+                "Il Parlamento",
+                "I giudici costituzionali",
+                "I cittadini italiani"
+            ],
+            "risposta_corretta": "Il Parlamento"
+        },
+        {
+            "domanda": "Qual è il termine usato per indicare la rinuncia volontaria ad un diritto?",
+            "risposte": [
+                "Esecuzione",
+                "Abuso",
+                "Riserva",
+                "Rinuncia"
+            ],
+            "risposta_corretta": "Rinuncia"
+        },
+        {
+            "domanda": "Quale organo esercita la funzione legislativa in Italia?",
+            "risposte": [
+                "Corte Costituzionale",
+                "Consiglio di Stato",
+                "Presidente della Repubblica",
+                "Parlamento"
+            ],
+            "risposta_corretta": "Parlamento"
+        },
+        {
+            "domanda": "Qual è il massimo organo di governo dell'Unione Europea?",
+            "risposte": [
+                "Commissione Europea",
+                "Parlamento Europeo",
+                "Consiglio Europeo",
+                "Corte di Giustizia dell'Unione Europea"
+            ],
+            "risposta_corretta": "Consiglio Europeo"
+        },
+        {
+            "domanda": "In quale documento è sancita la Dichiarazione Universale dei Diritti Umani?",
+            "risposte": [
+                "Trattato di Lisbona",
+                "Convenzione Europea per la Salvaguardia dei Diritti dell'Uomo",
+                "Costituzione Italiana",
+                "Dichiarazione delle Nazioni Unite"
+            ],
+            "risposta_corretta": "Dichiarazione delle Nazioni Unite"
+        },
+        {
+            "domanda": "Chi è responsabile della rappresentanza legale dello Stato italiano?",
+            "risposte": [
+                "Presidente della Repubblica",
+                "Ministro della Giustizia",
+                "Capo dello Stato Maggiore della Difesa",
+                "Avvocatura dello Stato"
+            ],
+            "risposta_corretta": "Avvocatura dello Stato"
+        },
+        {
+            "domanda": "Come si definiscono le norme che regolano i rapporti tra privati?",
+            "risposte": [
+                "Diritto pubblico",
+                "Diritto privato",
+                "Diritto costituzionale",
+                "Diritto amministrativo"
+            ],
+            "risposta_corretta": "Diritto privato"
+        },
+        {
+            "domanda": "Qual è l'organo di giurisdizione amministrativa di secondo grado?",
+            "risposte": [
+                "Tribunale Amministrativo Regionale",
+                "Consiglio di Stato",
+                "Corte dei Conti",
+                "Corte di Appello"
+            ],
+            "risposta_corretta": "Consiglio di Stato"
+        },
+        {
+            "domanda": "Quale organo giudiziario controlla la costituzionalità delle leggi in Italia?",
+            "risposte": [
+                "Corte di Cassazione",
+                "Consiglio di Stato",
+                "Corte Costituzionale",
+                "Tribunale Costituzionale"
+            ],
+            "risposta_corretta": "Corte Costituzionale"
+        },
+        {
+            "domanda": "Che tipo di responsabilità prevede il reato di omicidio colposo?",
+            "risposte": [
+                "Responsabilità oggettiva",
+                "Responsabilità penale",
+                "Responsabilità civile",
+                "Responsabilità morale"
+            ],
+            "risposta_corretta": "Responsabilità penale"
+        },
+        {
+            "domanda": "Quale organo giudiziario si occupa di controllare la regolarità dei bilanci pubblici?",
+            "risposte": [
+                "Corte dei Conti",
+                "Corte di Appello",
+                "Corte Costituzionale",
+                "Corte di Giustizia Europea"
+            ],
+            "risposta_corretta": "Corte dei Conti"
+        },
+        {
+            "domanda": "Cosa si intende per nulla osta in ambito amministrativo?",
+            "risposte": [
+                "Autorizzazione preventiva",
+                "Parere consultivo",
+                "Dichiarazione di nullità",
+                "Richiesta di riesame"
+            ],
+            "risposta_corretta": "Autorizzazione preventiva"
+        },
+        {
+            "domanda": "Qual è l'organo che ha il compito di controllare l'attuazione delle politiche dell'Unione Europea?",
+            "risposte": [
+                "Parlamento Europeo",
+                "Commissione Europea",
+                "Consiglio Europeo",
+                "Corte di Giustizia dell'Unione Europea"
+            ],
+            "risposta_corretta": "Commissione Europea"
+        },
+        {
+            "domanda": "Quale organo giudiziario si occupa di controllare la legalità degli atti amministrativi in Italia?",
+            "risposte": [
+                "Tribunale Amministrativo Regionale",
+                "Consiglio di Stato",
+                "Corte dei Conti",
+                "Corte di Appello"
+            ],
+            "risposta_corretta": "Tribunale Amministrativo Regionale"
+        },
+        {
+            "domanda": "Chi è responsabile della pubblicazione delle leggi in Italia?",
+            "risposte": [
+                "Presidente della Repubblica",
+                "Ministro della Giustizia",
+                "Presidente del Consiglio",
+                "Gazzetta Ufficiale"
+            ],
+            "risposta_corretta": "Gazzetta Ufficiale"
+        },
+        {
+            "domanda": "Quale organo giudiziario ha sede a Lussemburgo e si occupa dell'interpretazione e dell'applicazione del diritto dell'Unione Europea?",
+            "risposte": [
+                "Corte di Appello dell'Unione Europea",
+                "Corte di Giustizia dell'Unione Europea",
+                "Corte dei Conti dell'Unione Europea",
+                "Tribunale di Prima Istanza dell'Unione Europea"
+            ],
+            "risposta_corretta": "Corte di Giustizia dell'Unione Europea"
+        },
+        {
+            "domanda": "Che tipo di responsabilità si applica a chi arreca danni per colpa grave o imperizia?",
+            "risposte": [
+                "Responsabilità penale",
+                "Responsabilità civile",
+                "Responsabilità morale",
+                "Responsabilità oggettiva"
+            ],
+            "risposta_corretta": "Responsabilità civile"
+        },
+        {
+            "domanda": "Qual è l'organo di controllo finanziario delle amministrazioni pubbliche in Italia?",
+            "risposte": [
+                "Corte di Giustizia",
+                "Corte Costituzionale",
+                "Corte dei Conti",
+                "Consiglio di Stato"
+            ],
+            "risposta_corretta": "Corte dei Conti"
+        },
+        {
+            "domanda": "Chi è il rappresentante dell'autorità giudiziaria all'interno di un processo penale?",
+            "risposte": [
+                "Avvocato difensore",
+                "Procuratore della Repubblica",
+                "Giudice di pace",
+                "Notaio"
+            ],
+            "risposta_corretta": "Procuratore della Repubblica"
+        },
+        {
+            "domanda": "Qual è il termine usato per indicare la revoca di un atto amministrativo?",
+            "risposte": [
+                "Annullamento",
+                "Abrogazione",
+                "Decadenza",
+                "Revoca"
+            ],
+            "risposta_corretta": "Revoca"
+        },
+        {
+            "domanda": "Quale organo decide in via definitiva sui conflitti di attribuzione tra poteri dello Stato in Italia?",
+            "risposte": [
+                "Corte di Cassazione",
+                "Consiglio Superiore della Magistratura",
+                "Consiglio di Stato",
+                "Corte Costituzionale"
+            ],
+            "risposta_corretta": "Corte Costituzionale"
+        },
+        {
+            "domanda": "Cosa si intende per prescrizione in ambito penale?",
+            "risposte": [
+                "Estinzione del reato per intervenuta amnistia",
+                "Estinzione del reato per intervenuta grazia",
+                "Estinzione del reato per decorso del tempo",
+                "Estinzione del reato per incompatibilità della pena"
+            ],
+            "risposta_corretta": "Estinzione del reato per decorso del tempo"
+        },
+        {
+            "domanda": "Chi nomina il Presidente della Corte Costituzionale in Italia?",
+            "risposte": [
+                "Il Presidente della Repubblica",
+                "Il Consiglio Superiore della Magistratura",
+                "Il Parlamento",
+                "I giudici costituzionali"
+            ],
+            "risposta_corretta": "Il Parlamento"
+        },
+        {
+            "domanda": "Quale principio afferma che nessuno può essere giudicato due volte per lo stesso reato?",
+            "risposte": [
+                "Principio di tassatività",
+                "Principio di non discriminazione",
+                "Principio di irretroattività",
+                "Principio del ne bis in idem"
+            ],
+            "risposta_corretta": "Principio del ne bis in idem"
+        },
+        {
+            "domanda": "Qual è il massimo organo di governo del Consiglio d'Europa?",
+            "risposte": [
+                "Commissione Europea",
+                "Parlamento Europeo",
+                "Comitato dei Ministri",
+                "Corte Europea dei Diritti dell'Uomo"
+            ],
+            "risposta_corretta": "Comitato dei Ministri"
+        },
+        {
+            "domanda": "In quale sede si riuniscono i giudici della Corte di Giustizia dell'Unione Europea?",
+            "risposte": [
+                "Lussemburgo",
+                "Bruxelles",
+                "Strasburgo",
+                "Londra"
+            ],
+            "risposta_corretta": "Lussemburgo"
+        },
+        {
+            "domanda": "Quale organo si occupa di redigere il bilancio annuale dell'Unione Europea?",
+            "risposte": [
+                "Parlamento Europeo",
+                "Commissione Europea",
+                "Consiglio dell'Unione Europea",
+                "Corte dei Conti Europea"
+            ],
+            "risposta_corretta": "Commissione Europea"
+        },
+        {
+            "domanda": "Qual è l'organo supremo della magistratura ordinaria in Italia?",
+            "risposte": [
+                "Consiglio Superiore della Magistratura",
+                "Corte di Cassazione",
+                "Tribunale Superiore di Giustizia",
+                "Corte Costituzionale"
+            ],
+            "risposta_corretta": "Consiglio Superiore della Magistratura"
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è il sistema operativo per smartphone più diffuso al mondo?",
+            "risposte": [
+                "Android",
+                "iOS",
+                "Windows Phone",
+                "Symbian"
+            ],
+            "risposta_corretta": "Android"
+        },
+        {
+            "domanda": "Quale componente di un computer memorizza i dati in modo permanente?",
+            "risposte": [
+                "CPU",
+                "RAM",
+                "Hard disk",
+                "Scheda madre"
+            ],
+            "risposta_corretta": "Hard disk"
+        },
+        {
+            "domanda": "A cosa si riferisce il termine `cloud computing`?",
+            "risposte": [
+                "Un tipo di software per computer",
+                "Un servizio di archiviazione dati online",
+                "Un linguaggio di programmazione",
+                "Un sistema operativo per dispositivi mobili"
+            ],
+            "risposta_corretta": "Un servizio di archiviazione dati online"
+        },
+        {
+            "domanda": "Quale invenzione ha rivoluzionato la comunicazione all'inizio del XX secolo?",
+            "risposte": [
+                "La televisione",
+                "Il telefono",
+                "Il computer",
+                "La radio"
+            ],
+            "risposta_corretta": "Il telefono"
+        },
+        {
+            "domanda": "Qual è il nome del creatore del sistema operativo Windows?",
+            "risposte": [
+                "Steve Jobs",
+                "Linus Torvalds",
+                "Bill Gates",
+                "Tim Berners-Lee"
+            ],
+            "risposta_corretta": "Bill Gates"
+        },
+        {
+            "domanda": "Quale tecnologia consente la connessione a internet senza fili?",
+            "risposte": [
+                "Bluetooth",
+                "Wi-Fi",
+                "GPS",
+                "NFC"
+            ],
+            "risposta_corretta": "Wi-Fi"
+        },
+        {
+            "domanda": "Qual è il linguaggio di programmazione più utilizzato per lo sviluppo web?",
+            "risposte": [
+                "Java",
+                "Python",
+                "C++",
+                "JavaScript"
+            ],
+            "risposta_corretta": "JavaScript"
+        },
+        {
+            "domanda": "Quale dispositivo è stato il primo ad essere lanciato sul mercato come smartphone?",
+            "risposte": [
+                "iPhone",
+                "BlackBerry",
+                "HTC Dream",
+                "Palm Pilot"
+            ],
+            "risposta_corretta": "HTC Dream"
+        },
+        {
+            "domanda": "A cosa si riferisce l'acronimo AI?",
+            "risposte": [
+                "Assistenza Intelligente",
+                "Analisi d'Immagine",
+                "Architettura Informatica",
+                "Intelligenza Artificiale"
+            ],
+            "risposta_corretta": "Intelligenza Artificiale"
+        },
+        {
+            "domanda": "Qual è il social network più utilizzato al mondo?",
+            "risposte": [
+                "Facebook",
+                "Instagram",
+                "Twitter",
+                "TikTok"
+            ],
+            "risposta_corretta": "Facebook"
+        },
+        {
+            "domanda": "Quale tecnologia permette la visione di immagini tridimensionali senza l'ausilio di occhiali speciali?",
+            "risposte": [
+                "Realtà virtuale",
+                "Realtà aumentata",
+                "Olografia",
+                "Stereoscopia"
+            ],
+            "risposta_corretta": "Olografia"
+        },
+        {
+            "domanda": "Qual è il nome del primo computer in grado di giocare a scacchi ad alto livello?",
+            "risposte": [
+                "Deep Blue",
+                "Watson",
+                "AlphaGo",
+                "Fritz"
+            ],
+            "risposta_corretta": "Deep Blue"
+        },
+        {
+            "domanda": "A cosa si riferisce il termine `blockchain`?",
+            "risposte": [
+                "Un tipo di rete informatica",
+                "Un registro digitale distribuito",
+                "Un algoritmo di crittografia",
+                "Un linguaggio di programmazione per smart contract"
+            ],
+            "risposta_corretta": "Un registro digitale distribuito"
+        },
+        {
+            "domanda": "Qual è il nome del sistema operativo per computer più utilizzato al mondo?",
+            "risposte": [
+                "Windows",
+                "macOS",
+                "Linux",
+                "Chrome OS"
+            ],
+            "risposta_corretta": "Windows"
+        },
+        {
+            "domanda": "Quale tecnologia consente la trasmissione di dati ad alta velocità su brevi distanze?",
+            "risposte": [
+                "Bluetooth",
+                "Wi-Fi",
+                "NFC",
+                "Infrarossi"
+            ],
+            "risposta_corretta": "NFC"
+        },
+        {
+            "domanda": "Qual è il nome del creatore del motore di ricerca web Google?",
+            "risposte": [
+                "Larry Page e Sergey Brin",
+                "Tim Berners-Lee",
+                "Linus Torvalds",
+                "Mark Zuckerberg"
+            ],
+            "risposta_corretta": "Larry Page e Sergey Brin"
+        },
+        {
+            "domanda": "A cosa si riferisce l'acronimo IoT?",
+            "risposte": [
+                "Internet of Things",
+                "Intelligenza Artificiale",
+                "Realtà Virtuale",
+                "Cloud Computing"
+            ],
+            "risposta_corretta": "Internet of Things"
+        },
+        {
+            "domanda": "Quale supercomputer è stato il primo a raggiungere un exaflop di prestazioni?",
+            "risposte": [
+                "Summit",
+                "Fugaku",
+                "Frontier",
+                "Lucrezia"
+            ],
+            "risposta_corretta": "Summit"
+        },
+        {
+            "domanda": "Qual è il nome del satellite artificiale che ha permesso la prima mappatura globale della Terra?",
+            "risposte": [
+                "Sputnik",
+                "Explorer 1",
+                "Landsat 1",
+                "GPS 1"
+            ],
+            "risposta_corretta": "Landsat 1"
+        },
+        {
+            "domanda": "Qual è il sistema operativo per computer open-source più diffuso?",
+            "risposte": [
+                "Ubuntu",
+                "Debian",
+                "Fedora",
+                "Mint"
+            ],
+            "risposta_corretta": "Ubuntu"
+        },
+        {
+            "domanda": "Quale tecnologia consente di controllare dispositivi elettronici con la mente?",
+            "risposte": [
+                "Interfaccia neurale diretta",
+                "Riconoscimento facciale",
+                "Comandi vocali",
+                "Realtà aumentata"
+            ],
+            "risposta_corretta": "Interfaccia neurale diretta"
+        },
+        {
+            "domanda": "Qual è il nome del primo robot ad aver superato il test di Turing?",
+            "risposte": [
+                "Eugene Goostman",
+                "LaMDA",
+                "Sophia",
+                "Asimo"
+            ],
+            "risposta_corretta": "Eugene Goostman"
+        },
+        {
+            "domanda": "A cosa si riferisce il termine `bioprinting`?",
+            "risposte": [
+                "La stampa di organi umani utilizzando cellule staminali",
+                "La creazione di modelli tridimensionali di tessuti biologici",
+                "L'utilizzo di biomateriali per la stampa 3D",
+                "La stampa di farmaci personalizzati"
+            ],
+            "risposta_corretta": "La stampa di organi umani utilizzando cellule staminali"
+        },
+        {
+            "domanda": "Qual è il nome del sistema operativo per smartphone sviluppato da Google?",
+            "risposte": [
+                "Android",
+                "iOS",
+                "Windows Phone",
+                "BlackBerry OS"
+            ],
+            "risposta_corretta": "Android"
+        },
+        {
+            "domanda": "Quale tecnologia consente la traduzione istantanea di lingue diverse?",
+            "risposte": [
+                "Traduzione automatica",
+                "Riconoscimento vocale",
+                "Trascrizione automatica",
+                "Riassunto automatico"
+            ],
+            "risposta_corretta": "Traduzione automatica"
+        },
+        {
+            "domanda": "Qual è il nome del social network basato su immagini e video?",
+            "risposte": [
+                "Instagram",
+                "TikTok",
+                "Snapchat",
+                "Pinterest"
+            ],
+            "risposta_corretta": "Instagram"
+        },
+        {
+            "domanda": "A cosa si riferisce l'acronimo VR?",
+            "risposte": [
+                "Videogiochi",
+                "Realtà virtuale",
+                "Realtà aumentata",
+                "Intelligenza artificiale"
+            ],
+            "risposta_corretta": "Realtà virtuale"
+        },
+        {
+            "domanda": "Qual è il nome del sistema operativo per computer sviluppato da Apple?",
+            "risposte": [
+                "macOS",
+                "Windows",
+                "Linux",
+                "Chrome OS"
+            ],
+            "risposta_corretta": "macOS"
+        },
+        {
+            "domanda": "Quale tecnologia consente la connessione a internet tramite onde radio?",
+            "risposte": [
+                "Wi-Fi",
+                "Bluetooth",
+                "GPS",
+                "LTE"
+            ],
+            "risposta_corretta": "LTE"
+        },
+        {
+            "domanda": "Qual è il nome del browser web più utilizzato al mondo?",
+            "risposte": [
+                "Google Chrome",
+                "Safari",
+                "Microsoft Edge",
+                "Mozilla Firefox"
+            ],
+            "risposta_corretta": "Google Chrome"
+        }
+    ]
+}

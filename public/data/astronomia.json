@@ -1,0 +1,295 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è il pianeta più vicino al Sole?",
+            "risposte": [
+                "Venere",
+                "Terra",
+                "Mercurio",
+                "Marte"
+            ],
+            "risposta_corretta": "Mercurio"
+        },
+        {
+            "domanda": "Qual è il nome della galassia in cui si trova la Terra?",
+            "risposte": [
+                "Galassia di Andromeda",
+                "Via Lattea",
+                "Galassia Sombrero",
+                "Galassia Triangolo"
+            ],
+            "risposta_corretta": "Via Lattea"
+        },
+        {
+            "domanda": "Quale pianeta è noto per i suoi anelli?",
+            "risposte": [
+                "Giove",
+                "Saturno",
+                "Urano",
+                "Nettuno"
+            ],
+            "risposta_corretta": "Saturno"
+        },
+        {
+            "domanda": "Qual è la stella più vicina alla Terra?",
+            "risposte": [
+                "Alpha Centauri",
+                "Proxima Centauri",
+                "Sirius",
+                "Betelgeuse"
+            ],
+            "risposta_corretta": "Proxima Centauri"
+        },
+        {
+            "domanda": "Qual è il nome del telescopio spaziale lanciato dalla NASA nel 1990?",
+            "risposte": [
+                "James Webb",
+                "Chandra",
+                "Hubble",
+                "Spitzer"
+            ],
+            "risposta_corretta": "Hubble"
+        },
+        {
+            "domanda": "Quale pianeta ha la maggiore quantità di satelliti naturali conosciuti?",
+            "risposte": [
+                "Terra",
+                "Giove",
+                "Saturno",
+                "Marte"
+            ],
+            "risposta_corretta": "Saturno"
+        },
+        {
+            "domanda": "Qual è il nome della più grande luna di Saturno?",
+            "risposte": [
+                "Europa",
+                "Titan",
+                "Ganimede",
+                "Io"
+            ],
+            "risposta_corretta": "Titan"
+        },
+        {
+            "domanda": "Qual è il pianeta più grande del sistema solare?",
+            "risposte": [
+                "Saturno",
+                "Urano",
+                "Nettuno",
+                "Giove"
+            ],
+            "risposta_corretta": "Giove"
+        },
+        {
+            "domanda": "Quale pianeta è conosciuto come il 'pianeta rosso'?",
+            "risposte": [
+                "Venere",
+                "Mercurio",
+                "Marte",
+                "Nettuno"
+            ],
+            "risposta_corretta": "Marte"
+        },
+        {
+            "domanda": "Qual è la principale componente del Sole?",
+            "risposte": [
+                "Ossigeno",
+                "Idrogeno",
+                "Elio",
+                "Carbonio"
+            ],
+            "risposta_corretta": "Idrogeno"
+        },
+        {
+            "domanda": "Qual è il nome della cintura di asteroidi tra Marte e Giove?",
+            "risposte": [
+                "Cintura di Kuiper",
+                "Cintura di Van Allen",
+                "Cintura di Asteroidi",
+                "Cintura di Kuiper"
+            ],
+            "risposta_corretta": "Cintura di Asteroidi"
+        },
+        {
+            "domanda": "Qual è il nome del pianeta che è stato declassato a pianeta nano nel 2006?",
+            "risposte": [
+                "Plutone",
+                "Cerere",
+                "Eris",
+                "Makemake"
+            ],
+            "risposta_corretta": "Plutone"
+        },
+        {
+            "domanda": "Quale pianeta ha un giorno che dura più di un anno?",
+            "risposte": [
+                "Venere",
+                "Mercurio",
+                "Giove",
+                "Nettuno"
+            ],
+            "risposta_corretta": "Venere"
+        },
+        {
+            "domanda": "Qual è il satellite naturale della Terra?",
+            "risposte": [
+                "Luna",
+                "Io",
+                "Europa",
+                "Ganimede"
+            ],
+            "risposta_corretta": "Luna"
+        },
+        {
+            "domanda": "Qual è il secondo pianeta dal Sole?",
+            "risposte": [
+                "Venere",
+                "Mercurio",
+                "Terra",
+                "Marte"
+            ],
+            "risposta_corretta": "Venere"
+        },
+        {
+            "domanda": "Qual è la stella più luminosa nel cielo notturno?",
+            "risposte": [
+                "Betelgeuse",
+                "Sirius",
+                "Polaris",
+                "Rigel"
+            ],
+            "risposta_corretta": "Sirius"
+        },
+        {
+            "domanda": "Qual è la distanza media tra la Terra e il Sole?",
+            "risposte": [
+                "1 milione di km",
+                "150 milioni di km",
+                "10 milioni di km",
+                "1 miliardo di km"
+            ],
+            "risposta_corretta": "150 milioni di km"
+        },
+        {
+            "domanda": "Quale pianeta ha la maggiore inclinazione assiale?",
+            "risposte": [
+                "Urano",
+                "Venere",
+                "Nettuno",
+                "Giove"
+            ],
+            "risposta_corretta": "Urano"
+        },
+        {
+            "domanda": "Qual è il nome del buco nero supermassiccio al centro della Via Lattea?",
+            "risposte": [
+                "Sagittarius A*",
+                "Cygnus X-1",
+                "M87*",
+                "Andromeda A"
+            ],
+            "risposta_corretta": "Sagittarius A*"
+        },
+        {
+            "domanda": "Qual è il nome del rover che ha esplorato Marte dal 2004 al 2018?",
+            "risposte": [
+                "Spirit",
+                "Curiosity",
+                "Opportunity",
+                "Sojourner"
+            ],
+            "risposta_corretta": "Opportunity"
+        },
+        {
+            "domanda": "Quale satellite di Giove è famoso per avere un oceano sotterraneo?",
+            "risposte": [
+                "Io",
+                "Europa",
+                "Ganimede",
+                "Callisto"
+            ],
+            "risposta_corretta": "Europa"
+        },
+        {
+            "domanda": "Qual è il nome della missione che ha portato il primo uomo sulla Luna?",
+            "risposte": [
+                "Apollo 11",
+                "Gemini 12",
+                "Mercury-Atlas 6",
+                "Vostok 1"
+            ],
+            "risposta_corretta": "Apollo 11"
+        },
+        {
+            "domanda": "Quale pianeta ha la più alta velocità di rotazione?",
+            "risposte": [
+                "Saturno",
+                "Giove",
+                "Nettuno",
+                "Urano"
+            ],
+            "risposta_corretta": "Giove"
+        },
+        {
+            "domanda": "Qual è il nome dell'elemento che dà a Marte il suo colore rosso?",
+            "risposte": [
+                "Rame",
+                "Ferro",
+                "Mercurio",
+                "Oro"
+            ],
+            "risposta_corretta": "Ferro"
+        },
+        {
+            "domanda": "Quale pianeta è il più lontano dal Sole nel sistema solare?",
+            "risposte": [
+                "Urano",
+                "Plutone",
+                "Nettuno",
+                "Eris"
+            ],
+            "risposta_corretta": "Nettuno"
+        },
+        {
+            "domanda": "Qual è il nome del più grande vulcano del sistema solare?",
+            "risposte": [
+                "Mauna Kea",
+                "Olympus Mons",
+                "Vesuvius",
+                "Etna"
+            ],
+            "risposta_corretta": "Olympus Mons"
+        },
+        {
+            "domanda": "Quale pianeta è famoso per avere una macchia rossa gigante?",
+            "risposte": [
+                "Saturno",
+                "Giove",
+                "Nettuno",
+                "Urano"
+            ],
+            "risposta_corretta": "Giove"
+        },
+        {
+            "domanda": "Qual è il nome del primo satellite artificiale lanciato nello spazio?",
+            "risposte": [
+                "Sputnik 1",
+                "Explorer 1",
+                "Vanguard 1",
+                "Luna 1"
+            ],
+            "risposta_corretta": "Sputnik 1"
+        },
+        {
+            "domanda": "Quale pianeta ha una superficie con temperature estremamente variabili, da molto calde a molto fredde?",
+            "risposte": [
+                "Mercurio",
+                "Venere",
+                "Marte",
+                "Nettuno"
+            ],
+            "risposta_corretta": "Mercurio"
+        }
+    ]
+}

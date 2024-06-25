@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Cos'è il PIL?",
+            "risposte": [
+                "Produttività Interna Lorda",
+                "Prodotto Interno Lordo",
+                "Produttività Internazionale Lorda",
+                "Prodotto Internazionale Lordo"
+            ],
+            "risposta_corretta": "Prodotto Interno Lordo"
+        },
+        {
+            "domanda": "Qual è la principale funzione della Banca Centrale?",
+            "risposte": [
+                "Gestire il debito pubblico",
+                "Stampare denaro",
+                "Regolare l'inflazione",
+                "Emettere obbligazioni"
+            ],
+            "risposta_corretta": "Regolare l'inflazione"
+        },
+        {
+            "domanda": "Cos'è l'inflazione?",
+            "risposte": [
+                "Un aumento generalizzato dei prezzi",
+                "Una riduzione delle tasse",
+                "Un aumento della produzione",
+                "Una diminuzione del valore delle esportazioni"
+            ],
+            "risposta_corretta": "Un aumento generalizzato dei prezzi"
+        },
+        {
+            "domanda": "Che cos'è la disoccupazione strutturale?",
+            "risposte": [
+                "Disoccupazione causata da cambiamenti stagionali",
+                "Disoccupazione causata da fluttuazioni economiche",
+                "Disoccupazione causata da cambiamenti nella struttura dell'economia",
+                "Disoccupazione causata da disastri naturali"
+            ],
+            "risposta_corretta": "Disoccupazione causata da cambiamenti nella struttura dell'economia"
+        },
+        {
+            "domanda": "Cos'è il deficit pubblico?",
+            "risposte": [
+                "La differenza tra esportazioni e importazioni",
+                "La differenza tra entrate e uscite dello stato",
+                "La differenza tra il PIL reale e nominale",
+                "La differenza tra i tassi di interesse a breve e lungo termine"
+            ],
+            "risposta_corretta": "La differenza tra entrate e uscite dello stato"
+        },
+        {
+            "domanda": "Cosa rappresenta il tasso di interesse?",
+            "risposte": [
+                "Il costo del denaro preso in prestito",
+                "La redditività delle azioni",
+                "La quota di mercato di una compagnia",
+                "Il prezzo delle materie prime"
+            ],
+            "risposta_corretta": "Il costo del denaro preso in prestito"
+        },
+        {
+            "domanda": "Che cosa sono i mercati emergenti?",
+            "risposte": [
+                "Paesi con economie stabili e avanzate",
+                "Paesi con economie in rapido sviluppo",
+                "Paesi con economie in declino",
+                "Paesi con economie basate sull'agricoltura"
+            ],
+            "risposta_corretta": "Paesi con economie in rapido sviluppo"
+        },
+        {
+            "domanda": "Cos'è la bilancia commerciale?",
+            "risposte": [
+                "La differenza tra le entrate fiscali e le spese pubbliche",
+                "La differenza tra esportazioni e importazioni di beni",
+                "La differenza tra i tassi di interesse interni ed esterni",
+                "La differenza tra il debito pubblico e privato"
+            ],
+            "risposta_corretta": "La differenza tra esportazioni e importazioni di beni"
+        },
+        {
+            "domanda": "Cosa misura l'indice di Gini?",
+            "risposte": [
+                "La crescita economica di un paese",
+                "La disuguaglianza nella distribuzione del reddito",
+                "Il livello di povertà di un paese",
+                "Il tasso di disoccupazione"
+            ],
+            "risposta_corretta": "La disuguaglianza nella distribuzione del reddito"
+        },
+        {
+            "domanda": "Cos'è un oligopolio?",
+            "risposte": [
+                "Un mercato dominato da un singolo venditore",
+                "Un mercato con molti venditori indipendenti",
+                "Un mercato dominato da pochi venditori",
+                "Un mercato senza barriere all'entrata"
+            ],
+            "risposta_corretta": "Un mercato dominato da pochi venditori"
+        },
+        {
+            "domanda": "Cos'è una politica monetaria restrittiva?",
+            "risposte": [
+                "Un aumento della spesa pubblica",
+                "Una riduzione delle tasse",
+                "Un aumento dei tassi di interesse",
+                "Una riduzione delle esportazioni"
+            ],
+            "risposta_corretta": "Un aumento dei tassi di interesse"
+        },
+        {
+            "domanda": "Che cos'è il mercato azionario?",
+            "risposte": [
+                "Un mercato dove si vendono prodotti agricoli",
+                "Un mercato dove si comprano e vendono azioni",
+                "Un mercato dove si scambiano valute",
+                "Un mercato dove si trattano obbligazioni"
+            ],
+            "risposta_corretta": "Un mercato dove si comprano e vendono azioni"
+        },
+        {
+            "domanda": "Cos'è il tasso di disoccupazione?",
+            "risposte": [
+                "La percentuale di persone senza lavoro sul totale della popolazione",
+                "La percentuale di persone senza lavoro sul totale della forza lavoro",
+                "La percentuale di persone senza lavoro sul totale dei lavoratori autonomi",
+                "La percentuale di persone senza lavoro sul totale dei lavoratori dipendenti"
+            ],
+            "risposta_corretta": "La percentuale di persone senza lavoro sul totale della forza lavoro"
+        },
+        {
+            "domanda": "Qual è l'obiettivo principale della politica fiscale?",
+            "risposte": [
+                "Regolare la quantità di denaro in circolazione",
+                "Stabilizzare l'economia tramite spesa pubblica e tassazione",
+                "Ridurre il debito estero",
+                "Promuovere le esportazioni"
+            ],
+            "risposta_corretta": "Stabilizzare l'economia tramite spesa pubblica e tassazione"
+        },
+        {
+            "domanda": "Cos'è una recessione economica?",
+            "risposte": [
+                "Una fase di rapido aumento del PIL",
+                "Una fase di rapido aumento dell'inflazione",
+                "Una fase di contrazione dell'attività economica",
+                "Una fase di aumento delle esportazioni"
+            ],
+            "risposta_corretta": "Una fase di contrazione dell'attività economica"
+        },
+        {
+            "domanda": "Che cosa rappresenta il debito pubblico?",
+            "risposte": [
+                "Il totale delle obbligazioni emesse dalle aziende",
+                "Il totale dei prestiti concessi alle famiglie",
+                "Il totale delle obbligazioni emesse dallo stato",
+                "Il totale dei risparmi dei cittadini"
+            ],
+            "risposta_corretta": "Il totale delle obbligazioni emesse dallo stato"
+        },
+        {
+            "domanda": "Cos'è il libero scambio?",
+            "risposte": [
+                "Un sistema di scambio senza tariffe o restrizioni",
+                "Un sistema di scambio con alti dazi doganali",
+                "Un sistema di scambio limitato ai paesi sviluppati",
+                "Un sistema di scambio che promuove solo l'importazione"
+            ],
+            "risposta_corretta": "Un sistema di scambio senza tariffe o restrizioni"
+        },
+        {
+            "domanda": "Che cos'è una valuta fiat?",
+            "risposte": [
+                "Una valuta supportata dall'oro",
+                "Una valuta supportata dal petrolio",
+                "Una valuta emessa da un governo senza valore intrinseco",
+                "Una valuta emessa da un'istituzione privata"
+            ],
+            "risposta_corretta": "Una valuta emessa da un governo senza valore intrinseco"
+        },
+        {
+            "domanda": "Cosa si intende per \"privatizzazione\"?",
+            "risposte": [
+                "La nazionalizzazione di imprese private",
+                "La vendita di imprese statali a privati",
+                "La regolamentazione delle imprese private",
+                "La fusione di imprese private con imprese pubbliche"
+            ],
+            "risposta_corretta": "La vendita di imprese statali a privati"
+        },
+        {
+            "domanda": "Cos'è una barriera tariffaria?",
+            "risposte": [
+                "Una restrizione sul commercio internazionale imposta sotto forma di tariffe",
+                "Una tassa sui prodotti interni",
+                "Un incentivo fiscale per le esportazioni",
+                "Un divieto totale di importazioni"
+            ],
+            "risposta_corretta": "Una restrizione sul commercio internazionale imposta sotto forma di tariffe"
+        },
+        {
+            "domanda": "Cos'è la stagflazione?",
+            "risposte": [
+                "Un periodo di alta crescita economica e alta disoccupazione",
+                "Un periodo di alta inflazione e alta disoccupazione",
+                "Un periodo di bassa inflazione e bassa disoccupazione",
+                "Un periodo di deflazione e alta disoccupazione"
+            ],
+            "risposta_corretta": "Un periodo di alta inflazione e alta disoccupazione"
+        },
+        {
+            "domanda": "Cos'è un'economia di scala?",
+            "risposte": [
+                "Un'economia che produce una sola tipologia di beni",
+                "Un aumento dei costi unitari con l'aumento della produzione",
+                "Una riduzione dei costi unitari con l'aumento della produzione",
+                "Una riduzione della produzione con l'aumento dei costi unitari"
+            ],
+            "risposta_corretta": "Una riduzione dei costi unitari con l'aumento della produzione"
+        },
+        {
+            "domanda": "Cos'è il tasso di cambio?",
+            "risposte": [
+                "La percentuale di interessi sui prestiti bancari",
+                "Il valore di una valuta rispetto a un'altra valuta",
+                "Il costo di un'azione sul mercato azionario",
+                "Il tasso di crescita del PIL"
+            ],
+            "risposta_corretta": "Il valore di una valuta rispetto a un'altra valuta"
+        },
+        {
+            "domanda": "Che cos'è una politica fiscale espansiva?",
+            "risposte": [
+                "Una riduzione della spesa pubblica",
+                "Un aumento delle tasse",
+                "Un aumento della spesa pubblica e/o una riduzione delle tasse",
+                "Un aumento dei tassi di interesse"
+            ],
+            "risposta_corretta": "Un aumento della spesa pubblica e/o una riduzione delle tasse"
+        },
+        {
+            "domanda": "Che cos'è il capitalismo?",
+            "risposte": [
+                "Un sistema economico in cui i mezzi di produzione sono posseduti e controllati dallo stato",
+                "Un sistema economico in cui i mezzi di produzione sono posseduti e controllati da privati",
+                "Un sistema economico basato sulla condivisione equa delle risorse",
+                "Un sistema economico senza proprietà privata"
+            ],
+            "risposta_corretta": "Un sistema economico in cui i mezzi di produzione sono posseduti e controllati da privati"
+        },
+        {
+            "domanda": "Che cos'è il commercio internazionale?",
+            "risposte": [
+                "Il commercio di beni e servizi all'interno di un paese",
+                "Il commercio di beni e servizi tra paesi diversi",
+                "Il commercio di beni di lusso",
+                "Il commercio di beni tecnologici"
+            ],
+            "risposta_corretta": "Il commercio di beni e servizi tra paesi diversi"
+        },
+        {
+            "domanda": "Cos'è la globalizzazione?",
+            "risposte": [
+                "La riduzione del commercio internazionale",
+                "L'integrazione crescente delle economie mondiali",
+                "La chiusura delle economie nazionali",
+                "La nazionalizzazione delle industrie"
+            ],
+            "risposta_corretta": "L'integrazione crescente delle economie mondiali"
+        },
+        {
+            "domanda": "Che cosa rappresenta la curva di Phillips?",
+            "risposte": [
+                "La relazione tra inflazione e tasso di disoccupazione",
+                "La relazione tra PIL e debito pubblico",
+                "La relazione tra spesa pubblica e tasse",
+                "La relazione tra esportazioni e importazioni"
+            ],
+            "risposta_corretta": "La relazione tra inflazione e tasso di disoccupazione"
+        },
+        {
+            "domanda": "Che cos'è un monopolio?",
+            "risposte": [
+                "Un mercato con molti venditori",
+                "Un mercato con un solo venditore",
+                "Un mercato con pochi venditori",
+                "Un mercato senza venditori"
+            ],
+            "risposta_corretta": "Un mercato con un solo venditore"
+        },
+        {
+            "domanda": "Che cos'è il protezionismo?",
+            "risposte": [
+                "La promozione del libero scambio",
+                "L'imposizione di tariffe e restrizioni sulle importazioni",
+                "La riduzione delle barriere commerciali",
+                "La liberalizzazione del mercato del lavoro"
+            ],
+            "risposta_corretta": "L'imposizione di tariffe e restrizioni sulle importazioni"
+        }
+    ]
+}

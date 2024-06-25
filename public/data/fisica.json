@@ -1,0 +1,295 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è la velocità della luce nel vuoto?",
+            "risposte": [
+                "300.000 km/s",
+                "150.000 km/s",
+                "100.000 km/s",
+                "450.000 km/s"
+            ],
+            "risposta_corretta": "300.000 km/s"
+        },
+        {
+            "domanda": "Qual è l'unità di misura della forza?",
+            "risposte": [
+                "Joule",
+                "Pascal",
+                "Newton",
+                "Watt"
+            ],
+            "risposta_corretta": "Newton"
+        },
+        {
+            "domanda": "Chi ha formulato la legge di gravitazione universale?",
+            "risposte": [
+                "Albert Einstein",
+                "Isaac Newton",
+                "Galileo Galilei",
+                "Niels Bohr"
+            ],
+            "risposta_corretta": "Isaac Newton"
+        },
+        {
+            "domanda": "Qual è la formula dell'energia cinetica?",
+            "risposte": [
+                "E = mc^2",
+                "E = 1/2 mv^2",
+                "F = ma",
+                "V = IR"
+            ],
+            "risposta_corretta": "E = 1/2 mv^2"
+        },
+        {
+            "domanda": "Quale particella subatomica ha carica positiva?",
+            "risposte": [
+                "Neutrone",
+                "Elettrone",
+                "Protone",
+                "Quark"
+            ],
+            "risposta_corretta": "Protone"
+        },
+        {
+            "domanda": "Quale principio afferma che la pressione esercitata su un fluido in un contenitore chiuso si trasmette inalterata in tutte le direzioni?",
+            "risposte": [
+                "Principio di Archimede",
+                "Legge di Boyle",
+                "Principio di Pascal",
+                "Legge di Ohm"
+            ],
+            "risposta_corretta": "Principio di Pascal"
+        },
+        {
+            "domanda": "Qual è l'unità di misura della resistenza elettrica?",
+            "risposte": [
+                "Volt",
+                "Ampere",
+                "Ohm",
+                "Watt"
+            ],
+            "risposta_corretta": "Ohm"
+        },
+        {
+            "domanda": "Chi ha scoperto l'effetto fotoelettrico?",
+            "risposte": [
+                "Marie Curie",
+                "Isaac Newton",
+                "Albert Einstein",
+                "Niels Bohr"
+            ],
+            "risposta_corretta": "Albert Einstein"
+        },
+        {
+            "domanda": "Qual è il nome della forza che oppone resistenza al movimento di un oggetto in un fluido?",
+            "risposte": [
+                "Forza centripeta",
+                "Forza centrifuga",
+                "Attrito",
+                "Viscosità"
+            ],
+            "risposta_corretta": "Viscosità"
+        },
+        {
+            "domanda": "Qual è la formula della seconda legge di Newton?",
+            "risposte": [
+                "F = ma",
+                "E = mc^2",
+                "V = IR",
+                "P = IV"
+            ],
+            "risposta_corretta": "F = ma"
+        },
+        {
+            "domanda": "Quale legge descrive la relazione tra tensione, corrente e resistenza in un circuito elettrico?",
+            "risposte": [
+                "Legge di Hooke",
+                "Legge di Ohm",
+                "Legge di Faraday",
+                "Legge di Coulomb"
+            ],
+            "risposta_corretta": "Legge di Ohm"
+        },
+        {
+            "domanda": "Qual è la principale particella portatrice della forza elettromagnetica?",
+            "risposte": [
+                "Neutrino",
+                "Protone",
+                "Elettrone",
+                "Fotone"
+            ],
+            "risposta_corretta": "Fotone"
+        },
+        {
+            "domanda": "Qual è la temperatura alla quale l'acqua bolle a pressione atmosferica standard?",
+            "risposte": [
+                "100°C",
+                "212°C",
+                "0°C",
+                "273°C"
+            ],
+            "risposta_corretta": "100°C"
+        },
+        {
+            "domanda": "Qual è la legge che descrive l'espansione termica dei solidi?",
+            "risposte": [
+                "Legge di Boyle",
+                "Legge di Gay-Lussac",
+                "Legge di Hooke",
+                "Legge di Fourier"
+            ],
+            "risposta_corretta": "Legge di Hooke"
+        },
+        {
+            "domanda": "Quale fenomeno fisico è responsabile della formazione degli arcobaleni?",
+            "risposte": [
+                "Diffrazione",
+                "Riflessione",
+                "Rifrazione",
+                "Interferenza"
+            ],
+            "risposta_corretta": "Rifrazione"
+        },
+        {
+            "domanda": "Qual è l'unità di misura del lavoro in fisica?",
+            "risposte": [
+                "Watt",
+                "Newton",
+                "Joule",
+                "Pascal"
+            ],
+            "risposta_corretta": "Joule"
+        },
+        {
+            "domanda": "Qual è la particella subatomica con carica negativa?",
+            "risposte": [
+                "Neutrone",
+                "Protone",
+                "Elettrone",
+                "Mesone"
+            ],
+            "risposta_corretta": "Elettrone"
+        },
+        {
+            "domanda": "Qual è la legge che descrive la forza tra due cariche elettriche?",
+            "risposte": [
+                "Legge di Hooke",
+                "Legge di Coulomb",
+                "Legge di Faraday",
+                "Legge di Ampere"
+            ],
+            "risposta_corretta": "Legge di Coulomb"
+        },
+        {
+            "domanda": "Quale principio afferma che l'energia totale di un sistema chiuso rimane costante?",
+            "risposte": [
+                "Principio di Archimede",
+                "Seconda legge di Newton",
+                "Principio di conservazione dell'energia",
+                "Legge di Boyle"
+            ],
+            "risposta_corretta": "Principio di conservazione dell'energia"
+        },
+        {
+            "domanda": "Qual è la costante di Planck?",
+            "risposte": [
+                "6,626 x 10^-34 J·s",
+                "9,81 m/s^2",
+                "1,602 x 10^-19 C",
+                "3,00 x 10^8 m/s"
+            ],
+            "risposta_corretta": "6,626 x 10^-34 J·s"
+        },
+        {
+            "domanda": "Quale scienziato ha sviluppato la teoria della relatività?",
+            "risposte": [
+                "Niels Bohr",
+                "Isaac Newton",
+                "Albert Einstein",
+                "Galileo Galilei"
+            ],
+            "risposta_corretta": "Albert Einstein"
+        },
+        {
+            "domanda": "Qual è l'unità di misura della potenza?",
+            "risposte": [
+                "Joule",
+                "Newton",
+                "Watt",
+                "Pascal"
+            ],
+            "risposta_corretta": "Watt"
+        },
+        {
+            "domanda": "Quale legge afferma che il volume di un gas è inversamente proporzionale alla sua pressione a temperatura costante?",
+            "risposte": [
+                "Legge di Charles",
+                "Legge di Boyle",
+                "Legge di Avogadro",
+                "Legge di Pascal"
+            ],
+            "risposta_corretta": "Legge di Boyle"
+        },
+        {
+            "domanda": "Quale fenomeno è descritto dall'equazione E = mc^2?",
+            "risposte": [
+                "Effetto fotoelettrico",
+                "Teoria della relatività ristretta",
+                "Legge di gravitazione universale",
+                "Principio di Archimede"
+            ],
+            "risposta_corretta": "Teoria della relatività ristretta"
+        },
+        {
+            "domanda": "Quale scienziato è noto per il principio di indeterminazione?",
+            "risposte": [
+                "Niels Bohr",
+                "Werner Heisenberg",
+                "Max Planck",
+                "Albert Einstein"
+            ],
+            "risposta_corretta": "Werner Heisenberg"
+        },
+        {
+            "domanda": "Qual è il nome della particella portatrice della forza nucleare forte?",
+            "risposte": [
+                "Bosone",
+                "Fotone",
+                "Gluone",
+                "Leptone"
+            ],
+            "risposta_corretta": "Gluone"
+        },
+        {
+            "domanda": "Quale particella subatomica non ha carica elettrica?",
+            "risposte": [
+                "Elettrone",
+                "Protone",
+                "Neutrone",
+                "Quark"
+            ],
+            "risposta_corretta": "Neutrone"
+        },
+        {
+            "domanda": "Qual è il nome del fenomeno per cui un'onda cambia direzione quando passa da un mezzo a un altro?",
+            "risposte": [
+                "Riflessione",
+                "Diffrazione",
+                "Interferenza",
+                "Rifrazione"
+            ],
+            "risposta_corretta": "Rifrazione"
+        },
+        {
+            "domanda": "Qual è il principio secondo cui la pressione esercitata su un fluido in un contenitore chiuso è la stessa in tutte le direzioni?",
+            "risposte": [
+                "Principio di Pascal",
+                "Principio di Archimede",
+                "Legge di Boyle",
+                "Legge di Bernoulli"
+            ],
+            "risposta_corretta": "Principio di Pascal"
+        }
+    ]
+}

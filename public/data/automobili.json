@@ -1,0 +1,315 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è il primo veicolo a motore prodotto in serie?",
+            "risposte": [
+                "Ford Model T",
+                "Benz Patent-Motorwagen",
+                "Toyota Corolla",
+                "Volkswagen Beetle"
+            ],
+            "risposta_corretta": "Benz Patent-Motorwagen"
+        },
+        {
+            "domanda": "Quale è il costruttore dell'auto sportiva '911 Carrera'?",
+            "risposte": [
+                "Ferrari",
+                "Porsche",
+                "Lamborghini",
+                "McLaren"
+            ],
+            "risposta_corretta": "Porsche"
+        },
+        {
+            "domanda": "Chi ha inventato il motore a quattro tempi?",
+            "risposte": [
+                "Karl Benz",
+                "Henry Ford",
+                "Nikolaus Otto",
+                "Enzo Ferrari"
+            ],
+            "risposta_corretta": "Nikolaus Otto"
+        },
+        {
+            "domanda": "Quale azienda ha prodotto il modello 'Mustang'?",
+            "risposte": [
+                "Chevrolet",
+                "Ford",
+                "Dodge",
+                "Toyota"
+            ],
+            "risposta_corretta": "Ford"
+        },
+        {
+            "domanda": "Chi è l'attuale CEO di Tesla?",
+            "risposte": [
+                "Elon Musk",
+                "Jeff Bezos",
+                "Mark Zuckerberg",
+                "Tim Cook"
+            ],
+            "risposta_corretta": "Elon Musk"
+        },
+        {
+            "domanda": "Quando è stata fondata la Ferrari?",
+            "risposte": [
+                "1939",
+                "1947",
+                "1955",
+                "1962"
+            ],
+            "risposta_corretta": "1947"
+        },
+        {
+            "domanda": "Quale è stato il primo SUV ibrido prodotto in serie?",
+            "risposte": [
+                "Toyota Prius",
+                "Ford Escape Hybrid",
+                "Honda CR-V Hybrid",
+                "Lexus RX 400h"
+            ],
+            "risposta_corretta": "Lexus RX 400h"
+        },
+        {
+            "domanda": "Chi ha disegnato la Volkswagen Beetle?",
+            "risposte": [
+                "Ferdinand Porsche",
+                "Enzo Ferrari",
+                "Carroll Shelby",
+                "Sergio Pininfarina"
+            ],
+            "risposta_corretta": "Ferdinand Porsche"
+        },
+        {
+            "domanda": "Quale automobile è conosciuta come 'La macchina del popolo'?",
+            "risposte": [
+                "Ford Model T",
+                "Volkswagen Beetle",
+                "Chevrolet Corvette",
+                "Fiat 500"
+            ],
+            "risposta_corretta": "Volkswagen Beetle"
+        },
+        {
+            "domanda": "Qual è stato il primo SUV di lusso ad essere prodotto in serie?",
+            "risposte": [
+                "Mercedes-Benz G-Class",
+                "BMW X5",
+                "Audi Q7",
+                "Range Rover"
+            ],
+            "risposta_corretta": "Range Rover"
+        },
+        {
+            "domanda": "Chi ha fondato la compagnia automobilistica 'Toyota'?",
+            "risposte": [
+                "Soichiro Honda",
+                "Kiichiro Toyoda",
+                "Akio Toyoda",
+                "Eiji Toyoda"
+            ],
+            "risposta_corretta": "Kiichiro Toyoda"
+        },
+        {
+            "domanda": "Quale è l'auto più venduta di tutti i tempi?",
+            "risposte": [
+                "Toyota Corolla",
+                "Volkswagen Golf",
+                "Ford F-Series",
+                "Honda Civic"
+            ],
+            "risposta_corretta": "Toyota Corolla"
+        },
+        {
+            "domanda": "Chi ha inventato il primo airbag funzionante?",
+            "risposte": [
+                "General Motors",
+                "Volvo",
+                "Mercedes-Benz",
+                "Ford"
+            ],
+            "risposta_corretta": "Mercedes-Benz"
+        },
+        {
+            "domanda": "Quale è stata la prima auto ad avere un sistema di navigazione GPS integrato?",
+            "risposte": [
+                "Toyota Prius",
+                "Honda Accord",
+                "Cadillac Seville",
+                "Ford Taurus"
+            ],
+            "risposta_corretta": "Honda Accord"
+        },
+        {
+            "domanda": "Chi ha progettato la Ferrari Enzo?",
+            "risposte": [
+                "Enzo Ferrari",
+                "Pininfarina",
+                "Ferdinand Porsche",
+                "Giugiaro"
+            ],
+            "risposta_corretta": "Pininfarina"
+        },
+        {
+            "domanda": "Quale auto è stata introdotta con la tecnologia 'Quattro'?",
+            "risposte": [
+                "BMW M3",
+                "Audi A8",
+                "Mercedes-Benz S-Class",
+                "Porsche 911"
+            ],
+            "risposta_corretta": "Audi A8"
+        },
+        {
+            "domanda": "Chi ha disegnato la Ferrari Testarossa?",
+            "risposte": [
+                "Sergio Pininfarina",
+                "Enzo Ferrari",
+                "Marcello Gandini",
+                "Giorgetto Giugiaro"
+            ],
+            "risposta_corretta": "Marcello Gandini"
+        },
+        {
+            "domanda": "Quale automobile ha il record della velocità massima di produzione?",
+            "risposte": [
+                "Bugatti Veyron",
+                "Koenigsegg Agera RS",
+                "Hennessey Venom GT",
+                "SSC Tuatara"
+            ],
+            "risposta_corretta": "SSC Tuatara"
+        },
+        {
+            "domanda": "Chi ha fondato la casa automobilistica 'Lamborghini'?",
+            "risposte": [
+                "Enzo Ferrari",
+                "Ferruccio Lamborghini",
+                "Ferdinand Porsche",
+                "Carroll Shelby"
+            ],
+            "risposta_corretta": "Ferruccio Lamborghini"
+        },
+        {
+            "domanda": "Quale è stato il primo SUV di lusso ad avere un motore ibrido?",
+            "risposte": [
+                "Lexus RX 400h",
+                "BMW X5 Hybrid",
+                "Porsche Cayenne Hybrid",
+                "Audi Q7 e-tron"
+            ],
+            "risposta_corretta": "Lexus RX 400h"
+        },
+        {
+            "domanda": "Chi ha inventato il primo motore diesel funzionante?",
+            "risposte": [
+                "Rudolf Diesel",
+                "Ferdinand Porsche",
+                "Nikolaus Otto",
+                "Gottlieb Daimler"
+            ],
+            "risposta_corretta": "Rudolf Diesel"
+        },
+        {
+            "domanda": "Quale è stato il primo veicolo a guidatore centrale prodotto in serie?",
+            "risposte": [
+                "McLaren F1",
+                "Ferrari F40",
+                "Porsche 959",
+                "Lamborghini Countach"
+            ],
+            "risposta_corretta": "McLaren F1"
+        },
+        {
+            "domanda": "Chi ha disegnato la Lamborghini Miura?",
+            "risposte": [
+                "Giorgetto Giugiaro",
+                "Marcello Gandini",
+                "Sergio Pininfarina",
+                "Bertone"
+            ],
+            "risposta_corretta": "Marcello Gandini"
+        },
+        {
+            "domanda": "Quale auto è stata introdotta come 'la macchina più veloce del mondo' nel 1987?",
+            "risposte": [
+                "Ferrari F40",
+                "Porsche 959",
+                "Lamborghini Countach",
+                "Ferrari Testarossa"
+            ],
+            "risposta_corretta": "Ferrari F40"
+        },
+        {
+            "domanda": "Chi è stato il fondatore della casa automobilistica 'Pagani'?",
+            "risposte": [
+                "Horacio Pagani",
+                "Christian von Koenigsegg",
+                "Ferruccio Lamborghini",
+                "Carroll Shelby"
+            ],
+            "risposta_corretta": "Horacio Pagani"
+        },
+        {
+            "domanda": "Quale automobilista ha vinto più titoli di campione del mondo di Formula 1?",
+            "risposte": [
+                "Michael Schumacher",
+                "Lewis Hamilton",
+                "Ayrton Senna",
+                "Sebastian Vettel"
+            ],
+            "risposta_corretta": "Michael Schumacher"
+        },
+        {
+            "domanda": "Qual è stato il primo modello di auto prodotto dalla BMW?",
+            "risposte": [
+                "BMW 3/15",
+                "BMW 328",
+                "BMW 501",
+                "BMW 2002"
+            ],
+            "risposta_corretta": "BMW 3/15"
+        },
+        {
+            "domanda": "Chi ha inventato il sistema di iniezione diretta di carburante 'Direct Injection'?",
+            "risposte": [
+                "Bosch",
+                "Denso",
+                "Magneti Marelli",
+                "Delphi"
+            ],
+            "risposta_corretta": "Bosch"
+        },
+        {
+            "domanda": "Quale auto è stata introdotta come 'la prima supercar ibrida'?",
+            "risposte": [
+                "Ferrari LaFerrari",
+                "Porsche 918 Spyder",
+                "McLaren P1",
+                "Bugatti Chiron"
+            ],
+            "risposta_corretta": "Ferrari LaFerrari"
+        },
+        {
+            "domanda": "Chi è stato il fondatore della casa automobilistica 'Bentley'?",
+            "risposte": [
+                "Walter Owen Bentley",
+                "Henry Bentley",
+                "John Bentley",
+                "Charles Bentley"
+            ],
+            "risposta_corretta": "Walter Owen Bentley"
+        },
+        {
+            "domanda": "Quale è stata la prima auto a superare la velocità di 100 mph (160 km/h)?",
+            "risposte": [
+                "Mercedes-Simplex 60 hp",
+                "Daimler Stahlradwagen",
+                "Ford Model T",
+                "Oldsmobile Curved Dash"
+            ],
+            "risposta_corretta": "Mercedes-Simplex 60 hp"
+        }
+    ]
+}

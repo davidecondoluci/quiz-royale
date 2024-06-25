@@ -1,0 +1,295 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è il nome completo del personaggio principale di 'Breaking Bad'?",
+            "risposte": [
+                "Walter White",
+                "Jesse Pinkman",
+                "Saul Goodman",
+                "Hank Schrader"
+            ],
+            "risposta_corretta": "Walter White"
+        },
+        {
+            "domanda": "In quale città è ambientata la serie 'Friends'?",
+            "risposte": [
+                "Los Angeles",
+                "New York",
+                "Chicago",
+                "Miami"
+            ],
+            "risposta_corretta": "New York"
+        },
+        {
+            "domanda": "Quale attore interpreta il ruolo di Sherlock Holmes nella serie 'Sherlock' della BBC?",
+            "risposte": [
+                "Robert Downey Jr.",
+                "Benedict Cumberbatch",
+                "Johnny Depp",
+                "Daniel Radcliffe"
+            ],
+            "risposta_corretta": "Benedict Cumberbatch"
+        },
+        {
+            "domanda": "Qual è il nome della città immaginaria in cui è ambientata 'Stranger Things'?",
+            "risposte": [
+                "Springfield",
+                "Hawkins",
+                "Gotham",
+                "Metropolis"
+            ],
+            "risposta_corretta": "Hawkins"
+        },
+        {
+            "domanda": "Qual è il nome del trono conteso nella serie 'Game of Thrones'?",
+            "risposte": [
+                "Trono di Spade",
+                "Trono di Diamante",
+                "Trono di Fuoco",
+                "Trono di Ghiaccio"
+            ],
+            "risposta_corretta": "Trono di Spade"
+        },
+        {
+            "domanda": "In quale anno è stata trasmessa la prima stagione di 'The Sopranos'?",
+            "risposte": [
+                "1999",
+                "2001",
+                "1995",
+                "2000"
+            ],
+            "risposta_corretta": "1999"
+        },
+        {
+            "domanda": "Chi è l'assassino nella prima stagione di 'True Detective'?",
+            "risposte": [
+                "Rust Cohle",
+                "Marty Hart",
+                "Reggie Ledoux",
+                "Errol Childress"
+            ],
+            "risposta_corretta": "Errol Childress"
+        },
+        {
+            "domanda": "Quale serie TV è ambientata a Westeros?",
+            "risposte": [
+                "Vikings",
+                "Game of Thrones",
+                "The Witcher",
+                "Merlin"
+            ],
+            "risposta_corretta": "Game of Thrones"
+        },
+        {
+            "domanda": "Quale serie TV segue le vicende di un pubblicitario negli anni '60?",
+            "risposte": [
+                "Mad Men",
+                "Suits",
+                "Boardwalk Empire",
+                "The Crown"
+            ],
+            "risposta_corretta": "Mad Men"
+        },
+        {
+            "domanda": "Quale personaggio di 'Friends' è un paleontologo?",
+            "risposte": [
+                "Ross Geller",
+                "Chandler Bing",
+                "Joey Tribbiani",
+                "Monica Geller"
+            ],
+            "risposta_corretta": "Ross Geller"
+        },
+        {
+            "domanda": "Quale serie TV è ambientata nel carcere femminile di Litchfield?",
+            "risposte": [
+                "Prison Break",
+                "Orange Is the New Black",
+                "Oz",
+                "Wentworth"
+            ],
+            "risposta_corretta": "Orange Is the New Black"
+        },
+        {
+            "domanda": "Chi interpreta Walter White in 'Breaking Bad'?",
+            "risposte": [
+                "Bryan Cranston",
+                "Aaron Paul",
+                "Dean Norris",
+                "Bob Odenkirk"
+            ],
+            "risposta_corretta": "Bryan Cranston"
+        },
+        {
+            "domanda": "Quale serie TV segue le indagini di un'unità di polizia di Baltimora?",
+            "risposte": [
+                "The Shield",
+                "The Wire",
+                "NCIS",
+                "Law & Order"
+            ],
+            "risposta_corretta": "The Wire"
+        },
+        {
+            "domanda": "In quale serie TV compare il personaggio di Sheldon Cooper?",
+            "risposte": [
+                "How I Met Your Mother",
+                "The Big Bang Theory",
+                "Community",
+                "New Girl"
+            ],
+            "risposta_corretta": "The Big Bang Theory"
+        },
+        {
+            "domanda": "Qual è il nome dell'alieno protagonista della serie 'Doctor Who'?",
+            "risposte": [
+                "The Doctor",
+                "The Master",
+                "The Professor",
+                "The Traveler"
+            ],
+            "risposta_corretta": "The Doctor"
+        },
+        {
+            "domanda": "Quale serie TV è basata sui libri di George R.R. Martin?",
+            "risposte": [
+                "The Expanse",
+                "Game of Thrones",
+                "His Dark Materials",
+                "The Witcher"
+            ],
+            "risposta_corretta": "Game of Thrones"
+        },
+        {
+            "domanda": "Quale serie TV segue le vicende di un gruppo di sopravvissuti in un mondo post-apocalittico infestato da zombie?",
+            "risposte": [
+                "The Walking Dead",
+                "Stranger Things",
+                "The 100",
+                "Black Mirror"
+            ],
+            "risposta_corretta": "The Walking Dead"
+        },
+        {
+            "domanda": "Quale attore interpreta il ruolo di Tyrion Lannister in 'Game of Thrones'?",
+            "risposte": [
+                "Sean Bean",
+                "Peter Dinklage",
+                "Kit Harington",
+                "Nikolaj Coster-Waldau"
+            ],
+            "risposta_corretta": "Peter Dinklage"
+        },
+        {
+            "domanda": "Quale serie TV è ambientata nel mondo dei motociclisti fuorilegge?",
+            "risposte": [
+                "Breaking Bad",
+                "Sons of Anarchy",
+                "The Sopranos",
+                "Dexter"
+            ],
+            "risposta_corretta": "Sons of Anarchy"
+        },
+        {
+            "domanda": "Qual è il nome della scuola di magia frequentata dai protagonisti di 'Buffy l'ammazzavampiri'?",
+            "risposte": [
+                "Sunnydale High",
+                "Hogwarts",
+                "Salem Academy",
+                "Mystic Falls High"
+            ],
+            "risposta_corretta": "Sunnydale High"
+        },
+        {
+            "domanda": "In quale serie TV i protagonisti viaggiano attraverso diverse epoche storiche per salvare il mondo?",
+            "risposte": [
+                "Timeless",
+                "Stranger Things",
+                "The 100",
+                "Westworld"
+            ],
+            "risposta_corretta": "Timeless"
+        },
+        {
+            "domanda": "Quale serie TV segue le vicende di una famiglia disfunzionale che gestisce un motel fatiscente?",
+            "risposte": [
+                "Schitt's Creek",
+                "Arrested Development",
+                "Shameless",
+                "Modern Family"
+            ],
+            "risposta_corretta": "Schitt's Creek"
+        },
+        {
+            "domanda": "In quale serie TV compare il personaggio di Eleven?",
+            "risposte": [
+                "Dark",
+                "Stranger Things",
+                "The OA",
+                "Black Mirror"
+            ],
+            "risposta_corretta": "Stranger Things"
+        },
+        {
+            "domanda": "Quale serie TV segue le indagini di una squadra speciale dell'FBI che analizza il comportamento criminale?",
+            "risposte": [
+                "CSI: Miami",
+                "Criminal Minds",
+                "NCIS",
+                "Bones"
+            ],
+            "risposta_corretta": "Criminal Minds"
+        },
+        {
+            "domanda": "In quale serie TV compare il personaggio di Don Draper?",
+            "risposte": [
+                "The Sopranos",
+                "Mad Men",
+                "Breaking Bad",
+                "Better Call Saul"
+            ],
+            "risposta_corretta": "Mad Men"
+        },
+        {
+            "domanda": "Qual è il nome dell'isola su cui si svolge la serie 'Lost'?",
+            "risposte": [
+                "Isola di Fraser",
+                "Isola di Sorna",
+                "Isola di Ellis",
+                "Isola Misteriosa"
+            ],
+            "risposta_corretta": "Isola Misteriosa"
+        },
+        {
+            "domanda": "Quale serie TV segue le vicende di una famiglia moderna e mista?",
+            "risposte": [
+                "Full House",
+                "The Middle",
+                "Modern Family",
+                "Parks and Recreation"
+            ],
+            "risposta_corretta": "Modern Family"
+        },
+        {
+            "domanda": "Quale serie TV è ambientata nel piccolo paese di Stars Hollow?",
+            "risposte": [
+                "Gilmore Girls",
+                "Dawson's Creek",
+                "Hart of Dixie",
+                "Everwood"
+            ],
+            "risposta_corretta": "Gilmore Girls"
+        },
+        {
+            "domanda": "Quale serie TV segue le vicende di un gruppo di studenti di liceo a Beverly Hills?",
+            "risposte": [
+                "Beverly Hills, 90210",
+                "The O.C.",
+                "Gossip Girl",
+                "Pretty Little Liars"
+            ],
+            "risposta_corretta": "Beverly Hills, 90210"
+        }
+    ]
+}

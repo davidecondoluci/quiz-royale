@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è il mammifero più grande del mondo?",
+            "risposte": [
+                "Elefante africano",
+                "Balena blu",
+                "Rinoceronte bianco",
+                "Ippopotamo"
+            ],
+            "risposta_corretta": "Balena blu"
+        },
+        {
+            "domanda": "Quale di questi animali è un marsupiale?",
+            "risposte": [
+                "Koala",
+                "Leone",
+                "Cane",
+                "Giraffa"
+            ],
+            "risposta_corretta": "Koala"
+        },
+        {
+            "domanda": "Dove vive il pinguino imperatore?",
+            "risposte": [
+                "Antartide",
+                "Australia",
+                "Africa",
+                "Asia"
+            ],
+            "risposta_corretta": "Antartide"
+        },
+        {
+            "domanda": "Qual è l'uccello più veloce del mondo?",
+            "risposte": [
+                "Aquila reale",
+                "Falco pellegrino",
+                "Colibrì",
+                "Struzzo"
+            ],
+            "risposta_corretta": "Falco pellegrino"
+        },
+        {
+            "domanda": "Qual è l'animale terrestre più veloce?",
+            "risposte": [
+                "Leopardo",
+                "Ghepardo",
+                "Leone",
+                "Tigre"
+            ],
+            "risposta_corretta": "Ghepardo"
+        },
+        {
+            "domanda": "Qual è l'animale più velenoso del mondo?",
+            "risposte": [
+                "Serpente a sonagli",
+                "Rana freccia",
+                "Medusa scatola",
+                "Scorpione"
+            ],
+            "risposta_corretta": "Medusa scatola"
+        },
+        {
+            "domanda": "Qual è l'unico mammifero capace di volare?",
+            "risposte": [
+                "Pipistrello",
+                "Scoiattolo volante",
+                "Aquila",
+                "Colibrì"
+            ],
+            "risposta_corretta": "Pipistrello"
+        },
+        {
+            "domanda": "Qual è il più grande pesce esistente?",
+            "risposte": [
+                "Squalo bianco",
+                "Pesce spada",
+                "Squalo balena",
+                "Tonno"
+            ],
+            "risposta_corretta": "Squalo balena"
+        },
+        {
+            "domanda": "Quale di questi animali è un invertebrato?",
+            "risposte": [
+                "Elefante",
+                "Aquila",
+                "Polpo",
+                "Canguro"
+            ],
+            "risposta_corretta": "Polpo"
+        },
+        {
+            "domanda": "Qual è l'animale più longevo del mondo?",
+            "risposte": [
+                "Elefante",
+                "Balena della Groenlandia",
+                "Tartaruga gigante delle Galápagos",
+                "Carpa koi"
+            ],
+            "risposta_corretta": "Tartaruga gigante delle Galápagos"
+        },
+        {
+            "domanda": "Quale di questi animali è noto per cambiare colore?",
+            "risposte": [
+                "Camaleonte",
+                "Leone",
+                "Zebra",
+                "Tigre"
+            ],
+            "risposta_corretta": "Camaleonte"
+        },
+        {
+            "domanda": "Quale animale è famoso per la sua lentezza?",
+            "risposte": [
+                "Ghepardo",
+                "Bradipo",
+                "Canguro",
+                "Aquila"
+            ],
+            "risposta_corretta": "Bradipo"
+        },
+        {
+            "domanda": "Qual è il mammifero marino più intelligente?",
+            "risposte": [
+                "Delfino",
+                "Squalo",
+                "Balena",
+                "Foca"
+            ],
+            "risposta_corretta": "Delfino"
+        },
+        {
+            "domanda": "Quale di questi animali ha la lingua più lunga rispetto al corpo?",
+            "risposte": [
+                "Formichiere",
+                "Elefante",
+                "Giraffa",
+                "Serpente"
+            ],
+            "risposta_corretta": "Formichiere"
+        },
+        {
+            "domanda": "Qual è l'animale simbolo dell'Australia?",
+            "risposte": [
+                "Canguro",
+                "Elefante",
+                "Panda",
+                "Leone"
+            ],
+            "risposta_corretta": "Canguro"
+        },
+        {
+            "domanda": "Qual è l'animale con il morso più potente?",
+            "risposte": [
+                "Leone",
+                "Squalo bianco",
+                "Ippopotamo",
+                "Coccodrillo"
+            ],
+            "risposta_corretta": "Coccodrillo"
+        },
+        {
+            "domanda": "Quale di questi animali è un erbivoro?",
+            "risposte": [
+                "Leone",
+                "Tigre",
+                "Cavallo",
+                "Serpente"
+            ],
+            "risposta_corretta": "Cavallo"
+        },
+        {
+            "domanda": "Qual è il serpente più lungo del mondo?",
+            "risposte": [
+                "Serpente a sonagli",
+                "Mamba nero",
+                "Anaconda",
+                "Cobra"
+            ],
+            "risposta_corretta": "Anaconda"
+        },
+        {
+            "domanda": "Quale animale è noto per la sua memoria eccezionale?",
+            "risposte": [
+                "Giraffa",
+                "Elefante",
+                "Tigre",
+                "Gatto"
+            ],
+            "risposta_corretta": "Elefante"
+        },
+        {
+            "domanda": "Qual è l'animale più piccolo del mondo?",
+            "risposte": [
+                "Colibrì",
+                "Insetto foglia",
+                "Pipistrello calabrone",
+                "Rana di Monte Iberia"
+            ],
+            "risposta_corretta": "Rana di Monte Iberia"
+        },
+        {
+            "domanda": "Quale di questi animali è un carnivoro?",
+            "risposte": [
+                "Panda",
+                "Koala",
+                "Leone",
+                "Mucca"
+            ],
+            "risposta_corretta": "Leone"
+        },
+        {
+            "domanda": "Qual è l'animale più grande mai esistito sulla Terra?",
+            "risposte": [
+                "Dinosauro",
+                "Balena blu",
+                "Elefante",
+                "Squalo bianco"
+            ],
+            "risposta_corretta": "Balena blu"
+        },
+        {
+            "domanda": "Quale di questi animali vive in gruppo chiamato 'branco'?",
+            "risposte": [
+                "Gatto",
+                "Leone",
+                "Orso",
+                "Serpente"
+            ],
+            "risposta_corretta": "Leone"
+        },
+        {
+            "domanda": "Qual è il più grande uccello vivente?",
+            "risposte": [
+                "Aquila",
+                "Condor",
+                "Struzzo",
+                "Pinguino"
+            ],
+            "risposta_corretta": "Struzzo"
+        },
+        {
+            "domanda": "Quale di questi animali può rigenerare parti del corpo?",
+            "risposte": [
+                "Serpente",
+                "Tartaruga",
+                "Squalo",
+                "Stella marina"
+            ],
+            "risposta_corretta": "Stella marina"
+        },
+        {
+            "domanda": "Quale di questi animali è endemico del Madagascar?",
+            "risposte": [
+                "Koala",
+                "Leopardo",
+                "Lemure",
+                "Canguro"
+            ],
+            "risposta_corretta": "Lemure"
+        },
+        {
+            "domanda": "Qual è il mammifero che dorme di più?",
+            "risposte": [
+                "Gatto",
+                "Elefante",
+                "Koala",
+                "Leone"
+            ],
+            "risposta_corretta": "Koala"
+        },
+        {
+            "domanda": "Quale di questi animali è noto per costruire dighe?",
+            "risposte": [
+                "Topo",
+                "Castoro",
+                "Cane",
+                "Orso"
+            ],
+            "risposta_corretta": "Castoro"
+        },
+        {
+            "domanda": "Qual è l'animale simbolo della Cina?",
+            "risposte": [
+                "Leone",
+                "Elefante",
+                "Panda gigante",
+                "Tigre"
+            ],
+            "risposta_corretta": "Panda gigante"
+        },
+        {
+            "domanda": "Quale di questi animali è noto per la sua capacità di mimetizzarsi?",
+            "risposte": [
+                "Serpente",
+                "Tigre",
+                "Camaleonte",
+                "Elefante"
+            ],
+            "risposta_corretta": "Camaleonte"
+        }
+    ]
+}

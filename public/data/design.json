@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è uno dei principi fondamentali del design?",
+            "risposte": [
+                "Funzionalità",
+                "Prezzo",
+                "Colore",
+                "Creatività"
+            ],
+            "risposta_corretta": "Funzionalità"
+        },
+        {
+            "domanda": "Chi è considerato il padre del design industriale?",
+            "risposte": [
+                "Charles Eames",
+                "Frank Lloyd Wright",
+                "Dieter Rams",
+                "Raymond Loewy"
+            ],
+            "risposta_corretta": "Dieter Rams"
+        },
+        {
+            "domanda": "Cosa rappresenta il termine 'UX' nel design?",
+            "risposte": [
+                "User Experience",
+                "User Exchange",
+                "User Excel",
+                "User Extension"
+            ],
+            "risposta_corretta": "User Experience"
+        },
+        {
+            "domanda": "Quale software è comunemente usato per il design grafico?",
+            "risposte": [
+                "Photoshop",
+                "Excel",
+                "Word",
+                "PowerPoint"
+            ],
+            "risposta_corretta": "Photoshop"
+        },
+        {
+            "domanda": "Qual è una caratteristica del design minimalista?",
+            "risposte": [
+                "Complessità",
+                "Decorazioni eccessive",
+                "Colore vibrante",
+                "Semplicità"
+            ],
+            "risposta_corretta": "Semplicità"
+        },
+        {
+            "domanda": "Chi è l'architetto noto per il suo lavoro con il Bauhaus?",
+            "risposte": [
+                "Le Corbusier",
+                "Mies van der Rohe",
+                "Walter Gropius",
+                "Louis Kahn"
+            ],
+            "risposta_corretta": "Walter Gropius"
+        },
+        {
+            "domanda": "Qual è uno dei principi del design secondo Dieter Rams?",
+            "risposte": [
+                "Innovazione",
+                "Complessità",
+                "Sostenibilità",
+                "Semplicità"
+            ],
+            "risposta_corretta": "Semplicità"
+        },
+        {
+            "domanda": "Cosa rappresenta il termine 'CMYK' nel design?",
+            "risposte": [
+                "Uno spazio di colore RGB",
+                "Uno spazio di colore HSL",
+                "Uno spazio di colore Pantone",
+                "Uno spazio di colore per la stampa"
+            ],
+            "risposta_corretta": "Uno spazio di colore per la stampa"
+        },
+        {
+            "domanda": "Qual è una caratteristica del design responsive?",
+            "risposte": [
+                "Fissazione su un solo dispositivo",
+                "Adattamento a diverse dimensioni di schermo",
+                "Design statico",
+                "Assenza di immagini"
+            ],
+            "risposta_corretta": "Adattamento a diverse dimensioni di schermo"
+        },
+        {
+            "domanda": "Qual è uno degli elementi del design visivo?",
+            "risposte": [
+                "Codice",
+                "Oggetti fisici",
+                "Colore",
+                "Ingegneria"
+            ],
+            "risposta_corretta": "Colore"
+        },
+        {
+            "domanda": "Chi è stato il fondatore del movimento 'Arts and Crafts'?",
+            "risposte": [
+                "William Morris",
+                "Andy Warhol",
+                "Jackson Pollock",
+                "Pablo Picasso"
+            ],
+            "risposta_corretta": "William Morris"
+        },
+        {
+            "domanda": "Cosa rappresenta il termine 'UI' nel design?",
+            "risposte": [
+                "User Initiative",
+                "User Index",
+                "User Interface",
+                "User Interaction"
+            ],
+            "risposta_corretta": "User Interface"
+        },
+        {
+            "domanda": "Chi è l'architetto noto per la costruzione del Sydney Opera House?",
+            "risposte": [
+                "Frank Gehry",
+                "Jørn Utzon",
+                "Zaha Hadid",
+                "Norman Foster"
+            ],
+            "risposta_corretta": "Jørn Utzon"
+        },
+        {
+            "domanda": "Quale è uno dei materiali più usati nel design del mobili moderno?",
+            "risposte": [
+                "Acciaio inossidabile",
+                "Pietra naturale",
+                "Legno di quercia",
+                "Vetro colorato"
+            ],
+            "risposta_corretta": "Legno di quercia"
+        },
+        {
+            "domanda": "Cosa è il 'Grid System' nel design grafico?",
+            "risposte": [
+                "Un sistema per il disegno di mattonelle",
+                "Una griglia per la creazione di layout",
+                "Un'unità di misura per l'architettura",
+                "Un metodo di decorazione in stile Bauhaus"
+            ],
+            "risposta_corretta": "Una griglia per la creazione di layout"
+        },
+        {
+            "domanda": "Qual è uno degli elementi del design UX?",
+            "risposte": [
+                "Fotografia",
+                "Psicologia del colore",
+                "Architettura",
+                "Flusso di interazione"
+            ],
+            "risposta_corretta": "Flusso di interazione"
+        },
+        {
+            "domanda": "Cosa è il 'Flat Design'?",
+            "risposte": [
+                "Uno stile di architettura minimalista",
+                "Un tipo di pittura astratta",
+                "Un approccio grafico senza ombre e texture",
+                "Un design ispirato alla natura"
+            ],
+            "risposta_corretta": "Un approccio grafico senza ombre e texture"
+        },
+        {
+            "domanda": "Chi è conosciuto per il suo lavoro pionieristico nel design dei prodotti Apple?",
+            "risposte": [
+                "Jonathan Ive",
+                "Elon Musk",
+                "Mark Zuckerberg",
+                "Tim Cook"
+            ],
+            "risposta_corretta": "Jonathan Ive"
+        },
+        {
+            "domanda": "Cosa rappresenta il termine 'Pantone' nel design?",
+            "risposte": [
+                "Una tecnica di stampa a colori",
+                "Una tendenza nel design tessile",
+                "Un metodo di lavorazione della ceramica",
+                "Uno standard per il colore universale"
+            ],
+            "risposta_corretta": "Uno standard per il colore universale"
+        },
+        {
+            "domanda": "Qual è un principio chiave del design sostenibile?",
+            "risposte": [
+                "Produzione in massa",
+                "Riciclaggio dei materiali",
+                "Uso di materiali rari",
+                "Spreco delle risorse"
+            ],
+            "risposta_corretta": "Riciclaggio dei materiali"
+        },
+        {
+            "domanda": "Chi è l'architetto noto per la teoria delle 'cinque punti dell'architettura moderna'?",
+            "risposte": [
+                "Frank Lloyd Wright",
+                "Le Corbusier",
+                "Louis Kahn",
+                "Oscar Niemeyer"
+            ],
+            "risposta_corretta": "Le Corbusier"
+        },
+        {
+            "domanda": "Cosa rappresenta il termine 'Branding' nel design?",
+            "risposte": [
+                "Progettazione di marchi di moda",
+                "Creazione di una identità visiva di un'azienda",
+                "Realizzazione di sculture monumentali",
+                "Produzione di gioielli personalizzati"
+            ],
+            "risposta_corretta": "Creazione di una identità visiva di un'azienda"
+        },
+        {
+            "domanda": "Qual è una caratteristica del design inclusivo?",
+            "risposte": [
+                "Esclusione di certi gruppi di persone",
+                "Adattabilità alle diverse capacità",
+                "Utilizzo di materiali costosi",
+                "Disprezzo per le tradizioni culturali"
+            ],
+            "risposta_corretta": "Adattabilità alle diverse capacità"
+        },
+        {
+            "domanda": "Cosa è l' 'Ergonomia' nel design?",
+            "risposte": [
+                "Studio delle correnti artistiche del XX secolo",
+                "Scienza che studia l'adattamento dell'ambiente alla persona",
+                "Materiale utilizzato per la realizzazione di strumenti musicali",
+                "Concetto di bellezza nell'arte contemporanea"
+            ],
+            "risposta_corretta": "Scienza che studia l'adattamento dell'ambiente alla persona"
+        },
+        {
+            "domanda": "Qual è una delle caratteristiche del Bauhaus?",
+            "risposte": [
+                "Decorazioni complesse",
+                "Integrazione delle arti",
+                "Orientamento al barocco",
+                "Pittura astratta"
+            ],
+            "risposta_corretta": "Integrazione delle arti"
+        },
+        {
+            "domanda": "Cosa è il 'Material Design'?",
+            "risposte": [
+                "Un approccio al design basato sull'uso di materiali naturali",
+                "Un movimento artistico del Rinascimento",
+                "Un sistema di design sviluppato da Google",
+                "Un metodo di costruzione di edifici sostenibili"
+            ],
+            "risposta_corretta": "Un sistema di design sviluppato da Google"
+        },
+        {
+            "domanda": "Qual è un esempio di 'Tipografia Sans-serif'?",
+            "risposte": [
+                "Times New Roman",
+                "Arial",
+                "Georgia",
+                "Courier New"
+            ],
+            "risposta_corretta": "Arial"
+        },
+        {
+            "domanda": "Chi è l'architetto noto per la 'Sedia Barcelona'?",
+            "risposte": [
+                "Mies van der Rohe",
+                "Alvar Aalto",
+                "Eero Saarinen",
+                "Gio Ponti"
+            ],
+            "risposta_corretta": "Mies van der Rohe"
+        },
+        {
+            "domanda": "Cosa rappresenta il termine 'Responsive Design'?",
+            "risposte": [
+                "Un tipo di design che utilizza colori vibranti",
+                "Un approccio al design che considera l'ergonomia",
+                "Una pratica che combina diverse tecniche artistiche",
+                "Un design che si adatta a diversi dispositivi e dimensioni dello schermo"
+            ],
+            "risposta_corretta": "Un design che si adatta a diversi dispositivi e dimensioni dello schermo"
+        },
+        {
+            "domanda": "Qual è uno degli obiettivi del design centrato sull'utente?",
+            "risposte": [
+                "Massimizzare i profitti aziendali",
+                "Aumentare il numero di prodotti venduti",
+                "Migliorare l'esperienza dell'utente finale",
+                "Ridurre i costi di produzione"
+            ],
+            "risposta_corretta": "Migliorare l'esperienza dell'utente finale"
+        }
+    ]
+}

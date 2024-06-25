@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Quale di questi animali non è un mammifero?",
+            "risposte": [
+                "Balena",
+                "Struzzo",
+                "Pipistrello",
+                "Delfino"
+            ],
+            "risposta_corretta": "Struzzo"
+        },
+        {
+            "domanda": "Quale di questi fenomeni naturali non è causato dal calore del Sole?",
+            "risposte": [
+                "Fotosintesi",
+                "Ciclo dell'acqua",
+                "Moti convettivi atmosferici",
+                "Aurora boreale"
+            ],
+            "risposta_corretta": "Aurora boreale"
+        },
+        {
+            "domanda": "Quale di questi ecosistemi non contiene alberi?",
+            "risposte": [
+                "Foresta pluviale",
+                "Savana",
+                "Deserto",
+                "Tundra"
+            ],
+            "risposta_corretta": "Deserto"
+        },
+        {
+            "domanda": "Quale di queste rocce è di origine sedimentaria?",
+            "risposte": [
+                "Granito",
+                "Calcare",
+                "Basalto",
+                "Scisto"
+            ],
+            "risposta_corretta": "Calcare"
+        },
+        {
+            "domanda": "Quale di questi gas è il più abbondante nell'atmosfera terrestre?",
+            "risposte": [
+                "Ossigeno",
+                "Azoto",
+                "Anidride carbonica",
+                "Vapore acqueo"
+            ],
+            "risposta_corretta": "Azoto"
+        },
+        {
+            "domanda": "Quale di questi organismi è un decompositore?",
+            "risposte": [
+                "Muffa",
+                "Falco",
+                "Quercia",
+                "Lupo"
+            ],
+            "risposta_corretta": "Muffa"
+        },
+        {
+            "domanda": "Quale di queste forze non contribuisce all'erosione del suolo?",
+            "risposte": [
+                "Acqua",
+                "Vento",
+                "Ghiaccio",
+                "Calore"
+            ],
+            "risposta_corretta": "Calore"
+        },
+        {
+            "domanda": "Quale di questi periodi geologici è il più recente?",
+            "risposte": [
+                "Paleozoico",
+                "Mesozoico",
+                "Cenozoico",
+                "Precambriano"
+            ],
+            "risposta_corretta": "Cenozoico"
+        },
+        {
+            "domanda": "Quale di questi organismi è fotosintetico?",
+            "risposte": [
+                "Fungo",
+                "Alga",
+                "Felce",
+                "Batterio"
+            ],
+            "risposta_corretta": "Alga"
+        },
+        {
+            "domanda": "Quale di queste foreste è la più grande al mondo?",
+            "risposte": [
+                "Amazzonica",
+                "Boreale",
+                "Conifera",
+                "Pluviale"
+            ],
+            "risposta_corretta": "Amazzonica"
+        },
+        {
+            "domanda": "Quale di questi animali è il più veloce in terra?",
+            "risposte": [
+                "Ghepardo",
+                "Leone",
+                "Elefante",
+                "Struzzo"
+            ],
+            "risposta_corretta": "Ghepardo"
+        },
+        {
+            "domanda": "Quale di questi fenomeni atmosferici è caratterizzato da forti venti e piogge torrenziali?",
+            "risposte": [
+                "Uragano",
+                "Tornado",
+                "Monsone",
+                "Blizzard"
+            ],
+            "risposta_corretta": "Uragano"
+        },
+        {
+            "domanda": "Quale di questi biomi è caratterizzato da temperature rigide e lunghi periodi di neve?",
+            "risposte": [
+                "Foresta pluviale",
+                "Savana",
+                "Tundra",
+                "Deserto"
+            ],
+            "risposta_corretta": "Tundra"
+        },
+        {
+            "domanda": "Quale di questi minerali è il più duro sulla scala di Mohs?",
+            "risposte": [
+                "Diamante",
+                "Zaffiro",
+                "Rubino",
+                "Topazio"
+            ],
+            "risposta_corretta": "Diamante"
+        },
+        {
+            "domanda": "Quale di questi gas è responsabile dell'effetto serra?",
+            "risposte": [
+                "Ossigeno",
+                "Azoto",
+                "Anidride carbonica",
+                "Metano"
+            ],
+            "risposta_corretta": "Anidride carbonica"
+        },
+        {
+            "domanda": "Quale di questi organismi è un erbivoro?",
+            "risposte": [
+                "Leone",
+                "Zebra",
+                "Aquila",
+                "Serpente"
+            ],
+            "risposta_corretta": "Zebra"
+        },
+        {
+            "domanda": "Quale di queste forze è la principale causa delle maree?",
+            "risposte": [
+                "Forza centrifuga terrestre",
+                "Attrazione lunare",
+                "Attrazione solare",
+                "Vento"
+            ],
+            "risposta_corretta": "Attrazione lunare"
+        },
+        {
+            "domanda": "Quale di questi periodi geologici è durato il maggior numero di anni?",
+            "risposte": [
+                "Paleozoico",
+                "Mesozoico",
+                "Cenozoico",
+                "Precambriano"
+            ],
+            "risposta_corretta": "Precambriano"
+        },
+        {
+            "domanda": "Quale di questi organismi è un batterio?",
+            "risposte": [
+                "Quercia",
+                "Escherichia coli",
+                "Fungo",
+                "Balena"
+            ],
+            "risposta_corretta": "Escherichia coli"
+        },
+        {
+            "domanda": "Quale di queste foreste ospita la maggior biodiversità di specie vegetali e animali?",
+            "risposte": [
+                "Amazzonica",
+                "Boreale",
+                "Conifera",
+                "Pluviale"
+            ],
+            "risposta_corretta": "Amazzonica"
+        },
+        {
+            "domanda": "Quale di questi animali è il più grande insetto volante?",
+            "risposte": [
+                "Farfalla monarca",
+                "Scarabeo stercorario",
+                "Libellula gigante",
+                "Locusta migratoria"
+            ],
+            "risposta_corretta": "Libellula gigante"
+        },
+        {
+            "domanda": "Quale di questi fenomeni naturali è causato dal movimento delle placche tettoniche?",
+            "risposte": [
+                "Terremoti",
+                "Vulcani",
+                "Maree",
+                "Uragani"
+            ],
+            "risposta_corretta": "Terremoti"
+        },
+        {
+            "domanda": "Quale di questi biomi è caratterizzato da precipitazioni abbondanti e foreste sempreverdi?",
+            "risposte": [
+                "Foresta pluviale",
+                "Savana",
+                "Tundra",
+                "Deserto"
+            ],
+            "risposta_corretta": "Foresta pluviale"
+        },
+        {
+            "domanda": "Quale di queste rocce è di origine metamorfica?",
+            "risposte": [
+                "Granito",
+                "Calcare",
+                "Scisto",
+                "Marmo"
+            ],
+            "risposta_corretta": "Scisto"
+        },
+        {
+            "domanda": "Quale di questi gas è essenziale per la respirazione cellulare?",
+            "risposte": [
+                "Ossigeno",
+                "Azoto",
+                "Anidride carbonica",
+                "Metano"
+            ],
+            "risposta_corretta": "Ossigeno"
+        },
+        {
+            "domanda": "Quale di questi organismi è un predatore?",
+            "risposte": [
+                "Leone",
+                "Zebra",
+                "Aquila",
+                "Serpente"
+            ],
+            "risposta_corretta": "Leone"
+        },
+        {
+            "domanda": "Quale di queste correnti oceaniche è la più potente?",
+            "risposte": [
+                "Corrente del Golfo",
+                "Corrente delle Canarie",
+                "Corrente Kuroshio",
+                "Corrente del Perù"
+            ],
+            "risposta_corretta": "Corrente del Golfo"
+        },
+        {
+            "domanda": "Quale di questi periodi geologici è caratterizzato dalla comparsa dei primi dinosauri?",
+            "risposte": [
+                "Paleozoico",
+                "Mesozoico",
+                "Cenozoico",
+                "Precambriano"
+            ],
+            "risposta_corretta": "Mesozoico"
+        },
+        {
+            "domanda": "Quale di questi organismi è un fungo?",
+            "risposte": [
+                "Quercia",
+                "Escherichia coli",
+                "Muffa",
+                "Balena"
+            ],
+            "risposta_corretta": "Muffa"
+        },
+        {
+            "domanda": "Quale di queste foreste è considerata un polmone verde del pianeta?",
+            "risposte": [
+                "Amazzonica",
+                "Boreale",
+                "Conifera",
+                "Pluviale"
+            ],
+            "risposta_corretta": "Amazzonica"
+        }
+    ]
+}

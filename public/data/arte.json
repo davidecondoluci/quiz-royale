@@ -1,0 +1,295 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Chi ha dipinto la Gioconda?",
+            "risposte": [
+                "Michelangelo",
+                "Leonardo da Vinci",
+                "Raffaello",
+                "Donatello"
+            ],
+            "risposta_corretta": "Leonardo da Vinci"
+        },
+        {
+            "domanda": "Qual è il periodo artistico di Pablo Picasso?",
+            "risposte": [
+                "Cubismo",
+                "Rinascimento",
+                "Neoclassicismo",
+                "Barocco"
+            ],
+            "risposta_corretta": "Cubismo"
+        },
+        {
+            "domanda": "Chi ha scolpito il David?",
+            "risposte": [
+                "Michelangelo",
+                "Bernini",
+                "Canova",
+                "Donatello"
+            ],
+            "risposta_corretta": "Michelangelo"
+        },
+        {
+            "domanda": "In quale città si trova il Museo del Prado?",
+            "risposte": [
+                "Roma",
+                "Madrid",
+                "Parigi",
+                "Londra"
+            ],
+            "risposta_corretta": "Madrid"
+        },
+        {
+            "domanda": "Quale artista è famoso per il suo periodo blu?",
+            "risposte": [
+                "Vincent van Gogh",
+                "Claude Monet",
+                "Pablo Picasso",
+                "Salvador Dalí"
+            ],
+            "risposta_corretta": "Pablo Picasso"
+        },
+        {
+            "domanda": "Chi ha dipinto 'La notte stellata'?",
+            "risposte": [
+                "Edvard Munch",
+                "Paul Cézanne",
+                "Vincent van Gogh",
+                "Henri Matisse"
+            ],
+            "risposta_corretta": "Vincent van Gogh"
+        },
+        {
+            "domanda": "In quale città si trova la Cappella Sistina?",
+            "risposte": [
+                "Città del Vaticano",
+                "Firenze",
+                "Venezia",
+                "Milano"
+            ],
+            "risposta_corretta": "Città del Vaticano"
+        },
+        {
+            "domanda": "Quale movimento artistico è noto per l'uso del chiaroscuro?",
+            "risposte": [
+                "Surrealismo",
+                "Impressionismo",
+                "Cubismo",
+                "Barocco"
+            ],
+            "risposta_corretta": "Barocco"
+        },
+        {
+            "domanda": "Chi ha dipinto 'L'ultima cena'?",
+            "risposte": [
+                "Caravaggio",
+                "Leonardo da Vinci",
+                "Sandro Botticelli",
+                "Raffaello Sanzio"
+            ],
+            "risposta_corretta": "Leonardo da Vinci"
+        },
+        {
+            "domanda": "Chi è l'autore del 'Pensatore'?",
+            "risposte": [
+                "Michelangelo",
+                "Auguste Rodin",
+                "Donatello",
+                "Gian Lorenzo Bernini"
+            ],
+            "risposta_corretta": "Auguste Rodin"
+        },
+        {
+            "domanda": "Quale movimento artistico è associato a Salvador Dalí?",
+            "risposte": [
+                "Cubismo",
+                "Futurismo",
+                "Impressionismo",
+                "Surrealismo"
+            ],
+            "risposta_corretta": "Surrealismo"
+        },
+        {
+            "domanda": "Quale artista è noto per le sue composizioni di ballerine?",
+            "risposte": [
+                "Edgar Degas",
+                "Claude Monet",
+                "Paul Gauguin",
+                "Henri de Toulouse-Lautrec"
+            ],
+            "risposta_corretta": "Edgar Degas"
+        },
+        {
+            "domanda": "Chi ha dipinto 'La nascita di Venere'?",
+            "risposte": [
+                "Sandro Botticelli",
+                "Leonardo da Vinci",
+                "Raffaello Sanzio",
+                "Michelangelo"
+            ],
+            "risposta_corretta": "Sandro Botticelli"
+        },
+        {
+            "domanda": "In quale museo si trova la Gioconda?",
+            "risposte": [
+                "Museo del Louvre",
+                "Museo del Prado",
+                "National Gallery",
+                "Uffizi"
+            ],
+            "risposta_corretta": "Museo del Louvre"
+        },
+        {
+            "domanda": "Chi ha scolpito 'La Pietà'?",
+            "risposte": [
+                "Donatello",
+                "Michelangelo",
+                "Bernini",
+                "Canova"
+            ],
+            "risposta_corretta": "Michelangelo"
+        },
+        {
+            "domanda": "Quale artista è famoso per le sue rappresentazioni di ninfee?",
+            "risposte": [
+                "Claude Monet",
+                "Vincent van Gogh",
+                "Paul Cézanne",
+                "Henri Matisse"
+            ],
+            "risposta_corretta": "Claude Monet"
+        },
+        {
+            "domanda": "Quale opera è considerata il capolavoro di Leonardo da Vinci?",
+            "risposte": [
+                "Annunciazione",
+                "L'ultima cena",
+                "Gioconda",
+                "San Girolamo"
+            ],
+            "risposta_corretta": "Gioconda"
+        },
+        {
+            "domanda": "Chi ha dipinto 'Il bacio'?",
+            "risposte": [
+                "Edvard Munch",
+                "Claude Monet",
+                "Paul Gauguin",
+                "Gustav Klimt"
+            ],
+            "risposta_corretta": "Gustav Klimt"
+        },
+        {
+            "domanda": "In quale città si trova la Galleria degli Uffizi?",
+            "risposte": [
+                "Milano",
+                "Roma",
+                "Venezia",
+                "Firenze"
+            ],
+            "risposta_corretta": "Firenze"
+        },
+        {
+            "domanda": "Chi ha scolpito 'Il Ratto di Proserpina'?",
+            "risposte": [
+                "Donatello",
+                "Canova",
+                "Michelangelo",
+                "Gian Lorenzo Bernini"
+            ],
+            "risposta_corretta": "Gian Lorenzo Bernini"
+        },
+        {
+            "domanda": "Quale pittore è associato ai girasoli?",
+            "risposte": [
+                "Edgar Degas",
+                "Vincent van Gogh",
+                "Claude Monet",
+                "Paul Cézanne"
+            ],
+            "risposta_corretta": "Vincent van Gogh"
+        },
+        {
+            "domanda": "Quale artista è noto per le sue incisioni su rame?",
+            "risposte": [
+                "Vermeer",
+                "Van Dyck",
+                "Rembrandt",
+                "Rubens"
+            ],
+            "risposta_corretta": "Rembrandt"
+        },
+        {
+            "domanda": "Quale artista ha creato il 'Cubo di Rubik'?",
+            "risposte": [
+                "Marcel Duchamp",
+                "Kazimir Malevich",
+                "Piet Mondrian",
+                "Ernő Rubik"
+            ],
+            "risposta_corretta": "Ernő Rubik"
+        },
+        {
+            "domanda": "Chi ha dipinto 'Guernica'?",
+            "risposte": [
+                "Salvador Dalí",
+                "Joan Miró",
+                "Pablo Picasso",
+                "Georges Braque"
+            ],
+            "risposta_corretta": "Pablo Picasso"
+        },
+        {
+            "domanda": "Quale movimento artistico ha fondato Wassily Kandinsky?",
+            "risposte": [
+                "Surrealismo",
+                "Futurismo",
+                "Cubismo",
+                "Astrattismo"
+            ],
+            "risposta_corretta": "Astrattismo"
+        },
+        {
+            "domanda": "Chi ha dipinto 'La persistenza della memoria'?",
+            "risposte": [
+                "Max Ernst",
+                "Salvador Dalí",
+                "Pablo Picasso",
+                "Joan Miró"
+            ],
+            "risposta_corretta": "Salvador Dalí"
+        },
+        {
+            "domanda": "Quale artista è noto per le sue opere di arte pop?",
+            "risposte": [
+                "Roy Lichtenstein",
+                "Keith Haring",
+                "Jean-Michel Basquiat",
+                "Andy Warhol"
+            ],
+            "risposta_corretta": "Andy Warhol"
+        },
+        {
+            "domanda": "Chi ha creato il famoso 'Urlo'?",
+            "risposte": [
+                "Vincent van Gogh",
+                "Pablo Picasso",
+                "Gustav Klimt",
+                "Edvard Munch"
+            ],
+            "risposta_corretta": "Edvard Munch"
+        },
+        {
+            "domanda": "Quale artista ha creato il movimento 'Blue Rider'?",
+            "risposte": [
+                "Piet Mondrian",
+                "Kazimir Malevich",
+                "Wassily Kandinsky",
+                "Paul Klee"
+            ],
+            "risposta_corretta": "Wassily Kandinsky"
+        }
+    ]
+}

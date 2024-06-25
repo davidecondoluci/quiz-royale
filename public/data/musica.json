@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "In quale città è nato il compositore Giuseppe Verdi?",
+            "risposte": [
+                "Milano",
+                "Parma",
+                "Torino",
+                "Genova"
+            ],
+            "risposta_corretta": "Parma"
+        },
+        {
+            "domanda": "Qual è il nome del famoso quartetto d'archi inglese fondato nel 1961?",
+            "risposte": [
+                "Amici della Musica",
+                "Quartetto Italiano",
+                "Quartetto Chigiano",
+                "Quartetto Emerson"
+            ],
+            "risposta_corretta": "Quartetto Emerson"
+        },
+        {
+            "domanda": "Quale strumento a fiato è caratterizzato da un suono acuto e penetrante?",
+            "risposte": [
+                "Oboe",
+                "Clarinetto",
+                "Tromba",
+                "Flauto"
+            ],
+            "risposta_corretta": "Oboe"
+        },
+        {
+            "domanda": "A quale periodo storico si fa riferimento con il termine 'Barocco' nella musica?",
+            "risposte": [
+                "Seicento",
+                "Ottocento",
+                "Novecento",
+                "Cinquecento"
+            ],
+            "risposta_corretta": "Seicento"
+        },
+        {
+            "domanda": "Quale celeberrimo cantante italiano è soprannominato il 'Re del Tenore'?",
+            "risposte": [
+                "Luciano Pavarotti",
+                "Andrea Bocelli",
+                "José Carreras",
+                "Placido Domingo"
+            ],
+            "risposta_corretta": "Luciano Pavarotti"
+        },
+        {
+            "domanda": "Qual è il genere musicale che ha avuto origine a New Orleans alla fine del XIX secolo?",
+            "risposte": [
+                "Jazz",
+                "Rock",
+                "Pop",
+                "Blues"
+            ],
+            "risposta_corretta": "Jazz"
+        },
+        {
+            "domanda": "Quale opera lirica di Gioachino Rossini narra la storia d'amore tra il barbiere Figaro e la cameriera Susanna?",
+            "risposte": [
+                "Il Barbiere di Siviglia",
+                "La Cenerentola",
+                "L'Italiana in Algeri",
+                "Guglielmo Tell"
+            ],
+            "risposta_corretta": "Il Barbiere di Siviglia"
+        },
+        {
+            "domanda": "Quale strumento musicale è caratterizzato da una tastiera e da un sistema di corde percusse con martelletti?",
+            "risposte": [
+                "Pianoforte",
+                "Chitarra",
+                "Violino",
+                "Batteria"
+            ],
+            "risposta_corretta": "Pianoforte"
+        },
+        {
+            "domanda": "A quale compositore si attribuisce la creazione della celebre marcia funebre 'Marcia Nuziale'?",
+            "risposte": [
+                "Ludwig van Beethoven",
+                "Johann Sebastian Bach",
+                "Wolfgang Amadeus Mozart",
+                "Giuseppe Verdi"
+            ],
+            "risposta_corretta": "Felix Mendelssohn Bartholdy"
+        },
+        {
+            "domanda": "Quale genere musicale combina elementi di rock, funk, soul e rhythm and blues?",
+            "risposte": [
+                "Disco",
+                "Metal",
+                "Hip Hop",
+                "Reggae"
+            ],
+            "risposta_corretta": "Disco"
+        },
+        {
+            "domanda": "In quale periodo storico è fiorito il genere musicale 'Madrigale'?",
+            "risposte": [
+                "Medioevo",
+                "Rinascimento",
+                "Barocco",
+                "Classicismo"
+            ],
+            "risposta_corretta": "Rinascimento"
+        },
+        {
+            "domanda": "Quale strumento a corda è caratterizzato da un manico lungo e da un corpo a forma di pera?",
+            "risposte": [
+                "Violino",
+                "Viola",
+                "Violoncello",
+                "Contrabasso"
+            ],
+            "risposta_corretta": "Liuto"
+        },
+        {
+            "domanda": "Quale compositore italiano è considerato il padre della musica sinfonica?",
+            "risposte": [
+                "Antonio Vivaldi",
+                "Alessandro Scarlatti",
+                "Giovanni Battista Pergolesi",
+                "Luigi Boccherini"
+            ],
+            "risposta_corretta": "Giovanni Battista Pergolesi"
+        },
+        {
+            "domanda": "A quale opera lirica di Giacomo Puccini si ispira il celebre film 'Pretty Woman'?",
+            "risposte": [
+                "Madama Butterfly",
+                "La Bohème",
+                "Tosca",
+                "Turandot"
+            ],
+            "risposta_corretta": "La Traviata"
+        },
+        {
+            "domanda": "Quale genere musicale è caratterizzato da ritmi sincopati e da improvvisazioni?",
+            "risposte": [
+                "Jazz",
+                "Blues",
+                "Rock and Roll",
+                "Pop"
+            ],
+            "risposta_corretta": "Jazz"
+        },
+        {
+            "domanda": "Quale strumento a percussione è composto da due piatti metallici uniti da un perno centrale?",
+            "risposte": [
+                "Timpani",
+                "Xilofono",
+                "Vibrafono",
+                "Piatti"
+            ],
+            "risposta_corretta": "Piatti"
+        },
+        {
+            "domanda": "A quale compositrice americana si deve la creazione del musical 'West Side Story'?",
+            "risposte": [
+                "Gershwin",
+                "Bernstein",
+                "Sondheim",
+                "Lloyd Webber"
+            ],
+            "risposta_corretta": "Leonard Bernstein"
+        },
+        {
+            "domanda": "Quale genere musicale è nato in Giamaica negli anni '50 e si basa su ritmi sincopati e testi che affrontano tematiche sociali?",
+            "risposte": [
+                "Reggae",
+                "Ska",
+                "Dancehall",
+                "Dub"
+            ],
+            "risposta_corretta": "Reggae"
+        },
+        {
+            "domanda": "Quale celeberrima band inglese ha rivoluzionato il panorama musicale negli anni '60 con il loro sound innovativo?",
+            "risposte": [
+                "The Beatles",
+                "The Rolling Stones",
+                "The Who",
+                "Pink Floyd"
+            ],
+            "risposta_corretta": "The Beatles"
+        },
+        {
+            "domanda": "A quale strumento a fiato è legato il nome del virtuoso jazzista Louis Armstrong?",
+            "risposte": [
+                "Tromba",
+                "Clarinetto",
+                "Saxofono",
+                "Trombone"
+            ],
+            "risposta_corretta": "Tromba"
+        },
+        {
+            "domanda": "Quale compositore tedesco è noto per le sue sinfonie e per i suoi brani per pianoforte?",
+            "risposte": [
+                "Ludwig van Beethoven",
+                "Johann Sebastian Bach",
+                "Johannes Brahms",
+                "Richard Wagner"
+            ],
+            "risposta_corretta": "Ludwig van Beethoven"
+        },
+        {
+            "domanda": "Qual è il nome del famoso coro di voci bianche fondato a Vienna nel 1947?",
+            "risposte": [
+                "Wiener Philharmoniker",
+                "Wiener Sängerknaben",
+                "Mozarteum Orchester Salzburg",
+                "ORF Vienna Radio Symphony Orchestra"
+            ],
+            "risposta_corretta": "Wiener Sängerknaben"
+        },
+        {
+            "domanda": "Quale strumento musicale è caratterizzato da un manico lungo e da una tastiera con corde pizzicate?",
+            "risposte": [
+                "Chitarra",
+                "Basso",
+                "Mandolino",
+                "Ukulele"
+            ],
+            "risposta_corretta": "Chitarra"
+        },
+        {
+            "domanda": "A quale periodo storico si fa riferimento con il termine 'Romanticismo' nella musica?",
+            "risposte": [
+                "Ottocento",
+                "Novecento",
+                "Ventesimo secolo",
+                "Ventunesimo secolo"
+            ],
+            "risposta_corretta": "Ottocento"
+        },
+        {
+            "domanda": "Quale celeberrima cantante italiana è conosciuta come la 'Regina della Lirica'?",
+            "risposte": [
+                "Renata Tebaldi",
+                "Montserrat Caballé",
+                "Maria Callas",
+                "Kiri Te Kanawa"
+            ],
+            "risposta_corretta": "Maria Callas"
+        },
+        {
+            "domanda": "Qual è il genere musicale che ha avuto origine negli Stati Uniti negli anni '50 e si caratterizza da un ritmo binario marcato e da testi spesso incentrati sull'amore?",
+            "risposte": [
+                "Rock and Roll",
+                "Pop",
+                "Country",
+                "Rhythm and Blues"
+            ],
+            "risposta_corretta": "Rock and Roll"
+        },
+        {
+            "domanda": "Quale opera lirica di Giuseppe Verdi narra la storia di un trovatore innamorato di una donna promessa sposa a un altro?",
+            "risposte": [
+                "Il Trovatore",
+                "Rigoletto",
+                "La Traviata",
+                "Aida"
+            ],
+            "risposta_corretta": "Il Trovatore"
+        },
+        {
+            "domanda": "Quale strumento a percussione è composto da una serie di tamburi di diverse dimensioni?",
+            "risposte": [
+                "Batteria",
+                "Timpani",
+                "Xilofono",
+                "Vibrafono"
+            ],
+            "risposta_corretta": "Batteria"
+        },
+        {
+            "domanda": "A quale compositore francese si deve la creazione del balletto 'Il Lago dei Cigni'?",
+            "risposte": [
+                "Georges Bizet",
+                "Charles Gounod",
+                "Hector Berlioz",
+                "Pyotr Ilyich Tchaikovsky"
+            ],
+            "risposta_corretta": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+            "domanda": "Quale genere musicale combina elementi di funk, disco e soul, ed è nato negli Stati Uniti negli anni '70?",
+            "risposte": [
+                "Funk",
+                "Soul",
+                "Disco",
+                "Hip Hop"
+            ],
+            "risposta_corretta": "Funk"
+        }
+    ]
+}

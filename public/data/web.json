@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è il protocollo di comunicazione utilizzato per trasmettere dati sul web?",
+            "risposte": [
+                "FTP",
+                "HTTP",
+                "SMTP",
+                "POP3"
+            ],
+            "risposta_corretta": "HTTP"
+        },
+        {
+            "domanda": "Quale linguaggio di markup viene utilizzato per creare pagine web?",
+            "risposte": [
+                "Python",
+                "Java",
+                "HTML",
+                "C++"
+            ],
+            "risposta_corretta": "HTML"
+        },
+        {
+            "domanda": "Qual è il motore di ricerca più utilizzato al mondo?",
+            "risposte": [
+                "Bing",
+                "Yahoo",
+                "DuckDuckGo",
+                "Google"
+            ],
+            "risposta_corretta": "Google"
+        },
+        {
+            "domanda": "Cosa significa l'acronimo URL?",
+            "risposte": [
+                "Uniform Resource Locator",
+                "Universal Resource Locator",
+                "Unique Resource Locator",
+                "Unitary Resource Locator"
+            ],
+            "risposta_corretta": "Uniform Resource Locator"
+        },
+        {
+            "domanda": "Qual è il servizio web che consente l'invio e la ricezione di e-mail?",
+            "risposte": [
+                "FTP",
+                "SMTP",
+                "POP3",
+                "HTTP"
+            ],
+            "risposta_corretta": "SMTP"
+        },
+        {
+            "domanda": "Quale protocollo di trasferimento viene utilizzato per scaricare file dal web?",
+            "risposte": [
+                "HTTP",
+                "FTP",
+                "SMTP",
+                "POP3"
+            ],
+            "risposta_corretta": "FTP"
+        },
+        {
+            "domanda": "Qual è il linguaggio di programmazione utilizzato per creare siti web interattivi?",
+            "risposte": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "PHP"
+            ],
+            "risposta_corretta": "JavaScript"
+        },
+        {
+            "domanda": "Cosa significa l'acronimo WWW?",
+            "risposte": [
+                "World Wide Web",
+                "Wide World Web",
+                "Web World Wide",
+                "Worldwide Web"
+            ],
+            "risposta_corretta": "World Wide Web"
+        },
+        {
+            "domanda": "Qual è il nome del sistema di indirizzi web che utilizza numeri IP?",
+            "risposte": [
+                "DNS",
+                "HTTP",
+                "FTP",
+                "SMTP"
+            ],
+            "risposta_corretta": "DNS"
+        },
+        {
+            "domanda": "Qual è il servizio web che consente la condivisione di contenuti multimediali?",
+            "risposte": [
+                "YouTube",
+                "Facebook",
+                "Twitter",
+                "Instagram"
+            ],
+            "risposta_corretta": "YouTube"
+        },
+        {
+            "domanda": "Quale di questi non è un linguaggio di programmazione web comune?",
+            "risposte": [
+                "Java",
+                "Python",
+                "C#",
+                "HTML"
+            ],
+            "risposta_corretta": "HTML"
+        },
+        {
+            "domanda": "Come si chiama un sito web che fornisce informazioni e risorse su un argomento specifico?",
+            "risposte": [
+                "Blog",
+                "Forum",
+                "Wiki",
+                "Social Network"
+            ],
+            "risposta_corretta": "Blog"
+        },
+        {
+            "domanda": "Qual è il servizio web che consente di inviare messaggi istantanei ad altri utenti?",
+            "risposte": [
+                "Email",
+                "SMS",
+                "WhatsApp",
+                "Skype"
+            ],
+            "risposta_corretta": "WhatsApp"
+        },
+        {
+            "domanda": "Cosa significa l'acronimo HTTPS?",
+            "risposte": [
+                "Hyper Text Transfer Protocol Secure",
+                "Hyper Text Transfer Protocol Safety",
+                "Hyper Text Transfer Protocol Shield",
+                "Hyper Text Transfer Protocol Strong"
+            ],
+            "risposta_corretta": "Hyper Text Transfer Protocol Secure"
+        },
+        {
+            "domanda": "Qual è il nome del software che consente di navigare sul web?",
+            "risposte": [
+                "Sistema operativo",
+                "Driver",
+                "Firewall",
+                "Browser"
+            ],
+            "risposta_corretta": "Browser"
+        },
+        {
+            "domanda": "Come si chiama un collegamento ipertestuale che indirizza a un'altra pagina web?",
+            "risposte": [
+                "Parola chiave",
+                "Hashtag",
+                "Permalink",
+                "Ancora"
+            ],
+            "risposta_corretta": "Ancora"
+        },
+        {
+            "domanda": "Qual è il servizio web che consente di condividere foto e video?",
+            "risposte": [
+                "YouTube",
+                "Facebook",
+                "Twitter",
+                "Instagram"
+            ],
+            "risposta_corretta": "Instagram"
+        },
+        {
+            "domanda": "Cosa significa l'acronimo SEO?",
+            "risposte": [
+                "Search Engine Optimization",
+                "Search Engine Organiser",
+                "Search Engine Operator",
+                "Search Engine Owner"
+            ],
+            "risposta_corretta": "Search Engine Optimization"
+        },
+        {
+            "domanda": "Qual è il nome del dominio di primo livello per l'Italia?",
+            "risposte": [
+                ".com",
+                ".net",
+                ".org",
+                ".it"
+            ],
+            "risposta_corretta": ".it"
+        },
+        {
+            "domanda": "Come si chiama un software che blocca le pubblicità sui siti web?",
+            "risposte": [
+                "Antivirus",
+                "Firewall",
+                "AdBlock",
+                "VPN"
+            ],
+            "risposta_corretta": "AdBlock"
+        },
+        {
+            "domanda": "Quale di questi non è un formato di immagine comune per il web?",
+            "risposte": [
+                "JPEG",
+                "PNG",
+                "GIF",
+                "PDF"
+            ],
+            "risposta_corretta": "PDF"
+        },
+        {
+            "domanda": "Come si chiama un sito web che consente di acquistare prodotti online?",
+            "risposte": [
+                "Social Network",
+                "Marketplace",
+                "Forum",
+                "Blog"
+            ],
+            "risposta_corretta": "Marketplace"
+        },
+        {
+            "domanda": "Qual è il servizio web che consente di effettuare videochiamate?",
+            "risposte": [
+                "Email",
+                "SMS",
+                "WhatsApp",
+                "Zoom"
+            ],
+            "risposta_corretta": "Zoom"
+        },
+        {
+            "domanda": "Cosa significa l'acronimo API?",
+            "risposte": [
+                "Application Programming Interface",
+                "Auxiliary Programming Interface",
+                "Automatic Programming Interface",
+                "Advanced Programming Interface"
+            ],
+            "risposta_corretta": "Application Programming Interface"
+        },
+        {
+            "domanda": "Qual è il nome del linguaggio di markup utilizzato per formattare il testo web?",
+            "risposte": [
+                "Python",
+                "Java",
+                "HTML",
+                "C++"
+            ],
+            "risposta_corretta": "HTML"
+        },
+        {
+            "domanda": "Come si chiama un software che gestisce i contenuti di un sito web?",
+            "risposte": [
+                "Sistema operativo",
+                "Driver",
+                "CMS",
+                "Browser"
+            ],
+            "risposta_corretta": "CMS"
+        },
+        {
+            "domanda": "Qual è il servizio web che consente di condividere brevi messaggi di testo?",
+            "risposte": [
+                "YouTube",
+                "Facebook",
+                "Twitter",
+                "Instagram"
+            ],
+            "risposta_corretta": "Twitter"
+        },
+        {
+            "domanda": "Cosa significa l'acronimo WWW?",
+            "risposte": [
+                "World Wide Web",
+                "Wide World Web",
+                "Web World Wide",
+                "Worldwide Web"
+            ],
+            "risposta_corretta": "World Wide Web"
+        },
+        {
+            "domanda": "Qual è il nome del protocollo di comunicazione utilizzato per trasferire file via email?",
+            "risposte": [
+                "HTTP",
+                "FTP",
+                "SMTP",
+                "POP3"
+            ],
+            "risposta_corretta": "SMTP"
+        },
+        {
+            "domanda": "Come si chiama un motore di ricerca che fornisce risultati anonimi?",
+            "risposte": [
+                "Google",
+                "Bing",
+                "Yahoo",
+                "DuckDuckGo"
+            ],
+            "risposta_corretta": "DuckDuckGo"
+        }
+    ]
+}

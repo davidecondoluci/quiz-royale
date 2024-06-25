@@ -1,0 +1,304 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Qual è il romanzo italiano considerato il più grande di tutti i tempi?",
+            "risposte": [
+                "`Cent'anni di solitudine` di Gabriel García Márquez",
+                "`I promessi sposi` di Alessandro Manzoni",
+                "`La Divina Commedia` di Dante Alighieri",
+                "`Il Gattopardo` di Giuseppe Tomasi di Lampedusa"
+            ],
+            "risposta_corretta": "`I promessi sposi` di Alessandro Manzoni"
+        },
+        {
+            "domanda": "Chi è l'autore della celebre opera teatrale 'Amleto'?",
+            "risposte": [
+                "William Shakespeare",
+                "Luigi Pirandello",
+                "Alessandro Manzoni",
+                "Dante Alighieri"
+            ],
+            "risposta_corretta": "William Shakespeare"
+        },
+        {
+            "domanda": "Quale movimento letterario si è sviluppato in Italia tra la fine del XIX secolo e l'inizio del XX secolo?",
+            "risposte": [
+                "Romanticismo",
+                "Realismo",
+                "Decadentismo",
+                "Futurismo"
+            ],
+            "risposta_corretta": "Decadentismo"
+        },
+        {
+            "domanda": "Qual è il nome del personaggio principale del romanzo 'Don Chisciotte della Mancia'?",
+            "risposte": [
+                "Sancho Panza",
+                "Dulcinea del Toboso",
+                "Don Chisciotte",
+                "Ronzino"
+            ],
+            "risposta_corretta": "Don Chisciotte"
+        },
+        {
+            "domanda": "Quale opera letteraria narra il viaggio di Dante Alighieri attraverso l'Inferno, il Purgatorio e il Paradiso?",
+            "risposte": [
+                "`Il Decameron` di Giovanni Boccaccio",
+                "`La vita nova` di Dante Alighieri",
+                "`Rime e prose` di Giosuè Carducci",
+                "`La Divina Commedia` di Dante Alighieri"
+            ],
+            "risposta_corretta": "`La Divina Commedia` di Dante Alighieri"
+        },
+        {
+            "domanda": "Qual è il nome del poeta italiano considerato il padre della lingua italiana?",
+            "risposte": [
+                "Alessandro Manzoni",
+                "Giovanni Boccaccio",
+                "Francesco Petrarca",
+                "Dante Alighieri"
+            ],
+            "risposta_corretta": "Dante Alighieri"
+        },
+        {
+            "domanda": "Quale genere letterario comprende opere di fantasia che raccontano storie inventate?",
+            "risposte": [
+                "Saggistica",
+                "Narrativa",
+                "Poesia",
+                "Drammaturgia"
+            ],
+            "risposta_corretta": "Narrativa"
+        },
+        {
+            "domanda": "Chi è l'autrice del romanzo 'Orgoglio e pregiudizio'?",
+            "risposte": [
+                "Jane Austen",
+                "Charlotte Brontë",
+                "Emily Brontë",
+                "George Eliot"
+            ],
+            "risposta_corretta": "Jane Austen"
+        },
+        {
+            "domanda": "Quale premio letterario viene assegnato ogni anno al miglior romanzo scritto in lingua italiana?",
+            "risposte": [
+                "Premio Strega",
+                "Premio Campiello",
+                "Premio Viareggio",
+                "Premio Bancarella"
+            ],
+            "risposta_corretta": "Premio Strega"
+        },
+        {
+            "domanda": "Qual è il nome della celebre raccolta di fiabe di Charles Perrault?",
+            "risposte": [
+                "Le mille e una notte",
+                "I racconti di Canterbury",
+                "Fiabe italiane",
+                "Le fiabe di Perrault"
+            ],
+            "risposta_corretta": "Le fiabe di Perrault"
+        },
+        {
+            "domanda": "In quale opera letteraria si narra la storia di un amore proibito tra due giovani di famiglie rivali?",
+            "risposte": [
+                "`Romeo e Giulietta` di William Shakespeare",
+                "`I Promessi Sposi` di Alessandro Manzoni",
+                "`Orgoglio e Pregiudizio` di Jane Austen",
+                "`Madame Bovary` di Gustave Flaubert"
+            ],
+            "risposta_corretta": "`Romeo e Giulietta` di William Shakespeare"
+        },
+        {
+            "domanda": "Quale scrittore italiano è considerato il maestro del racconto breve?",
+            "risposte": [
+                "Luigi Pirandello",
+                "Italo Calvino",
+                "Alberto Moravia",
+                "Dino Buzzati"
+            ],
+            "risposta_corretta": "Luigi Pirandello"
+        },
+        {
+            "domanda": "Qual è il nome del detective creato dalla scrittrice inglese Agatha Christie?",
+            "risposte": [
+                "Hercule Poirot",
+                "Miss Marple",
+                "Sherlock Holmes",
+                "Tommy e Tuppence Beresford"
+            ],
+            "risposta_corretta": "Hercule Poirot"
+        },
+        {
+            "domanda": "Quale poeta italiano ha scritto la poesia 'La sera fiesolana'?",
+            "risposte": [
+                "Giovanni Pascoli",
+                "Gabriele D'Annunzio",
+                "Guido Gozzano",
+                "Eugenio Montale"
+            ],
+            "risposta_corretta": "Giovanni Pascoli"
+        },
+        {
+            "domanda": "Quale opera letteraria descrive le vicende di un gruppo di ragazzi reclusi in un collegio durante la Seconda Guerra Mondiale?",
+            "risposte": [
+                "`Il giovane Holden` di J.D. Salinger",
+                "`Il ritratto di Dorian Gray` di Oscar Wilde",
+                "`L'isola del tesoro` di Robert Louis Stevenson",
+                "`Le avventure di Tom Sawyer` di Mark Twain"
+            ],
+            "risposta_corretta": "`Il giovane Holden` di J.D. Salinger"
+        },
+        {
+            "domanda": "Qual è il nome del movimento letterario che si è sviluppato in Francia nella seconda metà del XIX secolo?",
+            "risposte": [
+                "Romanticismo",
+                "Realismo",
+                "Naturalismo",
+                "Simbolismo"
+            ],
+            "risposta_corretta": "Naturalismo"
+        },
+        {
+            "domanda": "Quale scrittore americano è stato insignito del Premio Nobel per la Letteratura nel 1954?",
+            "risposte": [
+                "Ernest Hemingway",
+                "William Faulkner",
+                "John Steinbeck",
+                "Saul Bellow"
+            ],
+            "risposta_corretta": "Ernest Hemingway"
+        },
+        {
+            "domanda": "Qual è il nome del protagonista del romanzo 'Il processo' di Franz Kafka?",
+            "risposte": [
+                "Gregor Samsa",
+                "Joseph K.",
+                "K.?"
+            ],
+            "risposta_corretta": "Joseph K."
+        },
+        {
+            "domanda": "Quale opera letteraria narra la storia di un uomo che si trasforma in insetto?",
+            "risposte": [
+                "`La metamorfosi` di Franz Kafka",
+                "`Il ritratto di Dorian Gray` di Oscar Wilde",
+                "`Il giovane Holden` di J.D. Salinger",
+                "`L'uomo invisibile` di Ralph Ellison"
+            ],
+            "risposta_corretta": "`La metamorfosi` di Franz Kafka"
+        },
+        {
+            "domanda": "A quale genere letterario appartiene l'opera 'Cent'anni di solitudine' di Gabriel García Márquez?",
+            "risposte": [
+                "Romanzo storico",
+                "Fantasy",
+                "Realismo magico",
+                "Giallo"
+            ],
+            "risposta_corretta": "Realismo magico"
+        },
+        {
+            "domanda": "Quale opera letteraria italiana narra le vicende di un uomo in fuga per un delitto non commesso?",
+            "risposte": [
+                "`I Promessi Sposi` di Alessandro Manzoni",
+                "`Delitto e castigo` di Fëdor Dostoevskij",
+                "`I Malavoglia` di Giovanni Verga",
+                "`Pinocchio` di Carlo Collodi"
+            ],
+            "risposta_corretta": "`I Delitti dei Campi` di Francesco Domenico Guerrazzi"
+        },
+        {
+            "domanda": "Quale poeta italiano è considerato il padre del Futurismo?",
+            "risposte": [
+                "Filippo Tommaso Marinetti",
+                "Gabriele D'Annunzio",
+                "Giovanni Pascoli",
+                "Eugenio Montale"
+            ],
+            "risposta_corretta": "Filippo Tommaso Marinetti"
+        },
+        {
+            "domanda": "A quale genere letterario appartiene l'opera 'Don Chisciotte della Mancia' di Miguel de Cervantes?",
+            "risposte": [
+                "Romanzo di cavalleria",
+                "Satira",
+                "Romanzo picaresco",
+                "Fantascienza"
+            ],
+            "risposta_corretta": "Romanzo picaresco"
+        },
+        {
+            "domanda": "Quale scrittore italiano ha vinto il Premio Nobel per la Letteratura nel 1990?",
+            "risposte": [
+                "Salvatore Quasimodo",
+                "Eugenio Montale",
+                "Elsa Morante",
+                "Umberto Eco"
+            ],
+            "risposta_corretta": "Salvatore Quasimodo"
+        },
+        {
+            "domanda": "Qual è il nome del protagonista del romanzo 'Moby Dick' di Herman Melville?",
+            "risposte": [
+                "Ishmael",
+                "Ahab",
+                "Moby Dick",
+                "Pip"
+            ],
+            "risposta_corretta": "Ahab"
+        },
+        {
+            "domanda": "Quale opera letteraria narra la storia di un amore impossibile tra due giovani di classi sociali diverse?",
+            "risposte": [
+                "`Romeo e Giulietta` di William Shakespeare",
+                "`Orgoglio e Pregiudizio` di Jane Austen",
+                "`Cime tempestose` di Emily Brontë",
+                "`Madame Bovary` di Gustave Flaubert"
+            ],
+            "risposta_corretta": "`Cime tempestose` di Emily Brontë"
+        },
+        {
+            "domanda": "Quale scrittore è considerato il padre della letteratura americana?",
+            "risposte": [
+                "Nathaniel Hawthorne",
+                "Edgar Allan Poe",
+                "Mark Twain",
+                "Herman Melville"
+            ],
+            "risposta_corretta": "Nathaniel Hawthorne"
+        },
+        {
+            "domanda": "A quale movimento letterario appartiene l'opera 'Ulisse' di James Joyce?",
+            "risposte": [
+                "Modernismo",
+                "Realismo",
+                "Naturalismo",
+                "Simbolismo"
+            ],
+            "risposta_corretta": "Modernismo"
+        },
+        {
+            "domanda": "Quale opera letteraria descrive le vicende di un gruppo di amici che intraprendono un viaggio on the road attraverso gli Stati Uniti?",
+            "risposte": [
+                "`On the Road` di Jack Kerouac",
+                "`L'altrove` di Louis Ferdinand Céline",
+                "`Cent'anni di solitudine` di Gabriel García Márquez",
+                "`Il giovane Holden` di J.D. Salinger"
+            ],
+            "risposta_corretta": "`On the Road` di Jack Kerouac"
+        },
+        {
+            "domanda": "Quale poeta italiano ha scritto la poesia 'Il giorno della memoria'?",
+            "risposte": [
+                "Giuseppe Ungaretti",
+                "Salvatore Quasimodo",
+                "Eugenio Montale",
+                "Alessandro Manzoni"
+            ],
+            "risposta_corretta": "Giuseppe Ungaretti"
+        }
+    ]
+}
