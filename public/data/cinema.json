@@ -1,0 +1,315 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Quale film ha vinto l'Oscar per il miglior film nel 1994?",
+            "risposte": [
+                "Forrest Gump",
+                "Pulp Fiction",
+                "Il Re Leone",
+                "Le ali della libertà"
+            ],
+            "risposta_corretta": "Forrest Gump"
+        },
+        {
+            "domanda": "Chi ha interpretato il ruolo di Jack Dawson in Titanic?",
+            "risposte": [
+                "Leonardo DiCaprio",
+                "Brad Pitt",
+                "Johnny Depp",
+                "Tom Cruise"
+            ],
+            "risposta_corretta": "Leonardo DiCaprio"
+        },
+        {
+            "domanda": "Quale film ha segnato il debutto alla regia di Quentin Tarantino?",
+            "risposte": [
+                "Pulp Fiction",
+                "Le Iene",
+                "Kill Bill",
+                "Bastardi senza gloria"
+            ],
+            "risposta_corretta": "Le Iene"
+        },
+        {
+            "domanda": "In quale film Tom Hanks ha interpretato un giovane con un QI di 75?",
+            "risposte": [
+                "Philadelphia",
+                "Forrest Gump",
+                "Cast Away",
+                "Big"
+            ],
+            "risposta_corretta": "Forrest Gump"
+        },
+        {
+            "domanda": "Chi ha diretto il film Il Padrino?",
+            "risposte": [
+                "Martin Scorsese",
+                "Francis Ford Coppola",
+                "Steven Spielberg",
+                "Alfred Hitchcock"
+            ],
+            "risposta_corretta": "Francis Ford Coppola"
+        },
+        {
+            "domanda": "Quale film ha reso famosa la frase 'Hasta la vista, baby'?",
+            "risposte": [
+                "Rambo",
+                "Die Hard",
+                "Terminator 2: Il giorno del giudizio",
+                "Commando"
+            ],
+            "risposta_corretta": "Terminator 2: Il giorno del giudizio"
+        },
+        {
+            "domanda": "Chi ha vinto l'Oscar per la miglior attrice nel 2001 per il film Erin Brockovich?",
+            "risposte": [
+                "Julia Roberts",
+                "Meryl Streep",
+                "Sandra Bullock",
+                "Nicole Kidman"
+            ],
+            "risposta_corretta": "Julia Roberts"
+        },
+        {
+            "domanda": "Qual è il nome del personaggio interpretato da Keanu Reeves in Matrix?",
+            "risposte": [
+                "Neo",
+                "Morpheus",
+                "Trinity",
+                "Cypher"
+            ],
+            "risposta_corretta": "Neo"
+        },
+        {
+            "domanda": "Quale film d'animazione Disney è uscito nel 1991 e racconta la storia di una giovane donna che si innamora di una bestia?",
+            "risposte": [
+                "La Bella e la Bestia",
+                "Aladdin",
+                "Il Re Leone",
+                "La Sirenetta"
+            ],
+            "risposta_corretta": "La Bella e la Bestia"
+        },
+        {
+            "domanda": "Chi ha interpretato il Joker nel film Il Cavaliere Oscuro del 2008?",
+            "risposte": [
+                "Jack Nicholson",
+                "Joaquin Phoenix",
+                "Jared Leto",
+                "Heath Ledger"
+            ],
+            "risposta_corretta": "Heath Ledger"
+        },
+        {
+            "domanda": "Quale film ha vinto il primo Oscar per il miglior film straniero per l'Italia?",
+            "risposte": [
+                "La dolce vita",
+                "Nuovo Cinema Paradiso",
+                "La vita è bella",
+                "Otto e mezzo"
+            ],
+            "risposta_corretta": "La vita è bella"
+        },
+        {
+            "domanda": "Chi ha diretto il film Inception?",
+            "risposte": [
+                "Christopher Nolan",
+                "Steven Spielberg",
+                "James Cameron",
+                "Ridley Scott"
+            ],
+            "risposta_corretta": "Christopher Nolan"
+        },
+        {
+            "domanda": "Qual è il titolo del film di animazione della Pixar del 2003 che ha come protagonisti due pesci pagliaccio?",
+            "risposte": [
+                "A Bug's Life - Megaminimondo",
+                "Toy Story",
+                "Alla ricerca di Nemo",
+                "Monsters & Co."
+            ],
+            "risposta_corretta": "Alla ricerca di Nemo"
+        },
+        {
+            "domanda": "Chi ha interpretato il ruolo di Lara Croft nel film Tomb Raider del 2001?",
+            "risposte": [
+                "Angelina Jolie",
+                "Scarlett Johansson",
+                "Milla Jovovich",
+                "Charlize Theron"
+            ],
+            "risposta_corretta": "Angelina Jolie"
+        },
+        {
+            "domanda": "Quale film di Alfred Hitchcock è famoso per la scena della doccia?",
+            "risposte": [
+                "La finestra sul cortile",
+                "Intrigo internazionale",
+                "Psycho",
+                "Gli uccelli"
+            ],
+            "risposta_corretta": "Psycho"
+        },
+        {
+            "domanda": "Quale attore ha interpretato il ruolo di Iron Man nel Marvel Cinematic Universe?",
+            "risposte": [
+                "Chris Hemsworth",
+                "Robert Downey Jr.",
+                "Chris Evans",
+                "Mark Ruffalo"
+            ],
+            "risposta_corretta": "Robert Downey Jr."
+        },
+        {
+            "domanda": "Chi ha vinto l'Oscar per il miglior attore protagonista nel 2020 per il film Joker?",
+            "risposte": [
+                "Leonardo DiCaprio",
+                "Brad Pitt",
+                "Joaquin Phoenix",
+                "Tom Hanks"
+            ],
+            "risposta_corretta": "Joaquin Phoenix"
+        },
+        {
+            "domanda": "Qual è il titolo originale del film La città incantata di Hayao Miyazaki?",
+            "risposte": [
+                "My Neighbor Totoro",
+                "Spirited Away",
+                "Princess Mononoke",
+                "Castle in the Sky"
+            ],
+            "risposta_corretta": "Spirited Away"
+        },
+        {
+            "domanda": "Chi ha diretto il film Schindler's List?",
+            "risposte": [
+                "Martin Scorsese",
+                "Steven Spielberg",
+                "Francis Ford Coppola",
+                "Ridley Scott"
+            ],
+            "risposta_corretta": "Steven Spielberg"
+        },
+        {
+            "domanda": "Quale film del 1976 ha come protagonista un pugile di Philadelphia di nome Rocky Balboa?",
+            "risposte": [
+                "Raging Bull",
+                "Rocky",
+                "Cinderella Man",
+                "Million Dollar Baby"
+            ],
+            "risposta_corretta": "Rocky"
+        },
+        {
+            "domanda": "Quale attrice ha interpretato il ruolo principale in Colazione da Tiffany?",
+            "risposte": [
+                "Audrey Hepburn",
+                "Marilyn Monroe",
+                "Grace Kelly",
+                "Elizabeth Taylor"
+            ],
+            "risposta_corretta": "Audrey Hepburn"
+        },
+        {
+            "domanda": "Chi ha interpretato il personaggio di Gollum nella trilogia de Il Signore degli Anelli?",
+            "risposte": [
+                "Andy Serkis",
+                "Elijah Wood",
+                "Viggo Mortensen",
+                "Ian McKellen"
+            ],
+            "risposta_corretta": "Andy Serkis"
+        },
+        {
+            "domanda": "Quale film del 1999 ha come protagonista un giovane ragazzo che vede persone morte?",
+            "risposte": [
+                "Il sesto senso",
+                "Fight Club",
+                "Matrix",
+                "American Beauty"
+            ],
+            "risposta_corretta": "Il sesto senso"
+        },
+        {
+            "domanda": "Qual è il titolo del primo film della saga di Harry Potter?",
+            "risposte": [
+                "Harry Potter e la camera dei segreti",
+                "Harry Potter e il prigioniero di Azkaban",
+                "Harry Potter e il calice di fuoco",
+                "Harry Potter e la pietra filosofale"
+            ],
+            "risposta_corretta": "Harry Potter e la pietra filosofale"
+        },
+        {
+            "domanda": "Quale film d'animazione Pixar ha come protagonisti dei giocattoli che prendono vita?",
+            "risposte": [
+                "Monsters & Co.",
+                "Toy Story",
+                "Alla ricerca di Nemo",
+                "Gli Incredibili"
+            ],
+            "risposta_corretta": "Toy Story"
+        },
+        {
+            "domanda": "Chi ha interpretato il ruolo del Capitano Jack Sparrow nella saga dei Pirati dei Caraibi?",
+            "risposte": [
+                "Orlando Bloom",
+                "Johnny Depp",
+                "Geoffrey Rush",
+                "Keira Knightley"
+            ],
+            "risposta_corretta": "Johnny Depp"
+        },
+        {
+            "domanda": "Quale film ha vinto l'Oscar per il miglior film nel 2020?",
+            "risposte": [
+                "Joker",
+                "C'era una volta a... Hollywood",
+                "1917",
+                "Parasite"
+            ],
+            "risposta_corretta": "Parasite"
+        },
+        {
+            "domanda": "Chi ha diretto il film Alien del 1979?",
+            "risposte": [
+                "James Cameron",
+                "Ridley Scott",
+                "Steven Spielberg",
+                "Stanley Kubrick"
+            ],
+            "risposta_corretta": "Ridley Scott"
+        },
+        {
+            "domanda": "Quale film del 1995 ha come protagonisti dei giocattoli animati e ha segnato il debutto della Pixar nel lungometraggio?",
+            "risposte": [
+                "A Bug's Life - Megaminimondo",
+                "Toy Story",
+                "Monsters & Co.",
+                "Gli Incredibili"
+            ],
+            "risposta_corretta": "Toy Story"
+        },
+        {
+            "domanda": "Qual è il titolo originale del film La La Land?",
+            "risposte": [
+                "The Great Showman",
+                "La La Land",
+                "Whiplash",
+                "Moonlight"
+            ],
+            "risposta_corretta": "La La Land"
+        },
+        {
+            "domanda": "Quale film di Christopher Nolan racconta la storia di un mago ossessionato dal superare il suo rivale?",
+            "risposte": [
+                "Inception",
+                "Interstellar",
+                "Dunkirk",
+                "The Prestige"
+            ],
+            "risposta_corretta": "The Prestige"
+        }
+    ]
+}

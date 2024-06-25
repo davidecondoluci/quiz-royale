@@ -1,0 +1,305 @@
+{
+    "playerImage": "/img/player.png",
+    "questions": [
+        {
+            "domanda": "Quanto fa 2 + 2?",
+            "risposte": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "risposta_corretta": "4"
+        },
+        {
+            "domanda": "Qual è la radice quadrata di 144?",
+            "risposte": [
+                "10",
+                "12",
+                "14",
+                "16"
+            ],
+            "risposta_corretta": "12"
+        },
+        {
+            "domanda": "Quanto fa 5 * 7?",
+            "risposte": [
+                "25",
+                "30",
+                "35",
+                "40"
+            ],
+            "risposta_corretta": "35"
+        },
+        {
+            "domanda": "Qual è il risultato di 8 - 3?",
+            "risposte": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "risposta_corretta": "5"
+        },
+        {
+            "domanda": "Quanto fa 9 / 3?",
+            "risposte": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "risposta_corretta": "3"
+        },
+        {
+            "domanda": "Qual è il risultato di 3^2?",
+            "risposte": [
+                "6",
+                "7",
+                "8",
+                "9"
+            ],
+            "risposta_corretta": "9"
+        },
+        {
+            "domanda": "Quanto fa 20 * 0?",
+            "risposte": [
+                "0",
+                "10",
+                "20",
+                "30"
+            ],
+            "risposta_corretta": "0"
+        },
+        {
+            "domanda": "Qual è il doppio di 15?",
+            "risposte": [
+                "20",
+                "25",
+                "30",
+                "35"
+            ],
+            "risposta_corretta": "30"
+        },
+        {
+            "domanda": "Quanto fa 4! (quattro fattoriale)?",
+            "risposte": [
+                "12",
+                "16",
+                "24",
+                "32"
+            ],
+            "risposta_corretta": "24"
+        },
+        {
+            "domanda": "Qual è la somma degli angoli interni di un triangolo?",
+            "risposte": [
+                "90°",
+                "180°",
+                "270°",
+                "360°"
+            ],
+            "risposta_corretta": "180°"
+        },
+        {
+            "domanda": "Quanto fa 3/4 + 1/4?",
+            "risposte": [
+                "1/2",
+                "2/4",
+                "3/4",
+                "4/4"
+            ],
+            "risposta_corretta": "1"
+        },
+        {
+            "domanda": "Qual è il numero pi greco (π) approssimato?",
+            "risposte": [
+                "3.14",
+                "3.141",
+                "3.1415",
+                "3.14159"
+            ],
+            "risposta_corretta": "3.14159"
+        },
+        {
+            "domanda": "Quanto fa 7^2?",
+            "risposte": [
+                "43",
+                "49",
+                "56",
+                "63"
+            ],
+            "risposta_corretta": "49"
+        },
+        {
+            "domanda": "Qual è il perimetro di un rettangolo con base 6 e altezza 4?",
+            "risposte": [
+                "12",
+                "20",
+                "24",
+                "30"
+            ],
+            "risposta_corretta": "20"
+        },
+        {
+            "domanda": "Quanto fa 2^5?",
+            "risposte": [
+                "30",
+                "32",
+                "34",
+                "36"
+            ],
+            "risposta_corretta": "32"
+        },
+        {
+            "domanda": "Qual è il risultato di 15 * 3 + 10?",
+            "risposte": [
+                "45",
+                "50",
+                "55",
+                "60"
+            ],
+            "risposta_corretta": "55"
+        },
+        {
+            "domanda": "Quanto fa 25 / 5?",
+            "risposte": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ],
+            "risposta_corretta": "5"
+        },
+        {
+            "domanda": "Qual è la radice cubica di 27?",
+            "risposte": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "risposta_corretta": "3"
+        },
+        {
+            "domanda": "Quanto fa 100 - 60?",
+            "risposte": [
+                "30",
+                "40",
+                "50",
+                "60"
+            ],
+            "risposta_corretta": "40"
+        },
+        {
+            "domanda": "Qual è il doppio di 18?",
+            "risposte": [
+                "32",
+                "34",
+                "36",
+                "38"
+            ],
+            "risposta_corretta": "36"
+        },
+        {
+            "domanda": "Quanto fa 11 * 4?",
+            "risposte": [
+                "40",
+                "42",
+                "44",
+                "46"
+            ],
+            "risposta_corretta": "44"
+        },
+        {
+            "domanda": "Qual è il risultato di 9^2?",
+            "risposte": [
+                "71",
+                "81",
+                "91",
+                "101"
+            ],
+            "risposta_corretta": "81"
+        },
+        {
+            "domanda": "Quanto fa 2 * 3 * 4?",
+            "risposte": [
+                "20",
+                "24",
+                "28",
+                "32"
+            ],
+            "risposta_corretta": "24"
+        },
+        {
+            "domanda": "Qual è il numero intero più grande minore di 10?",
+            "risposte": [
+                "8",
+                "9",
+                "10",
+                "11"
+            ],
+            "risposta_corretta": "9"
+        },
+        {
+            "domanda": "Quanto fa 6 * 9?",
+            "risposte": [
+                "48",
+                "52",
+                "54",
+                "56"
+            ],
+            "risposta_corretta": "54"
+        },
+        {
+            "domanda": "Qual è il quadrato di 7?",
+            "risposte": [
+                "45",
+                "48",
+                "49",
+                "52"
+            ],
+            "risposta_corretta": "49"
+        },
+        {
+            "domanda": "Quanto fa 18 / 6?",
+            "risposte": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "risposta_corretta": "3"
+        },
+        {
+            "domanda": "Qual è il risultato di 4^3?",
+            "risposte": [
+                "60",
+                "62",
+                "64",
+                "66"
+            ],
+            "risposta_corretta": "64"
+        },
+        {
+            "domanda": "Quanto fa 1 + 2 + 3 + 4 + 5?",
+            "risposte": [
+                "12",
+                "13",
+                "14",
+                "15"
+            ],
+            "risposta_corretta": "15"
+        },
+        {
+            "domanda": "Qual è il risultato di 10 - 6 * 2?",
+            "risposte": [
+                "2",
+                "4",
+                "6",
+                "8"
+            ],
+            "risposta_corretta": "2"
+        }
+    ]
+}
