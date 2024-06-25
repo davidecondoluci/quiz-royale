@@ -95,10 +95,6 @@ Alpine.data("quiz", () => ({
   questionCounter: 1,
   playerImage: null,
   audio: null,
-  audioContext: null,
-  audioBuffer: null,
-  audioSource: null,
-  gainNode: null,
 
   init() {
     const queryString = window.location.search;
@@ -119,69 +115,61 @@ Alpine.data("quiz", () => ({
       .then((data) => {
         this.questions = data.questions;
         this.playerImage = data.playerImage;
-        this.startBackgroundMusic();
+        this.playThemeMusic();
       })
       .catch(function (err) {
         window.location.href = "topics.html";
       });
 
-    // Aggiungi i listener per visibilitychange
     document.addEventListener(
       "visibilitychange",
       this.handleVisibilityChange.bind(this)
     );
   },
 
-  startBackgroundMusic() {
-    this.audioContext = new (window.AudioContext ||
-      window.webkitAudioContext)();
-    this.gainNode = this.audioContext.createGain();
-    this.gainNode.gain.value = 0.1; // Imposta il volume al 10%
-    this.gainNode.connect(this.audioContext.destination);
+  themeMusic: new Audio("/music/theme.mp3"),
+  bossDamageSound: new Audio("/music/boss_damage.mp3"),
+  playerDamageSound: new Audio("/music/player_damage.mp3"),
+  winSound: new Audio("/music/win.mp3"),
+  loseSound: new Audio("/music/lose.mp3"),
 
-    fetch("/music/music-2.mp3")
-      .then((response) => response.arrayBuffer())
-      .then((buffer) => this.audioContext.decodeAudioData(buffer))
-      .then((decodedData) => {
-        this.audioBuffer = decodedData;
-        this.playAudio();
-      });
+  playThemeMusic(volume = 0.1) {
+    if (this.state === "game") {
+      this.themeMusic.currentTime = 0;
+      this.themeMusic.volume = volume;
+      this.themeMusic.play();
+    }
   },
 
-  playAudio() {
-    if (this.audioSource) {
-      this.audioSource.stop();
-    }
-
-    this.audioSource = this.audioContext.createBufferSource();
-    this.audioSource.buffer = this.audioBuffer;
-    this.audioSource.connect(this.gainNode);
-    this.audioSource.loop = true;
-    this.audioSource.start(0);
+  playBossDamageSound(volume = 0.2) {
+    this.bossDamageSound.currentTime = 0;
+    this.bossDamageSound.volume = volume;
+    this.bossDamageSound.play();
   },
 
-  stopAudio() {
-    if (this.audioSource) {
-      this.audioSource.stop();
-    }
+  playPlayerDamageSound(volume = 0.2) {
+    this.playerDamageSound.currentTime = 0;
+    this.playerDamageSound.volume = volume;
+    this.playerDamageSound.play();
+  },
+
+  playWinSound(volume = 0.2) {
+    this.winSound.currentTime = 0;
+    this.winSound.volume = volume;
+    this.winSound.play();
+  },
+
+  playLoseSound(volume = 0.2) {
+    this.loseSound.currentTime = 0;
+    this.loseSound.volume = volume;
+    this.loseSound.play();
   },
 
   handleVisibilityChange() {
     if (document.hidden) {
-      this.stopAudio();
+      this.themeMusic.pause();
     } else {
-      this.playAudio();
-    }
-  },
-
-  stopBackgroundMusic() {
-    if (this.audioSource) {
-      this.audioSource.stop();
-      this.audioSource = null;
-    }
-    if (this.audioContext) {
-      this.audioContext.close();
-      this.audioContext = null;
+      this.playThemeMusic();
     }
   },
 
@@ -194,10 +182,12 @@ Alpine.data("quiz", () => ({
       this.bossHp -= 1;
       this.bossDamage += 1;
       flashDamage("#boss-img");
+      this.playBossDamageSound(); // Riproduce il suono del boss
     } else {
       this.playerHp -= 1;
       this.playerDamage += 1;
       flashDamage("#player-img");
+      this.playPlayerDamageSound(); // Riproduce il suono del player
     }
 
     this.currentQuestionIndex++;
@@ -205,10 +195,12 @@ Alpine.data("quiz", () => ({
 
     if (this.questionCounter > 30) {
       this.state = "win";
-      this.stopBackgroundMusic();
+      this.themeMusic.pause();
+      this.playWinSound();
     } else if (this.playerHp <= 0) {
       this.state = "lose";
-      this.stopBackgroundMusic();
+      this.themeMusic.pause();
+      this.playLoseSound();
     }
   },
 
@@ -220,17 +212,17 @@ Alpine.data("quiz", () => ({
     this.playerDamage = 0;
     this.currentQuestionIndex = 0;
     this.questionCounter = 1;
-    this.startBackgroundMusic();
+    this.playThemeMusic();
   },
 
   changeTopic() {
+    this.themeMusic.pause();
     window.location.href = "topics.html";
-    this.stopBackgroundMusic();
   },
 
   exitGame() {
+    this.themeMusic.pause();
     window.location.href = "index.html";
-    this.stopBackgroundMusic();
   },
 }));
 
@@ -267,7 +259,7 @@ timeline
     {
       x: 40,
       duration: 0.2,
-      yoyo: true, // Aggiunto per fare tornare le lettere a destra indietro
+      yoyo: true,
     },
     "<"
   )
@@ -303,3 +295,24 @@ timeline
   );
 
 Alpine.start();
+
+// Funzione per gestire il cambio di pagina con animazione
+function changePage(url) {
+  const currentContent = document.querySelector("body");
+  currentContent.classList.add("fade-out");
+
+  setTimeout(() => {
+    window.location.href = url;
+  }, 500); // Tempo in millisecondi corrispondente alla durata dell'animazione
+
+  return false; // Evita il comportamento predefinito del link
+}
+
+// Aggiungi event listener per i link che cambiano pagina
+document.querySelectorAll("a").forEach((link) => {
+  link.addEventListener("click", function (e) {
+    e.preventDefault();
+    const url = this.getAttribute("href");
+    changePage(url);
+  });
+});

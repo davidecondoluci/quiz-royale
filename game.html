@@ -11,12 +11,9 @@
     <link rel="stylesheet" href="./style.css" />
     <script type="module" src="./main.js"></script>
   </head>
-  <body>
-    <audio id="background-music" loop>
-      <source src="/music/music-2.mp3" type="audio/mpeg" />
-      Your browser does not support the audio element.
-    </audio>
+  <body class="bg-white fade-in">
     <main x-data="quiz()" class="flex flex-col lg:flex-row w-full h-dvh">
+      <!-- Sidebar -->
       <div
         id="game-view"
         class="flex flex-col w-full lg:w-1/2 h-2/5 md:h-1/2 lg:h-full justify-between items-center p-4 lg:p-16 bg-[url('/img/bg.png')] bg-bottom bg-no-repeat bg-cover"
@@ -64,7 +61,7 @@
           </div>
         </div>
       </div>
-
+      <!-- Quiz -->
       <div
         id="quiz-view"
         x-show="state == 'game'"
@@ -118,7 +115,7 @@
             </svg>
           </h1>
         </a>
-        <!-- Domande e risposte -->
+        <!-- Questions and Answers -->
         <div class="flex flex-col w-full space-y-4">
           <h2
             x-text="currentQuestion.domanda"
@@ -132,7 +129,7 @@
             ></button>
           </template>
         </div>
-        <!-- N°domande ed Esci -->
+        <!-- Number of questions and Exit -->
         <div class="flex flex-row w-full justify-between items-center">
           <div x-show="state == 'game'" class="flex w-1/2">
             <p class="font-sans text-base">
@@ -147,57 +144,63 @@
           </a>
         </div>
       </div>
-      <!-- Fine gioco -->
+
+      <!-- Game over -->
       <div
         x-show="state == 'lose'"
         x-cloak
         class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-center items-center text-center p-4 lg:p-16 space-y-16 bg-white text-black"
       >
         <h3 class="text-6xl md:text-8xl lg:text-8xl">Hai perso</h3>
-        <div class="flex flex-col lg:flex-row w-full gap-4">
+        <div
+          class="flex flex-col lg:flex-row w-full gap-4 items-center justify-center"
+        >
           <button
             @click="restartGame"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue ransition-colors duration-300 ease-in-out"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue transition-colors duration-300 ease-in-out"
           >
             Ricomincia
           </button>
           <button
             @click="changeTopic"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen transition-colors duration-300 ease-in-out"
           >
             Cambia Argomento
           </button>
           <button
             @click="exitGame"
-            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out cursor-pointer"
+            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred transition-colors duration-300 ease-in-out cursor-pointer"
           >
             Esci
           </button>
         </div>
       </div>
-      <!-- Vittoria -->
+
+      <!-- Victory -->
       <div
         x-show="state == 'win'"
         x-cloak
         class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-center items-center text-center p-4 lg:p-16 space-y-16 bg-white text-black"
       >
         <h3 class="text-6xl md:text-8xl lg:text-8xl">Hai vinto!</h3>
-        <div class="flex flex-col lg:flex-row w-full gap-4">
+        <div
+          class="flex flex-col lg:flex-row w-full gap-4 items-center justify-center"
+        >
           <button
             @click="restartGame"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue ransition-colors duration-300 ease-in-out"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue transition-colors duration-300 ease-in-out"
           >
             Ricomincia
           </button>
           <button
             @click="changeTopic"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen ransition-colors duration-300 ease-in-out"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen transition-colors duration-300 ease-in-out"
           >
             Cambia Argomento
           </button>
           <a
             @click="exitGame"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred ransition-colors duration-300 ease-in-out cursor-pointer"
+            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred transition-colors duration-300 ease-in-out cursor-pointer"
           >
             Esci
           </a>
