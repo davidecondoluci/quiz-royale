@@ -48,6 +48,74 @@ function flashDamage(target) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  const logo = {
+    main: document.querySelector("#logo"),
+    letters: document.querySelectorAll("#logo path:not(#sword)"),
+    l: document.querySelector("#l"),
+    sword: document.querySelector("#sword"),
+  };
+
+  const timeline = gsap.timeline({
+    defaults: {
+      duration: 0.5,
+      ease: "power4.inOut",
+    },
+  });
+
+  timeline
+    .set(logo.sword, { opacity: 0 })
+    .from(logo.letters, {
+      opacity: 0,
+      y: "-200%",
+      stagger: 0.1,
+    })
+    .to("#logo g#left path", {
+      x: -40,
+      stagger: -0.05,
+      repeat: 1,
+      duration: 0.2,
+      yoyo: true,
+    })
+    .to(
+      "#logo g#right path",
+      {
+        x: 40,
+        duration: 0.2,
+        yoyo: true,
+      },
+      "<"
+    )
+    .fromTo(
+      logo.sword,
+      {
+        opacity: 0,
+        y: "200%",
+      },
+      {
+        ease: "back.out(1.4)",
+        opacity: 1,
+        y: 0,
+      },
+      "<"
+    )
+    .to(
+      logo.l,
+      {
+        ease: "back.out(1.4)",
+        opacity: 0,
+        y: "-200%",
+      },
+      "<+0.1"
+    )
+    .to(
+      "#logo g#right path",
+      {
+        x: 0,
+        duration: 0.6,
+      },
+      "-=0.4"
+    );
+
   const startButton = document.getElementById("startButton");
   if (startButton) {
     gsap.to(startButton, {
@@ -59,31 +127,62 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const bossImg = document.getElementById("boss-img");
-  if (bossImg) {
-    gsap.to("#boss-img", {
-      y: "5%",
-      scaleY: 1,
-      repeat: -1,
-      duration: 1,
-      ease: "sine.inOut",
-      yoyo: true,
-    });
-  }
+  gsap.to("#boss-img", {
+    y: "5%",
+    scaleY: 1,
+    repeat: -1,
+    duration: 1,
+    ease: "sine.inOut",
+    yoyo: true,
+  });
 
-  const playerImg = document.getElementById("player-img");
-  if (playerImg) {
-    gsap.to("#player-img", {
-      x: "5%",
-      delay: 0.5,
-      scaleX: 1,
-      repeat: -1,
-      duration: 1,
-      ease: "sine.inOut",
-      yoyo: true,
+  gsap.to("#player-img", {
+    x: "5%",
+    delay: 0.5,
+    scaleX: 1,
+    repeat: -1,
+    duration: 1,
+    ease: "sine.inOut",
+    yoyo: true,
+  });
+
+  gsap.from("#logo", {
+    opacity: 0,
+    duration: 1,
+    delay: 0.5,
+    ease: "power2.out",
+  });
+
+  gsap.from("#logo .element", {
+    opacity: 0,
+    y: 20,
+    stagger: 0.1,
+    duration: 0.5,
+    delay: 1,
+    ease: "power2.out",
+  });
+
+  document.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      const url = this.getAttribute("href");
+      changePage(url);
     });
-  }
+  });
+
+  Alpine.start();
 });
+
+function changePage(url) {
+  const currentContent = document.querySelector("body");
+  currentContent.classList.add("fade-out");
+
+  setTimeout(() => {
+    window.location.href = url;
+  }, 500);
+
+  return false;
+}
 
 Alpine.data("quiz", () => ({
   state: "game",
@@ -113,10 +212,9 @@ Alpine.data("quiz", () => ({
         return response.json();
       })
       .then((data) => {
-        this.questions = data.questions || []; // Assegna le domande solo se sono presenti nel JSON
-        this.playerImage = data.playerImage || null; // Assegna l'immagine del giocatore se è presente nel JSON
+        this.questions = data.questions || [];
+        this.playerImage = data.playerImage || null;
 
-        // Aggiungi listener per avviare l'audio del tema dopo il primo click dell'utente
         document.addEventListener(
           "click",
           () => {
@@ -125,7 +223,7 @@ Alpine.data("quiz", () => ({
           { once: true }
         );
       })
-      .catch(function (err) {
+      .catch((err) => {
         console.error(err);
         window.location.href = "topics.html";
       });
@@ -190,7 +288,7 @@ Alpine.data("quiz", () => ({
   },
 
   get currentQuestion() {
-    return this.questions[this.currentQuestionIndex] || null; // Ritorna null se non c'è una domanda corrente
+    return this.questions[this.currentQuestionIndex] || null;
   },
 
   answerQuestion(answer) {
@@ -198,12 +296,12 @@ Alpine.data("quiz", () => ({
       this.bossHp -= 1;
       this.bossDamage += 1;
       flashDamage("#boss-img");
-      this.playBossDamageSound(); // Riproduce il suono del boss
+      this.playBossDamageSound();
     } else {
       this.playerHp -= 1;
       this.playerDamage += 1;
       flashDamage("#player-img");
-      this.playPlayerDamageSound(); // Riproduce il suono del player
+      this.playPlayerDamageSound();
     }
 
     this.currentQuestionIndex++;
@@ -241,101 +339,3 @@ Alpine.data("quiz", () => ({
     window.location.href = "index.html";
   },
 }));
-
-document.addEventListener("DOMContentLoaded", function () {
-  if (
-    window.location.pathname === "/index.html" ||
-    window.location.pathname === "/"
-  ) {
-    const logo = {
-      main: document.querySelector("#logo"),
-      letters: document.querySelectorAll("#logo path:not(#sword)"),
-      l: document.querySelector("#l"),
-      sword: document.querySelector("#sword"),
-    };
-
-    const timeline = gsap.timeline({
-      defaults: {
-        duration: 0.5,
-        ease: "power4.inOut",
-      },
-    });
-
-    timeline
-      .set(logo.sword, { opacity: 0 })
-      .from(logo.letters, {
-        opacity: 0,
-        y: "-200%",
-        stagger: 0.1,
-      })
-      .to("#logo g#left path", {
-        x: -40,
-        stagger: -0.05,
-        repeat: 1,
-        duration: 0.2,
-        yoyo: true,
-      })
-      .to(
-        "#logo g#right path",
-        {
-          x: 40,
-          duration: 0.2,
-          yoyo: true,
-        },
-        "<"
-      )
-      .fromTo(
-        logo.sword,
-        {
-          opacity: 0,
-          y: "200%",
-        },
-        {
-          ease: "back.out(1.4)",
-          opacity: 1,
-          y: 0,
-        },
-        "<"
-      )
-      .to(
-        logo.l,
-        {
-          ease: "back.out(1.4)",
-          opacity: 0,
-          y: "-200%",
-        },
-        "<+0.1"
-      )
-      .to(
-        "#logo g#right path",
-        {
-          x: 0,
-          duration: 0.6,
-        },
-        "-=0.4"
-      );
-  }
-});
-
-Alpine.start();
-
-// Funzione per gestire il cambio di pagina con animazione
-function changePage(url) {
-  const currentContent = document.querySelector("body");
-  currentContent.classList.add("fade-out");
-
-  setTimeout(() => {
-    window.location.href = url;
-  }, 500); // Tempo in millisecondi corrispondente alla durata dell'animazione
-
-  return false; // Evita il comportamento predefinito del link
-}
-
-// Aggiungi event listener per i link che cambiano pagina
-document.querySelectorAll("a").forEach((link) => {
-  link.addEventListener("click", function (e) {
-    e.preventDefault();
-    const url = this.getAttribute("href");
-    changePage(url);
-  });
-});
