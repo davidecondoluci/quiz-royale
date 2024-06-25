@@ -73,7 +73,7 @@
             class="hidden lg:flex lg:flex-row lg:justify-center lg:items-center"
           >
             <svg
-              class="overflow-visible w-4/5 h-full"
+              class="overflow-visible w-3/5 h-full"
               xmlns="http://www.w3.org/2000/svg"
               width="594"
               height="150"
@@ -118,15 +118,19 @@
         <!-- Questions and Answers -->
         <div class="flex flex-col w-full space-y-4">
           <h2
-            x-text="currentQuestion.domanda"
+            x-text="currentQuestion ? currentQuestion.domanda : ''"
             class="text-xl md:text-2xl lg:text-2xl text-center h-28 lg:h-24"
           ></h2>
-          <template x-for="answer in currentQuestion.risposte">
-            <button
-              x-text="answer"
-              @click="answerQuestion(answer)"
-              class="text-xl md:text-2xl lg:text-2xl font-serif lg:px-16 lg:py-4 bg-midgray text-white border-2 border-darkgray hover:bg-darkgray hover:text-white transition-colors duration-300 ease-in-out"
-            ></button>
+
+          <template x-if="currentQuestion">
+            <template x-for="answer in currentQuestion.risposte">
+              <button
+                id="answer"
+                x-text="answer"
+                @click="answerQuestion(answer)"
+                class="text-xl md:text-2xl lg:text-2xl font-serif lg:px-16 lg:py-4 bg-midgray text-white border-2 border-darkgray hover:bg-darkgray hover:text-white transition-colors duration-300 ease-in-out"
+              ></button>
+            </template>
           </template>
         </div>
         <!-- Number of questions and Exit -->
@@ -149,30 +153,83 @@
       <div
         x-show="state == 'lose'"
         x-cloak
-        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-center items-center text-center p-4 lg:p-16 space-y-16 bg-white text-black"
+        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-center lg:justify-start items-center text-center p-4 lg:p-16 space-y-0 md:space-y-8 lg:space-y-12 bg-white text-black"
       >
-        <h3 class="text-6xl md:text-8xl lg:text-8xl">Hai perso</h3>
-        <div
-          class="flex flex-col lg:flex-row w-full gap-4 items-center justify-center"
-        >
-          <button
-            @click="restartGame"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue transition-colors duration-300 ease-in-out"
+        <!-- Logo -->
+        <a href="index.html">
+          <h1
+            class="hidden lg:flex lg:flex-row lg:justify-center lg:items-center"
           >
-            Ricomincia
-          </button>
-          <button
-            @click="changeTopic"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen transition-colors duration-300 ease-in-out"
+            <svg
+              class="overflow-visible w-3/5 h-full"
+              xmlns="http://www.w3.org/2000/svg"
+              width="594"
+              height="150"
+              fill="none"
+              viewBox="0 0 594 150"
+            >
+              <g fill="#000">
+                <path
+                  d="M52 89v-5h9v-4h5v-5h4v-9h5V38h-5V28h-4v-5h-5v-4h-9v-5H23v5h-9v4H9v5H5v10H0v28h5v9h4v5h5v4h9v5h5v5h5v4h9v5h14v5h19v-5H61v-5h-9v-4h-5v-5h5Zm-24-5v-4h-5v-5h-4v-9h-5V38h5V28h4v-5h5v-4h19v4h5v5h4v10h5v28h-5v9h-4v5h-5v4H28Z"
+                />
+                <path
+                  d="M141 84v5h-19v-9h-5v-5h5V42h-5v-4h19v46h5Zm-28 0h4v-4h-4v4Zm-5-4h-5V38H84v4h5v38h5v4h4v5h15v-5h-5v-4Z"
+                />
+                <path
+                  d="M167 84h4v5h-23v-5h4V52h-4v-5h4v-5h5v-4h5v-5h4v51h1Zm0-70h-15v14h15V14Z"
+                />
+                <path
+                  d="M223 80h-5v4h-26v-4h5v-5h5v-5h4v-4h5v-5h5v-5h4v-4h5V38h-37v-5h-5v9h-5v10h5v-5h5v-5h28v5h-5v5h-5v4h-4v5h-5v5h-5v4h-4v5h-5v5h-5v9h45v-5h4v-9h-4v5Z"
+                />
+                <path
+                  d="M324 80h-5v-5h-5v-5h-4v-4h-5v-5h-5v-5h10v-4h4v-5h5V23h-5v-4h-4v-5h-52v5h9v65h-9v5h33v-5h-10V61h5v5h5v4h5v5h4v5h5v4h5v5h23v-5h-9v-4Zm-43-28V19h19v4h5v24h-5v5h-19Z"
+                />
+                <path
+                  d="M387 47h-5v-5h-9v-4h-19v4h-9v5h-5v9h-5v14h5v10h5v4h9v5h19v-5h9v-4h5V70h5V56h-5v-9Zm-9 23h-5v10h-5v4h-9v-4h-5V70h-5V56h5v-9h5v-5h9v5h5v9h5v14Z"
+                />
+                <path
+                  d="M425 77h4v12h-4v9h-5v-9h-5V77h-5V66h-4V54h-5V42h-7v-4h28v4h-7v12h5v12h5v11Zm4 0h5V66h-5v11Zm3-35h7v12h4V42h7v-4h-18v4Zm2 24h5V54h-5v12Zm-19 37h-5v5h-14v9h14v-4h5v-5h5V98h-5v5Z"
+                />
+                <path
+                  d="M492 89v-5h-9v-4h5V61h-5v-5h5v-9h-5v-5h-9v5h-5v5h-14v-5h5v-5h4v-4h28v4h5v5h5v37h5v5h-15Zm-18-9h-5V70h5v-4h9v-5h-14v5h-9v4h-5v10h5v4h4v5h19v-5h-9v-4Z"
+                />
+                <path
+                  d="M551 103h-5v5h-9v-5h-5V0h-4v5h-5v4h-5v5h-4v5h4v84h-4v5h-10v-5h-4v14h-5v10h5v-5h4v-5h5v-5h9v29h3v9h9v-9h2v-29h10v5h4v5h5v5h5v-10h-5v-14Z"
+                />
+                <path
+                  d="M593 80h-4v-5h4v5Zm-37-24v14h5v10h4v4h19v5h-28v-5h-5v-4h-5V70h-4V56h4v-9h5v-5h5v-4h28v4h5v5h4v9h-37Zm0-4h23v-5h-4v-5h-14v5h-5v5Zm33 28h-5v4h5v-4Z"
+                />
+              </g>
+            </svg>
+          </h1>
+        </a>
+        <div class="flex flex-col space-y-4 md:space-y-8 lg:space-y-8">
+          <h3 class="text-6xl md:text-8xl lg:text-9xl">Hai perso!</h3>
+          <p class="text-sm md:text-base lg:text-base">
+            Non scoraggiarti, puoi sempre riprovare o cambiare argomento
+          </p>
+          <div
+            class="flex flex-wrap flex-col lg:flex-row w-full gap-4 items-center justify-center"
           >
-            Cambia Argomento
-          </button>
-          <button
-            @click="exitGame"
-            class="text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred transition-colors duration-300 ease-in-out cursor-pointer"
-          >
-            Esci
-          </button>
+            <button
+              @click="restartGame"
+              class="text-base md:text-xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue transition-colors duration-300 ease-in-out"
+            >
+              Ricomincia
+            </button>
+            <button
+              @click="changeTopic"
+              class="text-base md:text-xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen transition-colors duration-300 ease-in-out"
+            >
+              Cambia Argomento
+            </button>
+            <button
+              @click="exitGame"
+              class="text-base md:text-xl lg:text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred transition-colors duration-300 ease-in-out cursor-pointer"
+            >
+              Esci
+            </button>
+          </div>
         </div>
       </div>
 
@@ -180,30 +237,83 @@
       <div
         x-show="state == 'win'"
         x-cloak
-        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-center items-center text-center p-4 lg:p-16 space-y-16 bg-white text-black"
+        class="flex flex-col w-full h-2/3 lg:w-1/2 lg:h-full justify-center items-center text-center p-4 lg:p-16 space-y-0 md:space-y-8 lg:space-y-12 bg-white text-black"
       >
-        <h3 class="text-6xl md:text-8xl lg:text-8xl">Hai vinto!</h3>
-        <div
-          class="flex flex-col lg:flex-row w-full gap-4 items-center justify-center"
-        >
-          <button
-            @click="restartGame"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue transition-colors duration-300 ease-in-out"
+        <!-- Logo -->
+        <a href="index.html">
+          <h1
+            class="hidden lg:flex lg:flex-row lg:justify-center lg:items-center"
           >
-            Ricomincia
-          </button>
-          <button
-            @click="changeTopic"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen transition-colors duration-300 ease-in-out"
+            <svg
+              class="overflow-visible w-3/5 h-full"
+              xmlns="http://www.w3.org/2000/svg"
+              width="594"
+              height="150"
+              fill="none"
+              viewBox="0 0 594 150"
+            >
+              <g fill="#000">
+                <path
+                  d="M52 89v-5h9v-4h5v-5h4v-9h5V38h-5V28h-4v-5h-5v-4h-9v-5H23v5h-9v4H9v5H5v10H0v28h5v9h4v5h5v4h9v5h5v5h5v4h9v5h14v5h19v-5H61v-5h-9v-4h-5v-5h5Zm-24-5v-4h-5v-5h-4v-9h-5V38h5V28h4v-5h5v-4h19v4h5v5h4v10h5v28h-5v9h-4v5h-5v4H28Z"
+                />
+                <path
+                  d="M141 84v5h-19v-9h-5v-5h5V42h-5v-4h19v46h5Zm-28 0h4v-4h-4v4Zm-5-4h-5V38H84v4h5v38h5v4h4v5h15v-5h-5v-4Z"
+                />
+                <path
+                  d="M167 84h4v5h-23v-5h4V52h-4v-5h4v-5h5v-4h5v-5h4v51h1Zm0-70h-15v14h15V14Z"
+                />
+                <path
+                  d="M223 80h-5v4h-26v-4h5v-5h5v-5h4v-4h5v-5h5v-5h4v-4h5V38h-37v-5h-5v9h-5v10h5v-5h5v-5h28v5h-5v5h-5v4h-4v5h-5v5h-5v4h-4v5h-5v5h-5v9h45v-5h4v-9h-4v5Z"
+                />
+                <path
+                  d="M324 80h-5v-5h-5v-5h-4v-4h-5v-5h-5v-5h10v-4h4v-5h5V23h-5v-4h-4v-5h-52v5h9v65h-9v5h33v-5h-10V61h5v5h5v4h5v5h4v5h5v4h5v5h23v-5h-9v-4Zm-43-28V19h19v4h5v24h-5v5h-19Z"
+                />
+                <path
+                  d="M387 47h-5v-5h-9v-4h-19v4h-9v5h-5v9h-5v14h5v10h5v4h9v5h19v-5h9v-4h5V70h5V56h-5v-9Zm-9 23h-5v10h-5v4h-9v-4h-5V70h-5V56h5v-9h5v-5h9v5h5v9h5v14Z"
+                />
+                <path
+                  d="M425 77h4v12h-4v9h-5v-9h-5V77h-5V66h-4V54h-5V42h-7v-4h28v4h-7v12h5v12h5v11Zm4 0h5V66h-5v11Zm3-35h7v12h4V42h7v-4h-18v4Zm2 24h5V54h-5v12Zm-19 37h-5v5h-14v9h14v-4h5v-5h5V98h-5v5Z"
+                />
+                <path
+                  d="M492 89v-5h-9v-4h5V61h-5v-5h5v-9h-5v-5h-9v5h-5v5h-14v-5h5v-5h4v-4h28v4h5v5h5v37h5v5h-15Zm-18-9h-5V70h5v-4h9v-5h-14v5h-9v4h-5v10h5v4h4v5h19v-5h-9v-4Z"
+                />
+                <path
+                  d="M551 103h-5v5h-9v-5h-5V0h-4v5h-5v4h-5v5h-4v5h4v84h-4v5h-10v-5h-4v14h-5v10h5v-5h4v-5h5v-5h9v29h3v9h9v-9h2v-29h10v5h4v5h5v5h5v-10h-5v-14Z"
+                />
+                <path
+                  d="M593 80h-4v-5h4v5Zm-37-24v14h5v10h4v4h19v5h-28v-5h-5v-4h-5V70h-4V56h4v-9h5v-5h5v-4h28v4h5v5h4v9h-37Zm0-4h23v-5h-4v-5h-14v5h-5v5Zm33 28h-5v4h5v-4Z"
+                />
+              </g>
+            </svg>
+          </h1>
+        </a>
+        <div class="flex flex-col space-y-4 md:space-y-8 lg:space-y-8">
+          <h3 class="text-6xl md:text-8xl lg:text-9xl">Hai vinto!</h3>
+          <p class="text-sm md:text-base lg:text-base">
+            Complimenti, sei riuscito a sconfiggere il boss
+          </p>
+          <div
+            class="flex flex-wrap flex-col lg:flex-row w-full gap-4 items-center justify-center"
           >
-            Cambia Argomento
-          </button>
-          <a
-            @click="exitGame"
-            class="text-xl md:text-2xl lg:text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred transition-colors duration-300 ease-in-out cursor-pointer"
-          >
-            Esci
-          </a>
+            <button
+              @click="restartGame"
+              class="text-base md:text-xl lg:text-2xl font-serif px-8 py-2 bg-blue text-white hover:bg-darkblue transition-colors duration-300 ease-in-out"
+            >
+              Ricomincia
+            </button>
+            <button
+              @click="changeTopic"
+              class="text-base md:text-xl lg:text-2xl font-serif px-8 py-2 bg-green text-white hover:bg-darkgreen transition-colors duration-300 ease-in-out"
+            >
+              Cambia Argomento
+            </button>
+            <a
+              @click="exitGame"
+              class="text-base md:text-xl lg:text-2xl font-serif px-8 py-2 bg-red text-white hover:bg-darkred transition-colors duration-300 ease-in-out cursor-pointer"
+            >
+              Esci
+            </a>
+          </div>
         </div>
       </div>
     </main>

@@ -94,7 +94,7 @@ Alpine.data("quiz", () => ({
   currentQuestionIndex: 0,
   questionCounter: 1,
   playerImage: null,
-  audio: null,
+  questions: [],
 
   init() {
     const queryString = window.location.search;
@@ -113,11 +113,20 @@ Alpine.data("quiz", () => ({
         return response.json();
       })
       .then((data) => {
-        this.questions = data.questions;
-        this.playerImage = data.playerImage;
-        this.playThemeMusic();
+        this.questions = data.questions || []; // Assegna le domande solo se sono presenti nel JSON
+        this.playerImage = data.playerImage || null; // Assegna l'immagine del giocatore se è presente nel JSON
+
+        // Aggiungi listener per avviare l'audio del tema dopo il primo click dell'utente
+        document.addEventListener(
+          "click",
+          () => {
+            this.playThemeMusic();
+          },
+          { once: true }
+        );
       })
       .catch(function (err) {
+        console.error(err);
         window.location.href = "topics.html";
       });
 
@@ -132,6 +141,7 @@ Alpine.data("quiz", () => ({
   playerDamageSound: new Audio("/music/player_damage.mp3"),
   winSound: new Audio("/music/win.mp3"),
   loseSound: new Audio("/music/lose.mp3"),
+  clickSound: new Audio("/music/click.mp3"),
 
   playThemeMusic(volume = 0.1) {
     if (this.state === "game") {
@@ -165,6 +175,12 @@ Alpine.data("quiz", () => ({
     this.loseSound.play();
   },
 
+  playClickSound(volume = 0.2) {
+    this.clickSound.currentTime = 0;
+    this.clickSound.volume = volume;
+    this.clickSound.play();
+  },
+
   handleVisibilityChange() {
     if (document.hidden) {
       this.themeMusic.pause();
@@ -174,7 +190,7 @@ Alpine.data("quiz", () => ({
   },
 
   get currentQuestion() {
-    return this.questions[this.currentQuestionIndex];
+    return this.questions[this.currentQuestionIndex] || null; // Ritorna null se non c'è una domanda corrente
   },
 
   answerQuestion(answer) {
@@ -226,73 +242,80 @@ Alpine.data("quiz", () => ({
   },
 }));
 
-const logo = {
-  main: document.querySelector("#logo"),
-  letters: document.querySelectorAll("#logo path:not(#sword)"),
-  l: document.querySelector("#l"),
-  sword: document.querySelector("#sword"),
-};
+document.addEventListener("DOMContentLoaded", function () {
+  if (
+    window.location.pathname === "/index.html" ||
+    window.location.pathname === "/"
+  ) {
+    const logo = {
+      main: document.querySelector("#logo"),
+      letters: document.querySelectorAll("#logo path:not(#sword)"),
+      l: document.querySelector("#l"),
+      sword: document.querySelector("#sword"),
+    };
 
-const timeline = gsap.timeline({
-  defaults: {
-    duration: 0.5,
-    ease: "power4.inOut",
-  },
+    const timeline = gsap.timeline({
+      defaults: {
+        duration: 0.5,
+        ease: "power4.inOut",
+      },
+    });
+
+    timeline
+      .set(logo.sword, { opacity: 0 })
+      .from(logo.letters, {
+        opacity: 0,
+        y: "-200%",
+        stagger: 0.1,
+      })
+      .to("#logo g#left path", {
+        x: -40,
+        stagger: -0.05,
+        repeat: 1,
+        duration: 0.2,
+        yoyo: true,
+      })
+      .to(
+        "#logo g#right path",
+        {
+          x: 40,
+          duration: 0.2,
+          yoyo: true,
+        },
+        "<"
+      )
+      .fromTo(
+        logo.sword,
+        {
+          opacity: 0,
+          y: "200%",
+        },
+        {
+          ease: "back.out(1.4)",
+          opacity: 1,
+          y: 0,
+        },
+        "<"
+      )
+      .to(
+        logo.l,
+        {
+          ease: "back.out(1.4)",
+          opacity: 0,
+          y: "-200%",
+        },
+        "<+0.1"
+      )
+      .to(
+        "#logo g#right path",
+        {
+          x: 0,
+          duration: 0.6,
+        },
+        "-=0.4"
+      );
+  }
 });
-
-timeline
-  .set(logo.sword, { opacity: 0 })
-  .from(logo.letters, {
-    opacity: 0,
-    y: "-200%",
-    stagger: 0.1,
-  })
-  .to("#logo g#left path", {
-    x: -40,
-    stagger: -0.05,
-    repeat: 1,
-    duration: 0.2,
-    yoyo: true,
-  })
-  .to(
-    "#logo g#right path",
-    {
-      x: 40,
-      duration: 0.2,
-      yoyo: true,
-    },
-    "<"
-  )
-  .fromTo(
-    logo.sword,
-    {
-      opacity: 0,
-      y: "200%",
-    },
-    {
-      ease: "back.out(1.4)",
-      opacity: 1,
-      y: 0,
-    },
-    "<"
-  )
-  .to(
-    logo.l,
-    {
-      ease: "back.out(1.4)",
-      opacity: 0,
-      y: "-200%",
-    },
-    "<+0.1"
-  )
-  .to(
-    "#logo g#right path",
-    {
-      x: 0,
-      duration: 0.6,
-    },
-    "-=0.4"
-  );
 
 Alpine.start();
 
