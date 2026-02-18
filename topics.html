@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="it">
   <head>
     <meta charset="UTF-8" />
@@ -11,20 +11,21 @@
     <link rel="stylesheet" href="/style.css" />
     <script type="module" src="./main.js" defer></script>
   </head>
-  <body class="bg-cyan fade-in">
+  <body class="bg-cyan">
     <main
-      class="flex flex-col justify-start items-center w-full h-dvh p-8 md:p-12 lg:p-16 space-y-8"
+      class="flex flex-col items-center justify-start w-full p-6 space-y-6 min-h-dvh md:p-12 lg:p-16 md:space-y-8"
     >
       <!-- Logo -->
-      <a href="index.html">
+      <a
+        href="index.html"
+        class="block w-full max-w-[260px] md:max-w-sm lg:max-w-lg"
+      >
         <h1>
           <svg
-            class="overflow-visible w-full h-full"
+            class="w-full overflow-visible"
             xmlns="http://www.w3.org/2000/svg"
-            width="594"
-            height="150"
-            fill="none"
             viewBox="0 0 594 150"
+            fill="none"
           >
             <g fill="#000">
               <path
@@ -62,88 +63,50 @@
         </h1>
       </a>
       <!-- Topics -->
-      <div class="flex flex-col w-full justify-center items-center space-y-8">
+      <div
+        class="flex flex-col items-center justify-center flex-1 w-full space-y-6 lg:space-y-8"
+        x-data="{ row1: [], row2: [], row3: [], all: [] }"
+        x-init="
+          all = $store.game.topics;
+          row1 = all.slice(0, 8);
+          row2 = all.slice(8, 16);
+          row3 = all.slice(16, 24);
+        "
+      >
         <h2 class="font-sans text-2xl md:text-4xl lg:text-4xl">
           Scegli un argomento
         </h2>
+
+        <!-- Mobile / Tablet: griglia fissa con tutti i topic -->
         <div
-          class="flex flex-col w-full justify-center items-center space-y-4 md:space-y-8 lg:space-y-8 whitespace-nowrap cursor-pointer [mask-image:_linear-gradient(to_right,transparent_0,_black_40px,_black_calc(100%-40px),transparent_100%)]"
-          x-data="{ first: [], second: [], third: [], fourth: [], fifth: [], sixth: [], all: [] }"
-          x-init="
-            all = $store.game.topics;
-            first = all.slice(0, 4);
-            second = all.slice(4, 8);
-            third = all.slice(8, 12);
-            fourth = all.slice(12, 16);
-            fifth = all.slice(16, 20);
-            sixth = all.slice(20, 24);
-          "
+          class="grid w-full grid-cols-2 gap-2 cursor-pointer md:grid-cols-3 md:gap-3 lg:hidden"
         >
-          <!-- Mobile layout -->
-          <div
-            class="block md:block lg:hidden w-full justify-center items-center space-y-4 md:space-y-8"
-          >
-            <div
-              class="flex w-full overflow-x-auto max-w-fit mx-auto gap-4 md:gap-8"
-            >
-              <template x-for="(topic, index) in first" :key="index">
+          <template x-for="(topic, index) in all" :key="'grid-' + index">
+            <a
+              class="flex items-center justify-center px-2 py-2.5 md:px-3 md:py-3 font-sans text-xs md:text-sm text-black text-center transition-colors duration-300 ease-in-out bg-white border-2 border-white hover:border-darkblue"
+              x-text="topic.label"
+              :href="'game.html?topic=' + topic.slug"
+            ></a>
+          </template>
+        </div>
+
+        <!-- Desktop: marquee infinite scroll -->
+        <div
+          class="flex-col items-center justify-center hidden w-full space-y-8 cursor-pointer lg:flex whitespace-nowrap"
+        >
+          <!-- Row 1 - scrolls right -->
+          <div class="marquee-container">
+            <div class="marquee-track marquee-track-right">
+              <template x-for="(topic, index) in row1" :key="'r1a-' + index">
                 <a
-                  class="bg-white text-black border-2 border-white text-base md:text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                  class="px-4 py-2 font-sans text-2xl text-black transition-colors duration-300 ease-in-out bg-white border-2 border-white hover:border-darkblue"
                   x-text="topic.label"
                   :href="'game.html?topic=' + topic.slug"
                 ></a>
               </template>
-            </div>
-            <div
-              class="flex w-full overflow-x-auto max-w-fit mx-auto gap-4 md:gap-8"
-            >
-              <template x-for="(topic, index) in second" :key="index">
+              <template x-for="(topic, index) in row1" :key="'r1b-' + index">
                 <a
-                  class="bg-white text-black border-2 border-white text-base md:text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
-                  x-text="topic.label"
-                  :href="'game.html?topic=' + topic.slug"
-                ></a>
-              </template>
-            </div>
-            <div
-              class="flex w-full overflow-x-auto max-w-fit mx-auto gap-4 md:gap-8"
-            >
-              <template x-for="(topic, index) in third" :key="index">
-                <a
-                  class="bg-white text-black border-2 border-white text-base md:text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
-                  x-text="topic.label"
-                  :href="'game.html?topic=' + topic.slug"
-                ></a>
-              </template>
-            </div>
-            <div
-              class="flex w-full overflow-x-auto max-w-fit mx-auto gap-4 md:gap-8"
-            >
-              <template x-for="(topic, index) in fourth" :key="index">
-                <a
-                  class="bg-white text-black border-2 border-white text-base md:text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
-                  x-text="topic.label"
-                  :href="'game.html?topic=' + topic.slug"
-                ></a>
-              </template>
-            </div>
-            <div
-              class="flex w-full overflow-x-auto max-w-fit mx-auto gap-4 md:gap-8"
-            >
-              <template x-for="(topic, index) in fifth" :key="index">
-                <a
-                  class="bg-white text-black border-2 border-white text-base md:text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
-                  x-text="topic.label"
-                  :href="'game.html?topic=' + topic.slug"
-                ></a>
-              </template>
-            </div>
-            <div
-              class="flex w-full overflow-x-auto max-w-fit mx-auto gap-4 md:gap-8"
-            >
-              <template x-for="(topic, index) in sixth" :key="index">
-                <a
-                  class="bg-white text-black border-2 border-white text-base md:text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                  class="px-4 py-2 font-sans text-2xl text-black transition-colors duration-300 ease-in-out bg-white border-2 border-white hover:border-darkblue"
                   x-text="topic.label"
                   :href="'game.html?topic=' + topic.slug"
                 ></a>
@@ -151,35 +114,39 @@
             </div>
           </div>
 
-          <!-- Desktop and Tablet layout -->
-          <div
-            class="hidden lg:block w-full justify-center items-center space-y-8"
-          >
-            <div class="flex w-full overflow-x-auto gap-8 max-w-fit mx-auto">
-              <template x-for="(topic, index) in all.slice(0, 8)" :key="index">
+          <!-- Row 2 - scrolls left -->
+          <div class="marquee-container">
+            <div class="marquee-track marquee-track-left">
+              <template x-for="(topic, index) in row2" :key="'r2a-' + index">
                 <a
-                  class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                  class="px-4 py-2 font-sans text-2xl text-black transition-colors duration-300 ease-in-out bg-white border-2 border-white hover:border-darkblue"
+                  x-text="topic.label"
+                  :href="'game.html?topic=' + topic.slug"
+                ></a>
+              </template>
+              <template x-for="(topic, index) in row2" :key="'r2b-' + index">
+                <a
+                  class="px-4 py-2 font-sans text-2xl text-black transition-colors duration-300 ease-in-out bg-white border-2 border-white hover:border-darkblue"
                   x-text="topic.label"
                   :href="'game.html?topic=' + topic.slug"
                 ></a>
               </template>
             </div>
-            <div class="flex w-full overflow-x-auto gap-8 max-w-fit mx-auto">
-              <template x-for="(topic, index) in all.slice(8, 16)" :key="index">
+          </div>
+
+          <!-- Row 3 - scrolls right -->
+          <div class="marquee-container">
+            <div class="marquee-track marquee-track-right">
+              <template x-for="(topic, index) in row3" :key="'r3a-' + index">
                 <a
-                  class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                  class="px-4 py-2 font-sans text-2xl text-black transition-colors duration-300 ease-in-out bg-white border-2 border-white hover:border-darkblue"
                   x-text="topic.label"
                   :href="'game.html?topic=' + topic.slug"
                 ></a>
               </template>
-            </div>
-            <div class="flex w-full overflow-x-auto gap-8 max-w-fit mx-auto">
-              <template
-                x-for="(topic, index) in all.slice(16, 24)"
-                :key="index"
-              >
+              <template x-for="(topic, index) in row3" :key="'r3b-' + index">
                 <a
-                  class="bg-white text-black border-2 border-white text-2xl font-sans px-4 py-2 hover:border-darkblue transition-colors duration-300 ease-in-out"
+                  class="px-4 py-2 font-sans text-2xl text-black transition-colors duration-300 ease-in-out bg-white border-2 border-white hover:border-darkblue"
                   x-text="topic.label"
                   :href="'game.html?topic=' + topic.slug"
                 ></a>

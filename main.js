@@ -43,11 +43,13 @@ function flashDamage(target) {
       repeat: 5,
       yoyo: true,
       ease: "none",
-    }
+    },
   );
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  gsap.from("body", { opacity: 0, duration: 0.5, ease: "power2.inOut" });
+
   const logo = {
     main: document.querySelector("#logo"),
     letters: document.querySelectorAll("#logo path:not(#sword)"),
@@ -83,7 +85,7 @@ document.addEventListener("DOMContentLoaded", () => {
         duration: 0.2,
         yoyo: true,
       },
-      "<"
+      "<",
     )
     .fromTo(
       logo.sword,
@@ -96,7 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
         opacity: 1,
         y: 0,
       },
-      "<"
+      "<",
     )
     .to(
       logo.l,
@@ -105,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
         opacity: 0,
         y: "-200%",
       },
-      "<+0.1"
+      "<+0.1",
     )
     .to(
       "#logo g#right path",
@@ -113,7 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
         x: 0,
         duration: 0.6,
       },
-      "-=0.4"
+      "-=0.4",
     );
 
   const startButton = document.getElementById("startButton");
@@ -174,14 +176,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function changePage(url) {
-  const currentContent = document.querySelector("body");
-  currentContent.classList.add("fade-out");
-
-  setTimeout(() => {
-    window.location.href = url;
-  }, 500);
-
-  return false;
+  gsap.to("body", {
+    opacity: 0,
+    duration: 0.5,
+    ease: "power2.inOut",
+    onComplete: () => {
+      window.location.href = url;
+    },
+  });
 }
 
 Alpine.data("quiz", () => ({
@@ -220,7 +222,7 @@ Alpine.data("quiz", () => ({
           () => {
             this.playThemeMusic();
           },
-          { once: true }
+          { once: true },
         );
       })
       .catch((err) => {
@@ -230,7 +232,7 @@ Alpine.data("quiz", () => ({
 
     document.addEventListener(
       "visibilitychange",
-      this.handleVisibilityChange.bind(this)
+      this.handleVisibilityChange.bind(this),
     );
   },
 

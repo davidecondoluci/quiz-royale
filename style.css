@@ -6,39 +6,79 @@
   display: none !important;
 }
 
-/* Animazione per il fade-in */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
+/* Infinite marquee scroll */
+@keyframes marquee-left {
+  0% {
+    transform: translateX(0);
   }
-  to {
-    opacity: 1;
-  }
-}
-
-/* Animazione per il fade-out */
-@keyframes fadeOut {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
+  100% {
+    transform: translateX(-50%);
   }
 }
 
-/* Applica l'animazione di fade-in e fade-out */
-.fade-in {
-  animation: fadeIn 0.5s ease-in-out;
+@keyframes marquee-right {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
-.fade-out {
-  animation: fadeOut 0.5s ease-in-out;
+.marquee-container {
+  overflow: hidden;
+  width: 100%;
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 40px,
+    black calc(100% - 40px),
+    transparent 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    transparent 0,
+    black 40px,
+    black calc(100% - 40px),
+    transparent 100%
+  );
+}
+
+.marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+}
+
+.marquee-track-left {
+  animation: marquee-left 30s linear infinite;
+}
+
+.marquee-track-right {
+  animation: marquee-right 30s linear infinite;
+}
+
+.marquee-track:hover {
+  animation-play-state: paused;
+}
+
+@media (min-width: 768px) {
+  .marquee-track {
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .marquee-track {
+    gap: 2rem;
+  }
 }
 
 /*Title*/
 @font-face {
   font-family: "Mondwest";
-  src: url("/fonts/PPMondwest-Regular.woff2") format("woff2"),
+  src:
+    url("/fonts/PPMondwest-Regular.woff2") format("woff2"),
     url("/fonts/PPMondwest-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -47,7 +87,8 @@
 
 @font-face {
   font-family: "Mondwest";
-  src: url("/fonts/PPMondwest-Bold.woff2") format("woff2"),
+  src:
+    url("/fonts/PPMondwest-Bold.woff2") format("woff2"),
     url("/fonts/PPMondwest-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
@@ -57,7 +98,8 @@
 /*Text*/
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-Bold.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-Bold.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
@@ -66,7 +108,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-BoldItalic.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-BoldItalic.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-BoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
@@ -75,7 +118,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-ExtraBold.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-ExtraBold.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-ExtraBold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
@@ -84,7 +128,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-MediumItalic.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-MediumItalic.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-MediumItalic.woff") format("woff");
   font-weight: 500;
   font-style: italic;
@@ -93,7 +138,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-Thin.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-Thin.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
@@ -102,7 +148,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-SemiBoldItalic.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-SemiBoldItalic.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-SemiBoldItalic.woff") format("woff");
   font-weight: 600;
   font-style: italic;
@@ -111,7 +158,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-ThinItalic.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-ThinItalic.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-ThinItalic.woff") format("woff");
   font-weight: 100;
   font-style: italic;
@@ -120,7 +168,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-Regular.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -129,7 +178,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-Light.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-Light.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -138,7 +188,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-Medium.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-Medium.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
@@ -147,7 +198,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-ExtraLightItalic.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-ExtraLightItalic.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-ExtraLightItalic.woff") format("woff");
   font-weight: 200;
   font-style: italic;
@@ -156,7 +208,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-SemiBold.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-SemiBold.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
@@ -165,7 +218,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-Italic.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-Italic.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-Italic.woff") format("woff");
   font-weight: normal;
   font-style: italic;
@@ -174,7 +228,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-ExtraBoldItalic.woff") format("woff");
   font-weight: bold;
   font-style: italic;
@@ -183,7 +238,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-LightItalic.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-LightItalic.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-LightItalic.woff") format("woff");
   font-weight: 300;
   font-style: italic;
@@ -192,7 +248,8 @@
 
 @font-face {
   font-family: "JetBrains";
-  src: url("/fonts/JetBrainsMono-ExtraLight.woff2") format("woff2"),
+  src:
+    url("/fonts/JetBrainsMono-ExtraLight.woff2") format("woff2"),
     url("/fonts/JetBrainsMono-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
