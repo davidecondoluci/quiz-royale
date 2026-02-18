@@ -272,14 +272,14 @@
             "risposta_corretta": "Twitter"
         },
         {
-            "domanda": "Cosa significa l'acronimo WWW?",
+            "domanda": "Cosa significa il termine 'open source' nel contesto del software?",
             "risposte": [
-                "World Wide Web",
-                "Wide World Web",
-                "Web World Wide",
-                "Worldwide Web"
+                "Software gratuito",
+                "Software con codice sorgente pubblicamente accessibile",
+                "Software sviluppato da Google",
+                "Software senza copyright"
             ],
-            "risposta_corretta": "World Wide Web"
+            "risposta_corretta": "Software con codice sorgente pubblicamente accessibile"
         },
         {
             "domanda": "Qual è il nome del protocollo di comunicazione utilizzato per trasferire file via email?",

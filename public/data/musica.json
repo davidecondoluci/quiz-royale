@@ -82,10 +82,10 @@
             "risposta_corretta": "Pianoforte"
         },
         {
-            "domanda": "A quale compositore si attribuisce la creazione della celebre marcia funebre 'Marcia Nuziale'?",
+            "domanda": "A quale compositore si attribuisce la creazione della celebre 'Marcia Nuziale' dal Sogno di una notte di mezza estate?",
             "risposte": [
                 "Ludwig van Beethoven",
-                "Johann Sebastian Bach",
+                "Felix Mendelssohn Bartholdy",
                 "Wolfgang Amadeus Mozart",
                 "Giuseppe Verdi"
             ],
@@ -112,12 +112,12 @@
             "risposta_corretta": "Rinascimento"
         },
         {
-            "domanda": "Quale strumento a corda è caratterizzato da un manico lungo e da un corpo a forma di pera?",
+            "domanda": "Quale strumento a corda è caratterizzato da un manico lungo e da un corpo a forma di pera, usato nel Rinascimento?",
             "risposte": [
                 "Violino",
-                "Viola",
-                "Violoncello",
-                "Contrabasso"
+                "Liuto",
+                "Mandolino",
+                "Arpa"
             ],
             "risposta_corretta": "Liuto"
         },
@@ -132,11 +132,11 @@
             "risposta_corretta": "Giovanni Battista Pergolesi"
         },
         {
-            "domanda": "A quale opera lirica di Giacomo Puccini si ispira il celebre film 'Pretty Woman'?",
+            "domanda": "A quale opera lirica si ispira il celebre film 'Pretty Woman'?",
             "risposte": [
                 "Madama Butterfly",
                 "La Bohème",
-                "Tosca",
+                "La Traviata",
                 "Turandot"
             ],
             "risposta_corretta": "La Traviata"
@@ -162,12 +162,12 @@
             "risposta_corretta": "Piatti"
         },
         {
-            "domanda": "A quale compositrice americana si deve la creazione del musical 'West Side Story'?",
+            "domanda": "A quale compositore americano si deve la creazione del musical 'West Side Story'?",
             "risposte": [
-                "Gershwin",
-                "Bernstein",
-                "Sondheim",
-                "Lloyd Webber"
+                "George Gershwin",
+                "Leonard Bernstein",
+                "Stephen Sondheim",
+                "Andrew Lloyd Webber"
             ],
             "risposta_corretta": "Leonard Bernstein"
         },

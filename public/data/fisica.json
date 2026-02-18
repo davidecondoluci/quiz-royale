@@ -290,6 +290,16 @@
                 "Legge di Bernoulli"
             ],
             "risposta_corretta": "Principio di Pascal"
+        },
+        {
+            "domanda": "Quale fenomeno descrive la tendenza di un oggetto a resistere ai cambiamenti del suo stato di moto?",
+            "risposte": [
+                "Attrito",
+                "Inerzia",
+                "Gravità",
+                "Accelerazione"
+            ],
+            "risposta_corretta": "Inerzia"
         }
     ]
 }

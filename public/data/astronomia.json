@@ -106,10 +106,10 @@
             "risposte": [
                 "Cintura di Kuiper",
                 "Cintura di Van Allen",
-                "Cintura di Asteroidi",
-                "Cintura di Kuiper"
+                "Cintura di asteroidi principale",
+                "Nube di Oort"
             ],
-            "risposta_corretta": "Cintura di Asteroidi"
+            "risposta_corretta": "Cintura di asteroidi principale"
         },
         {
             "domanda": "Qual è il nome del pianeta che è stato declassato a pianeta nano nel 2006?",
@@ -290,6 +290,16 @@
                 "Nettuno"
             ],
             "risposta_corretta": "Mercurio"
+        },
+        {
+            "domanda": "Quale astronomo italiano fu il primo a puntare un telescopio verso il cielo?",
+            "risposte": [
+                "Copernico",
+                "Keplero",
+                "Galileo Galilei",
+                "Tycho Brahe"
+            ],
+            "risposta_corretta": "Galileo Galilei"
         }
     ]
 }

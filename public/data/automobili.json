@@ -62,16 +62,6 @@
             "risposta_corretta": "1947"
         },
         {
-            "domanda": "Quale è stato il primo SUV ibrido prodotto in serie?",
-            "risposte": [
-                "Toyota Prius",
-                "Ford Escape Hybrid",
-                "Honda CR-V Hybrid",
-                "Lexus RX 400h"
-            ],
-            "risposta_corretta": "Lexus RX 400h"
-        },
-        {
             "domanda": "Chi ha disegnato la Volkswagen Beetle?",
             "risposte": [
                 "Ferdinand Porsche",
@@ -192,14 +182,14 @@
             "risposta_corretta": "Ferruccio Lamborghini"
         },
         {
-            "domanda": "Quale è stato il primo SUV di lusso ad avere un motore ibrido?",
+            "domanda": "Quale casa automobilistica ha prodotto la 'Miura', considerata la prima supercar moderna?",
             "risposte": [
-                "Lexus RX 400h",
-                "BMW X5 Hybrid",
-                "Porsche Cayenne Hybrid",
-                "Audi Q7 e-tron"
+                "Ferrari",
+                "Lamborghini",
+                "Maserati",
+                "Alfa Romeo"
             ],
-            "risposta_corretta": "Lexus RX 400h"
+            "risposta_corretta": "Lamborghini"
         },
         {
             "domanda": "Chi ha inventato il primo motore diesel funzionante?",

@@ -290,6 +290,16 @@
                 "Paul Klee"
             ],
             "risposta_corretta": "Wassily Kandinsky"
+        },
+        {
+            "domanda": "Quale pittore olandese del Seicento è noto per l'opera 'La ragazza con l'orecchino di perla'?",
+            "risposte": [
+                "Rembrandt van Rijn",
+                "Johannes Vermeer",
+                "Frans Hals",
+                "Jan Steen"
+            ],
+            "risposta_corretta": "Johannes Vermeer"
         }
     ]
 }

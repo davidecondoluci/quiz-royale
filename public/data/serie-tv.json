@@ -290,6 +290,16 @@
                 "Pretty Little Liars"
             ],
             "risposta_corretta": "Beverly Hills, 90210"
+        },
+        {
+            "domanda": "Quale serie TV britannica racconta la storia della famiglia reale inglese dalla seconda guerra mondiale ad oggi?",
+            "risposte": [
+                "Downton Abbey",
+                "The Crown",
+                "Victoria",
+                "Peaky Blinders"
+            ],
+            "risposta_corretta": "The Crown"
         }
     ]
 }

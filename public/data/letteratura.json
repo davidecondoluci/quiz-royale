@@ -176,7 +176,8 @@
             "risposte": [
                 "Gregor Samsa",
                 "Joseph K.",
-                "K.?"
+                "Karl Rossmann",
+                "Georg Bendemann"
             ],
             "risposta_corretta": "Joseph K."
         },
@@ -208,7 +209,7 @@
                 "`I Malavoglia` di Giovanni Verga",
                 "`Pinocchio` di Carlo Collodi"
             ],
-            "risposta_corretta": "`I Delitti dei Campi` di Francesco Domenico Guerrazzi"
+            "risposta_corretta": "`I Promessi Sposi` di Alessandro Manzoni"
         },
         {
             "domanda": "Quale poeta italiano è considerato il padre del Futurismo?",

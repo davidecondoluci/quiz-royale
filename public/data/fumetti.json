@@ -242,14 +242,14 @@
             "risposta_corretta": "Red Skull"
         },
         {
-            "domanda": "Qual è il nome della ragazza adolescente che può controllare il tempo?",
+            "domanda": "Qual è il vero nome di Daredevil?",
             "risposte": [
-                "Storm",
-                "Rogue",
-                "Jean Grey",
-                "Stormy Daniels"
+                "Matt Murdock",
+                "Frank Castle",
+                "Luke Cage",
+                "Danny Rand"
             ],
-            "risposta_corretta": "Storm"
+            "risposta_corretta": "Matt Murdock"
         },
         {
             "domanda": "Chi è il creatore di Spawn?",

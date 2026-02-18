@@ -242,16 +242,6 @@
             "risposta_corretta": "Harry Potter e la pietra filosofale"
         },
         {
-            "domanda": "Quale film d'animazione Pixar ha come protagonisti dei giocattoli che prendono vita?",
-            "risposte": [
-                "Monsters & Co.",
-                "Toy Story",
-                "Alla ricerca di Nemo",
-                "Gli Incredibili"
-            ],
-            "risposta_corretta": "Toy Story"
-        },
-        {
             "domanda": "Chi ha interpretato il ruolo del Capitano Jack Sparrow nella saga dei Pirati dei Caraibi?",
             "risposte": [
                 "Orlando Bloom",
@@ -282,14 +272,14 @@
             "risposta_corretta": "Ridley Scott"
         },
         {
-            "domanda": "Quale film del 1995 ha come protagonisti dei giocattoli animati e ha segnato il debutto della Pixar nel lungometraggio?",
+            "domanda": "Quale film del 2010 diretto da Darren Aronofsky ha come protagonista una ballerina ossessionata dalla perfezione?",
             "risposte": [
-                "A Bug's Life - Megaminimondo",
-                "Toy Story",
-                "Monsters & Co.",
-                "Gli Incredibili"
+                "La La Land",
+                "Flashdance",
+                "Il Cigno Nero",
+                "Billy Elliot"
             ],
-            "risposta_corretta": "Toy Story"
+            "risposta_corretta": "Il Cigno Nero"
         },
         {
             "domanda": "Qual è il titolo originale del film La La Land?",
